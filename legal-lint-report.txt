@@ -1,0 +1,22 @@
+=== IL-Tools legal lint (Agent 4) ===
+Files scanned: 134
+Banned phrases parsed from BANNED_PHRASES.md: 34 BLOCKER + 8 HIGH
+Regulated pages: 13 · pages with {{aff:}}: 51
+
+BLOCKERS: 0
+
+HIGH: 14
+  ! content/compare/green-invoice-vs-morning.mdx: risky phrase (B) "חינם"
+  ! content/newsletter/issue-01.md: ₪/% figures present but no {{updated:YYYY-MM-DD}}
+  ! content/newsletter/issue-01.md: ₪/% figures present but no {{sources:[…]}}
+  ! content/newsletter/issue-02.md: ₪/% figures present but no {{updated:YYYY-MM-DD}}
+  ! content/newsletter/issue-02.md: ₪/% figures present but no {{sources:[…]}}
+  ! content/newsletter/issue-04.md: ₪/% figures present but no {{updated:YYYY-MM-DD}}
+  ! content/newsletter/issue-04.md: ₪/% figures present but no {{sources:[…]}}
+  ! content/newsletter/issue-05.md: ₪/% figures present but no {{updated:YYYY-MM-DD}}
+  ! content/newsletter/issue-05.md: ₪/% figures present but no {{sources:[…]}}
+  ! content/newsletter/issue-06.md: ₪/% figures present but no {{updated:YYYY-MM-DD}}
+  ! content/newsletter/issue-06.md: ₪/% figures present but no {{sources:[…]}}
+  ! content/newsletter/social-snippets.md: ₪/% figures present but no {{updated:YYYY-MM-DD}}
+  ! content/newsletter/social-snippets.md: ₪/% figures present but no {{sources:[…]}}
+  ! content/pages/methodology.mdx: ₪/% figures present but no {{sources:[…]}}
