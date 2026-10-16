@@ -1,0 +1,27 @@
+# deps / build
+node_modules/
+.pnpm-store/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+.vercel/
+.lighthouseci/
+# env / secrets
+.env
+.env.*
+!.env.example
+# test output
+playwright-report/
+test-results/
+blob-report/
+# scratch / tooling (not part of the product)
+tmp/
+untitled-project/
+.commandcode/
+$null
+legal-lint-report.txt
+.DS_Store
+*.log
+.vitest/
