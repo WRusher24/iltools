@@ -1,0 +1,35 @@
+# robots.txt — IL-Tools (il-tools.co.il)
+# Template for Agent 6. Served at /robots.txt. Staging/preview hosts override the
+# whole file with "User-agent: *\nDisallow: /" (see staging note in TECH_SEO_SPEC.md).
+
+User-agent: *
+Allow: /
+Disallow: /go/
+Disallow: /api/
+Disallow: /lead/*/thanks
+Disallow: /*?*utm_
+Disallow: /*?income=
+Disallow: /*?*type=
+Disallow: /search
+Disallow: /_next/
+
+# AdSense crawler must be allowed (finance content review).
+User-agent: Mediapartners-Google
+Allow: /
+
+# Optional: block AI training crawlers while keeping AI answer-engine crawlers that
+# cite the site (Googlebot, Bingbot, DuckDuckBot, OAI-SearchBot, PerplexityBot).
+# Uncomment to opt specific bots out of training only.
+# User-agent: GPTBot
+# Disallow: /
+# User-agent: CCBot
+# Disallow: /
+
+Sitemap: https://il-tools.co.il/sitemap.xml
+
+# Split sitemaps (index at /sitemap.xml):
+#   /sitemap-content.xml   (articles, guides, compare, best, reviews, categories)
+#   /sitemap-calculators.xml
+#   /sitemap-pages.xml     (static pages + legal)
+#   /sitemap-images.xml    (image sitemap, Hebrew alt text)
+#   /sitemap-news.xml      (optional, only once /news has content)

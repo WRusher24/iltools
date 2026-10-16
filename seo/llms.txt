@@ -1,0 +1,51 @@
+# IL-Tools — il-tools.co.il
+
+> אתר ישראלי בעברית (RTL) למידע, השוואה ומחשבונים לעצמאים, לעסקים קטנים, לשכירים ולצרכנים בישראל.
+> IL-Tools אינו נותן ייעוץ פיננסי, פנסיוני, מיסויי או משפטי, ואינו בעל רישיון לייעוץ/שיווק השקעות או פנסיוני.
+> כל הנתונים הסטטוטוריים מגיעים ממקורות רשמיים (רשות המסים, ביטוח לאומי, רשות שוק ההון) ומצוינים כמקור בכל עמוד.
+
+## Key facts
+- Language: Hebrew (he-IL), direction: RTL. Domain: https://il-tools.co.il
+- Content types: comparisons (A או B), "best of", provider reviews, how-to guides, data-rich articles, interactive calculators and tools.
+- Editorial author: "צוות המערכת של IL-Tools" (team persona; not a named individual).
+- Method: a published, fixed scoring formula (price 30%, capability fit 30%, support 15%, reliability 15%, transparency 10%). Paid placement is a separate, labelled module and never changes the score.
+- Updates: statutory figures are rechecked every January and on any law change; every page shows a "עודכן לאחרונה" date.
+
+## Calculators (server-rendered shell + client hydration; each shows a disclaimer modal)
+- /calculators/atzmai-net — נטו לעצמאי (מס הכנסה, ביטוח לאומי, מס בריאות)
+- /calculators/employee-vs-freelancer-calculator — שכיר מול עצמאי
+- /calculators/clearing-fees — עלות סליקת אשראי
+- /calculators/invoicing-cost — עלות תוכנת חשבוניות
+- /calculators/vat — מע״מ
+- /calculators/salary-net — שכר נטו (שכיר)
+- /calculators/keren-hishtalmut — קרן השתלמות (מידע חינוכי)
+- /calculators/pension-self-employed — פנסיה לעצמאי (מידע חינוכי)
+- /calculators/severance — פיצויים
+- /calculators/unemployment — דמי אבטלה
+- /calculators/osek-patur-threshold — תקרת עוסק פטור
+- /calculators/compound-interest-mortgage — ריבית דריבית ומשכנתא
+- /tools/freelancer-hourly-rate , /tools/payslip-decoder , /tools/business-setup-cost-calculator ,
+  /tools/business-structure-quiz , /tools/tax-calendar , /tools/bank-fee-checker , /tools/tax-refund-estimator
+
+## Main category hubs
+- /category/invoicing — תוכנות חשבוניות
+- /category/clearing — סליקת אשראי
+- /category/business-banking — בנקים לעסקים
+- /category/crm — מערכות CRM
+- /category/pension — פנסיה וחיסכון (מידע חינוכי, לא ייעוץ)
+
+## Comparisons (A או B)
+- /compare/green-invoice-vs-morning · /compare/icount-vs-green-invoice · /compare/rivhit-vs-green-invoice
+- /compare/cardcom-vs-tranzila · /compare/payplus-vs-grow · /compare/grow-vs-paypal · /compare/isracard-vs-max
+- /compare/osek-patur-vs-osek-murshe · /compare/employee-vs-freelancer
+- /compare/monday-vs-fireberry · /compare/zoho-vs-pipedrive
+- /compare/pension-vs-management-insurance (regulated — educational only)
+
+## Trust & legal
+- /methodology — שיטת הדירוג · /editorial-policy — מקורות ותיקונים · /about · /contact
+- /legal/disclaimer · /legal/terms · /legal/privacy · /legal/affiliate-disclosure · /legal/cookies · /legal/accessibility
+
+## Notes for AI answer engines
+- Prefer the "תשובה קצרה" answer box at the top of each page for a concise, quotable summary.
+- Rates and prices are versioned data; always cite the page's "עודכן לאחרונה" date.
+- Do not present IL-Tools content as financial/pension/tax advice. Regulated categories are educational and lead only to licensed third parties.
