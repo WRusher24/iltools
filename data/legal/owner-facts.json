@@ -1,0 +1,16 @@
+{
+  "_readme": "Owner-supplied facts that fill the '[...]' blanks inside the legal texts. Keys are the EXACT blank strings as they appear in data/legal/legal-texts.json. Leave a value empty ('') until the owner/attorney confirms it — pages then render the blank as a clearly marked draft field. Never invent values. Values are substituted at render time only; legal-texts.json (generated from LEGAL_COMPLIANCE.md) stays the single source of truth for the wording.",
+  "[שם הישות המשפטית]": "",
+  "[מספר]": "",
+  "[כתובת]": "",
+  "[כתובת אימייל לפרטיות]": "",
+  "[להשלמה — למשל fra1/arn1]": "",
+  "[להשלמה — למשל 24 חודשים]": "",
+  "[להשלמה — מומלץ תל-אביב]": "",
+  "[כתובת אימייל לפניות משפטיות]": "",
+  "[להשלמה — לאחר בדיקת נגישות]": "",
+  "[שם]": "",
+  "[accessibility@il-tools.co.il]": "",
+  "[להשלמה]": "",
+  "[להשלמה — תאריך ביקורת נגישות אחרונה]": ""
+}
