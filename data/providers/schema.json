@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IL-Tools provider file (one per category). Public-safe fields only.",
+  "type": "object",
+  "required": ["category", "currency", "providers"],
+  "properties": {
+    "category": { "type": "string" },
+    "currency": { "const": "ILS" },
+    "providers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "name_he", "name_en", "last_verified", "plans", "source_ids", "confidence"],
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "name_he": { "type": "string" },
+          "name_en": { "type": "string" },
+          "last_verified": { "type": "string", "format": "date" },
+          "informational_only": { "type": "boolean" },
+          "company": { "type": "object" },
+          "features": { "type": "object" },
+          "contract_terms": { "type": "object" },
+          "support": { "type": "object" },
+          "plans": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "name_he", "vat_included", "price_type"],
+              "properties": {
+                "key": { "type": "string" },
+                "name_he": { "type": "string" },
+                "price_type": { "enum": ["list", "promo", "quote_only", "free", "unknown"] },
+                "vat_included": { "type": ["boolean", "null"] },
+                "price_monthly": { "type": ["number", "null"] },
+                "price_annual": { "type": ["number", "null"] },
+                "limits": { "type": "object" },
+                "source_id": { "type": "string", "pattern": "^src_[a-z0-9_]+$" },
+                "accessed_on": { "type": "string", "format": "date" }
+              }
+            }
+          },
+          "source_ids": { "type": "array", "items": { "type": "string", "pattern": "^src_[a-z0-9_]+$" } },
+          "confidence": { "enum": ["high", "medium", "low"] }
+        }
+      }
+    }
+  }
+}

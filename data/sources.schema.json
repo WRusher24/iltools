@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IL-Tools source registry",
+  "type": "object",
+  "required": ["sources"],
+  "properties": {
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "publisher", "url", "accessed_on", "language", "tier", "access_method"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^src_[a-z0-9_]+$" },
+          "title": { "type": "string" },
+          "publisher": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "accessed_on": { "type": "string", "format": "date" },
+          "language": { "enum": ["he", "en"] },
+          "tier": { "enum": ["primary", "secondary"] },
+          "access_method": { "enum": ["fetched", "search_snippet_only"], "description": "search_snippet_only = page itself was not opened; value known only from a search-result summary." },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}
