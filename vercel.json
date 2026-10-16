@@ -1,0 +1,100 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm build",
+  "regions": [
+    "fra1"
+  ],
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 15
+    },
+    "src/app/go/**/*.ts": {
+      "maxDuration": 10
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron/rates-freshness",
+      "schedule": "0 6 * * 1"
+    },
+    {
+      "path": "/api/cron/retention",
+      "schedule": "30 3 * * *"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.il-tools.co.il"
+        }
+      ],
+      "destination": "https://il-tools.co.il/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/green-invoice-vs-icount",
+      "destination": "/compare/icount-vs-green-invoice",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/fireberry-vs-monday",
+      "destination": "/compare/monday-vs-fireberry",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/osek-murshe-vs-osek-patur",
+      "destination": "/compare/osek-patur-vs-osek-murshe",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/grow-vs-payplus",
+      "destination": "/compare/payplus-vs-grow",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/management-insurance-vs-pension",
+      "destination": "/compare/pension-vs-management-insurance",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/green-invoice-vs-rivhit",
+      "destination": "/compare/rivhit-vs-green-invoice",
+      "statusCode": 301
+    },
+    {
+      "source": "/compare/pipedrive-vs-zoho",
+      "destination": "/compare/zoho-vs-pipedrive",
+      "statusCode": 301
+    },
+    {
+      "source": "/categories/:slug",
+      "destination": "/category/:slug",
+      "statusCode": 301
+    },
+    {
+      "source": "/calculators/employee-vs-freelancer",
+      "destination": "/calculators/employee-vs-freelancer-calculator",
+      "statusCode": 301
+    },
+    {
+      "source": "/guides/tax/income-tax-advance-payments",
+      "destination": "/guides/tax/advance-payments-self-employed",
+      "statusCode": 301
+    },
+    {
+      "source": "/tools/business-setup-cost",
+      "destination": "/tools/business-setup-cost-calculator",
+      "statusCode": 301
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "statusCode": 301
+    }
+  ]
+}
