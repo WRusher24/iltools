@@ -1,0 +1,34 @@
+{
+  "_template": "Organization — site-wide (root layout). Author of all content is the TEAM persona, never a Person.",
+  "_inputs": ["site name", "logo url", "contact email", "legal entity details (from attorney review)"],
+  "json": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://il-tools.co.il/#organization",
+    "name": "IL-Tools",
+    "alternateName": "IL-Tools — המרכז הישראלי להשוואת כלים פיננסיים ועסקיים",
+    "url": "https://il-tools.co.il",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://il-tools.co.il/brand/il-tools-logo.png",
+      "width": 512,
+      "height": 512
+    },
+    "description": "אתר מידע, השוואה ומחשבונים לעצמאים ולעסקים קטנים בישראל. אינו נותן ייעוץ פיננסי, פנסיוני, מיסויי או משפטי.",
+    "email": "info@il-tools.co.il",
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "info@il-tools.co.il",
+        "availableLanguage": ["he", "en"]
+      }
+    ],
+    "sameAs": []
+  },
+  "_notes": [
+    "Do NOT add addressPostal/legalName until the owner supplies the legal entity (see LEGAL_COMPLIANCE.md open questions).",
+    "Do NOT mark the site as a licenced adviser or broker — it holds no licence.",
+    "sameAs is filled only with real profiles (Wikipedia/Wikidata/social) once they exist."
+  ]
+}

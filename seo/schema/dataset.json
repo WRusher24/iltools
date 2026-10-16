@@ -1,0 +1,27 @@
+{
+  "_template": "Dataset — the annual rate/tax tables and the annual clearing-fee report (data assets).",
+  "_inputs": ["dataset name", "description", "dateModified from `updated`", "license", "creator", "temporalCoverage"],
+  "json": {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "{{dataset_name_he}}",
+    "description": "{{dataset_description_he}}",
+    "inLanguage": "he-IL",
+    "creator": { "@id": "https://il-tools.co.il/#organization" },
+    "dateModified": "{{updated}}",
+    "temporalCoverage": "{{year}}",
+    "license": "https://il-tools.co.il/legal/terms",
+    "isAccessibleForFree": true,
+    "distribution": [
+      {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://il-tools.co.il{{data_path}}"
+      }
+    ]
+  },
+  "_notes": [
+    "Use on the tax-year tables page and on the annual clearing-fee index article. Only if the underlying data is published (or downloadable) and traceable to source_ids.",
+    "Do not attach Dataset to plain guides."
+  ]
+}

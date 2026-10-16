@@ -1,0 +1,20 @@
+{
+  "_template": "FAQPage — ONLY where a visible FAQ block exists on the page (5-8 Q&A in Hebrew).",
+  "_inputs": ["visible FAQ questions and answers, verbatim from the page"],
+  "json": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "{{question_he}}",
+        "acceptedAnswer": { "@type": "Answer", "text": "{{answer_he}}" }
+      }
+    ]
+  },
+  "_notes": [
+    "Google restricted FAQ rich results to authoritative gov/health sites, but the markup still helps other engines and AI answer engines (Bing, ChatGPT, Perplexity).",
+    "The markup MUST reflect exactly the FAQ text visible on the page — no hidden or extra questions.",
+    "Each calculator page has a 6-item FAQ; compare/best pages have 5-8. Only emit FAQPage where those blocks render."
+  ]
+}

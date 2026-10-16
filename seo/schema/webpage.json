@@ -1,0 +1,24 @@
+{
+  "_template": "WebPage / CollectionPage — static pages (about, methodology, legal, lead pages) and category hubs.",
+  "_inputs": ["title", "description", "url", "updated"],
+  "json": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://il-tools.co.il{{page_path}}#webpage",
+    "url": "https://il-tools.co.il{{page_path}}",
+    "name": "{{title}}",
+    "description": "{{description}}",
+    "inLanguage": "he-IL",
+    "isPartOf": { "@id": "https://il-tools.co.il/#website" },
+    "dateModified": "{{updated}}",
+    "publisher": { "@id": "https://il-tools.co.il/#organization" }
+  },
+  "_collection_variant": {
+    "@type": "CollectionPage",
+    "hasPart": ["https://il-tools.co.il{{child_path}}"]
+  },
+  "_notes": [
+    "Category hubs use CollectionPage with hasPart listing their spokes.",
+    "Lead pages (/lead/*) use WebPage; do NOT type them as Offer or financial product."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_template": "SoftwareApplication / WebApplication (+ offers) — calculators and reviewed software (invoicing, clearing, CRM, payroll).",
+  "_inputs": ["app name", "category", "operatingSystem", "url", "offers (only when a real published price exists)"],
+  "json": {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "@id": "https://il-tools.co.il{{page_path}}#software",
+    "name": "{{title}}",
+    "applicationCategory": "{{application_category}}",
+    "operatingSystem": "Web",
+    "inLanguage": "he-IL",
+    "url": "https://il-tools.co.il{{page_path}}",
+    "offers": {
+      "@type": "Offer",
+      "price": "{{price}}",
+      "priceCurrency": "ILS",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  "_notes": [
+    "Emit `offers` ONLY where an accurate published price exists in /data/providers/*.json. Where pricing is 'quote_only', omit offers entirely (do not invent a price).",
+    "For provider review pages that are articles, prefer BlogPosting; add SoftwareApplication only as a secondary typed entity when the page genuinely reviews a software product.",
+    "Never attach aggregateRating (no first-party ratings are displayed)."
+  ]
+}

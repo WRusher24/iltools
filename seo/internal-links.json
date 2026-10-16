@@ -1,0 +1,1009 @@
+{
+  "generated_for": "Agent 6",
+  "hubs": {
+    "invoicing": {
+      "hub": "/category/invoicing",
+      "spokes": {
+        "compare": [
+          "/compare/green-invoice-vs-morning",
+          "/compare/icount-vs-green-invoice",
+          "/compare/rivhit-vs-green-invoice"
+        ],
+        "best": [
+          "/best/best-invoicing-osek-patur",
+          "/best/best-invoicing-software-freelancers"
+        ],
+        "reviews": [
+          "/reviews/cardcom-invoices",
+          "/reviews/green-invoice",
+          "/reviews/hashavshevet",
+          "/reviews/hyp-ezcount",
+          "/reviews/icount",
+          "/reviews/invoice4u",
+          "/reviews/rivhit"
+        ],
+        "guides": [],
+        "calculators": [
+          "/calculators/invoicing-cost"
+        ],
+        "articles": [
+          "/articles/israel-invoice-allocation-number-timeline"
+        ]
+      }
+    },
+    "clearing": {
+      "hub": "/category/clearing",
+      "spokes": {
+        "compare": [
+          "/compare/cardcom-vs-tranzila",
+          "/compare/grow-vs-paypal",
+          "/compare/isracard-vs-max",
+          "/compare/payplus-vs-grow"
+        ],
+        "best": [
+          "/best/best-clearing-ecommerce",
+          "/best/best-clearing-small-business"
+        ],
+        "reviews": [
+          "/reviews/cal",
+          "/reviews/cardcom",
+          "/reviews/grow",
+          "/reviews/isracard",
+          "/reviews/max",
+          "/reviews/paypal",
+          "/reviews/payplus",
+          "/reviews/pelecard",
+          "/reviews/stripe",
+          "/reviews/tranzila",
+          "/reviews/yaad-sarig"
+        ],
+        "guides": [
+          "/guides/banking/how-to-choose-clearing"
+        ],
+        "calculators": [
+          "/calculators/clearing-fees"
+        ],
+        "articles": [
+          "/articles/clearing-fees-by-turnover",
+          "/articles/digital-payments-israel-bit-paybox",
+          "/articles/hidden-clearing-costs",
+          "/articles/how-clearing-fee-works"
+        ]
+      }
+    },
+    "business-banking": {
+      "hub": "/category/business-banking",
+      "spokes": {
+        "compare": [
+          "/compare/osek-patur-vs-osek-murshe"
+        ],
+        "best": [
+          "/best/best-business-bank-startups"
+        ],
+        "reviews": [
+          "/reviews/bank-hapoalim",
+          "/reviews/bank-leumi"
+        ],
+        "guides": [
+          "/guides/banking/business-credit-card-guide",
+          "/guides/banking/reduce-bank-fees",
+          "/guides/setup/business-bank-account",
+          "/guides/setup/business-setup-cost",
+          "/guides/setup/open-company-ltd",
+          "/guides/setup/open-osek-murshe",
+          "/guides/setup/open-osek-patur"
+        ],
+        "calculators": [],
+        "articles": [
+          "/articles/business-bank-fees",
+          "/articles/business-credit-card-cashback"
+        ]
+      }
+    },
+    "pension": {
+      "hub": "/category/pension",
+      "spokes": {
+        "compare": [
+          "/compare/pension-vs-management-insurance"
+        ],
+        "best": [],
+        "reviews": [],
+        "guides": [
+          "/guides/pension/hishtalmut-deposit-self-employed",
+          "/guides/pension/pension-for-self-employed"
+        ],
+        "calculators": [
+          "/calculators/keren-hishtalmut",
+          "/calculators/pension-self-employed"
+        ],
+        "articles": [
+          "/articles/keren-hishtalmut-how-it-works",
+          "/articles/management-fees-pension-hishtalmut-30-years",
+          "/articles/pension-for-self-employed-facts"
+        ]
+      }
+    },
+    "crm": {
+      "hub": "/category/crm",
+      "spokes": {
+        "compare": [
+          "/compare/monday-vs-fireberry",
+          "/compare/zoho-vs-pipedrive"
+        ],
+        "best": [
+          "/best/best-crm-small-business"
+        ],
+        "reviews": [
+          "/reviews/fireberry",
+          "/reviews/hubspot",
+          "/reviews/monday",
+          "/reviews/pipedrive",
+          "/reviews/salesforce",
+          "/reviews/zoho"
+        ],
+        "guides": [],
+        "calculators": [],
+        "articles": []
+      }
+    },
+    "accounting": {
+      "hub": null,
+      "spokes": {
+        "compare": [],
+        "best": [
+          "/best/best-accounting-software"
+        ],
+        "reviews": [
+          "/reviews/rivhit-accounting"
+        ],
+        "guides": [
+          "/guides/tools/choose-accounting-software"
+        ],
+        "calculators": [],
+        "articles": [
+          "/articles/accounting-document-types"
+        ]
+      }
+    },
+    "payroll": {
+      "hub": null,
+      "spokes": {
+        "compare": [],
+        "best": [
+          "/best/best-payroll-software"
+        ],
+        "reviews": [
+          "/reviews/hilan",
+          "/reviews/michpal",
+          "/reviews/payslips"
+        ],
+        "guides": [],
+        "calculators": [],
+        "articles": [
+          "/articles/how-to-read-payslip"
+        ]
+      }
+    },
+    "ecommerce": {
+      "hub": null,
+      "spokes": {
+        "compare": [],
+        "best": [],
+        "reviews": [],
+        "guides": [
+          "/guides/ecommerce/ecommerce-payments-setup",
+          "/guides/ecommerce/selling-online-basics"
+        ],
+        "calculators": [],
+        "articles": []
+      }
+    }
+  },
+  "related_modules": {
+    "מדריכים קשורים": "type=guide, same category",
+    "כלים קשורים": "type=calculator, same category",
+    "השוואות פופולריות": "type=compare, same category, ordered by traffic tier (see KEYWORD_MAP.csv)"
+  },
+  "links": {
+    "/articles/accounting-document-types": [
+      "/calculators/invoicing-cost",
+      "/compare/osek-patur-vs-osek-murshe",
+      "/articles/israel-invoice-allocation-number-timeline",
+      "/guides/tax/vat-for-self-employed"
+    ],
+    "/articles/business-bank-fees": [
+      "/guides/setup/business-bank-account",
+      "/guides/banking/reduce-bank-fees",
+      "/reviews/bank-hapoalim",
+      "/reviews/bank-leumi"
+    ],
+    "/articles/business-credit-card-cashback": [
+      "/guides/banking/business-credit-card-guide",
+      "/compare/isracard-vs-max",
+      "/best/best-clearing-small-business",
+      "/reviews/max"
+    ],
+    "/articles/clearing-fees-by-turnover": [
+      "/calculators/clearing-fees",
+      "/compare/cardcom-vs-tranzila",
+      "/articles/hidden-clearing-costs",
+      "/articles/how-clearing-fee-works"
+    ],
+    "/articles/cost-of-being-self-employed-first-year": [
+      "/compare/osek-patur-vs-osek-murshe",
+      "/articles/recognized-expenses-self-employed",
+      "/calculators/atzmai-net",
+      "/guides/setup/business-setup-cost"
+    ],
+    "/articles/digital-payments-israel-bit-paybox": [
+      "/articles/how-clearing-fee-works",
+      "/articles/clearing-fees-by-turnover",
+      "/compare/grow-vs-paypal",
+      "/compare/payplus-vs-grow"
+    ],
+    "/articles/employee-vs-freelancer-beyond-net": [
+      "/compare/employee-vs-freelancer",
+      "/articles/national-insurance-self-employed",
+      "/articles/keren-hishtalmut-how-it-works",
+      "/articles/pension-for-self-employed-facts"
+    ],
+    "/articles/hidden-clearing-costs": [
+      "/calculators/clearing-fees",
+      "/compare/cardcom-vs-tranzila",
+      "/articles/how-clearing-fee-works",
+      "/articles/clearing-fees-by-turnover"
+    ],
+    "/articles/how-clearing-fee-works": [
+      "/compare/cardcom-vs-tranzila",
+      "/best/best-clearing-small-business",
+      "/calculators/clearing-fees",
+      "/articles/hidden-clearing-costs"
+    ],
+    "/articles/how-to-price-freelance-services": [
+      "/tools/freelancer-hourly-rate",
+      "/articles/cost-of-being-self-employed-first-year",
+      "/articles/recognized-expenses-self-employed",
+      "/articles/clearing-fees-by-turnover"
+    ],
+    "/articles/how-to-read-payslip": [
+      "/compare/employee-vs-freelancer",
+      "/articles/national-insurance-self-employed",
+      "/tools/freelancer-hourly-rate",
+      "/articles/pension-for-self-employed-facts"
+    ],
+    "/articles/income-tax-advance-payments": [
+      "/articles/recognized-expenses-self-employed",
+      "/guides/tax/annual-tax-report-self-employed",
+      "/articles/osek-murshe-vs-company-ltd",
+      "/guides/tax/choose-accountant"
+    ],
+    "/articles/income-tax-brackets-decade": [
+      "/calculators/atzmai-net",
+      "/compare/employee-vs-freelancer",
+      "/articles/income-tax-advance-payments",
+      "/articles/employee-vs-freelancer-beyond-net"
+    ],
+    "/articles/israel-invoice-allocation-number-timeline": [
+      "/calculators/invoicing-cost",
+      "/compare/green-invoice-vs-morning",
+      "/articles/accounting-document-types",
+      "/guides/tax/issue-invoice-allocation-number"
+    ],
+    "/articles/keren-hishtalmut-how-it-works": [
+      "/calculators/keren-hishtalmut",
+      "/compare/employee-vs-freelancer",
+      "/articles/pension-for-self-employed-facts",
+      "/articles/management-fees-pension-hishtalmut-30-years"
+    ],
+    "/articles/management-fees-pension-hishtalmut-30-years": [
+      "/calculators/pension-self-employed",
+      "/compare/pension-vs-management-insurance",
+      "/articles/pension-for-self-employed-facts",
+      "/articles/keren-hishtalmut-how-it-works"
+    ],
+    "/articles/national-insurance-self-employed": [
+      "/calculators/atzmai-net",
+      "/compare/employee-vs-freelancer",
+      "/articles/unemployment-benefits-self-employed",
+      "/articles/pension-for-self-employed-facts"
+    ],
+    "/articles/osek-murshe-vs-company-ltd": [
+      "/compare/osek-patur-vs-osek-murshe",
+      "/guides/setup/open-company-ltd",
+      "/articles/income-tax-advance-payments",
+      "/compare/employee-vs-freelancer"
+    ],
+    "/articles/osek-patur-ceiling-over-years": [
+      "/compare/osek-patur-vs-osek-murshe",
+      "/guides/tax/vat-for-self-employed",
+      "/calculators/osek-patur-threshold",
+      "/articles/income-tax-advance-payments"
+    ],
+    "/articles/pension-for-self-employed-facts": [
+      "/calculators/pension-self-employed",
+      "/compare/pension-vs-management-insurance",
+      "/articles/keren-hishtalmut-how-it-works",
+      "/articles/management-fees-pension-hishtalmut-30-years"
+    ],
+    "/articles/recognized-expenses-self-employed": [
+      "/guides/tax/annual-tax-report-self-employed",
+      "/articles/income-tax-advance-payments",
+      "/articles/accounting-document-types",
+      "/guides/tax/choose-accountant"
+    ],
+    "/articles/selling-to-foreign-customers-vat-export": [
+      "/articles/digital-payments-israel-bit-paybox",
+      "/guides/ecommerce/ecommerce-payments-setup",
+      "/compare/grow-vs-paypal",
+      "/guides/tax/vat-for-self-employed"
+    ],
+    "/articles/ten-mistakes-new-freelancers-tax-vat": [
+      "/guides/tax/vat-for-self-employed",
+      "/articles/recognized-expenses-self-employed",
+      "/articles/income-tax-advance-payments",
+      "/compare/osek-patur-vs-osek-murshe"
+    ],
+    "/articles/unemployment-benefits-self-employed": [
+      "/articles/national-insurance-self-employed",
+      "/compare/employee-vs-freelancer",
+      "/compare/osek-patur-vs-osek-murshe",
+      "/articles/cost-of-being-self-employed-first-year"
+    ],
+    "/best/best-accounting-software": [
+      "/guides/tools/choose-accounting-software",
+      "/compare/rivhit-vs-green-invoice",
+      "/category/invoicing",
+      "/guides/banking/how-to-choose-clearing"
+    ],
+    "/best/best-business-bank-startups": [
+      "/category/business-banking",
+      "/guides/setup/business-bank-account",
+      "/guides/banking/reduce-bank-fees",
+      "/articles/business-bank-fees",
+      "/guides/tax/choose-accountant"
+    ],
+    "/best/best-clearing-ecommerce": [
+      "/category/clearing",
+      "/compare/grow-vs-paypal",
+      "/compare/payplus-vs-grow",
+      "/guides/ecommerce/ecommerce-payments-setup",
+      "/calculators/clearing-fees"
+    ],
+    "/best/best-clearing-small-business": [
+      "/category/clearing",
+      "/compare/cardcom-vs-tranzila",
+      "/compare/payplus-vs-grow",
+      "/guides/banking/how-to-choose-clearing",
+      "/calculators/clearing-fees"
+    ],
+    "/best/best-crm-small-business": [
+      "/category/crm",
+      "/compare/monday-vs-fireberry",
+      "/compare/zoho-vs-pipedrive",
+      "/best/best-accounting-software",
+      "/guides/tools/choose-accounting-software"
+    ],
+    "/best/best-invoicing-osek-patur": [
+      "/compare/osek-patur-vs-osek-murshe",
+      "/guides/setup/open-osek-patur",
+      "/calculators/osek-patur-threshold",
+      "/category/invoicing",
+      "/best/best-invoicing-software-freelancers"
+    ],
+    "/best/best-invoicing-software-freelancers": [
+      "/category/invoicing",
+      "/compare/icount-vs-green-invoice",
+      "/compare/green-invoice-vs-morning",
+      "/compare/rivhit-vs-green-invoice",
+      "/calculators/invoicing-cost"
+    ],
+    "/best/best-payroll-software": [
+      "/articles/how-to-read-payslip",
+      "/best/best-accounting-software",
+      "/guides/tax/choose-accountant",
+      "/category/business-banking"
+    ],
+    "/calculators/atzmai-net": [
+      "/calculators/osek-patur-threshold",
+      "/compare/employee-vs-freelancer",
+      "/articles/national-insurance-self-employed",
+      "/articles/income-tax-advance-payments"
+    ],
+    "/calculators/clearing-fees": [
+      "/compare/cardcom-vs-tranzila",
+      "/compare/grow-vs-paypal",
+      "/articles/hidden-clearing-costs",
+      "/guides/banking/how-to-choose-clearing"
+    ],
+    "/calculators/compound-interest-mortgage": [
+      "/articles/how-to-read-payslip",
+      "/calculators/salary-net",
+      "/articles/employee-vs-freelancer-beyond-net",
+      "/calculators/pension-self-employed"
+    ],
+    "/calculators/employee-vs-freelancer-calculator": [
+      "/calculators/atzmai-net",
+      "/articles/employee-vs-freelancer-beyond-net",
+      "/articles/how-to-price-freelance-services",
+      "/calculators/osek-patur-threshold"
+    ],
+    "/calculators/invoicing-cost": [
+      "/compare/green-invoice-vs-morning",
+      "/compare/icount-vs-green-invoice",
+      "/best/best-invoicing-osek-patur",
+      "/guides/tools/choose-accounting-software"
+    ],
+    "/calculators/keren-hishtalmut": [
+      "/articles/keren-hishtalmut-how-it-works",
+      "/guides/pension/hishtalmut-deposit-self-employed",
+      "/articles/management-fees-pension-hishtalmut-30-years",
+      "/calculators/salary-net"
+    ],
+    "/calculators/osek-patur-threshold": [
+      "/compare/osek-patur-vs-osek-murshe",
+      "/articles/osek-patur-ceiling-over-years",
+      "/calculators/vat",
+      "/guides/setup/open-osek-patur"
+    ],
+    "/calculators/pension-self-employed": [
+      "/guides/pension/pension-for-self-employed",
+      "/articles/pension-for-self-employed-facts",
+      "/calculators/keren-hishtalmut",
+      "/guides/tax/recognized-expenses"
+    ],
+    "/calculators/salary-net": [
+      "/articles/how-to-read-payslip",
+      "/tools/payslip-decoder",
+      "/articles/employee-vs-freelancer-beyond-net",
+      "/calculators/atzmai-net"
+    ],
+    "/calculators/severance": [
+      "/articles/employee-vs-freelancer-beyond-net",
+      "/articles/how-to-read-payslip",
+      "/calculators/salary-net",
+      "/articles/income-tax-advance-payments"
+    ],
+    "/calculators/unemployment": [
+      "/articles/unemployment-benefits-self-employed",
+      "/articles/national-insurance-self-employed",
+      "/calculators/salary-net",
+      "/articles/how-to-read-payslip"
+    ],
+    "/calculators/vat": [
+      "/guides/tax/vat-for-self-employed",
+      "/calculators/osek-patur-threshold",
+      "/compare/osek-patur-vs-osek-murshe",
+      "/articles/selling-to-foreign-customers-vat-export"
+    ],
+    "/category/business-banking": [
+      "/best/best-business-bank-startups",
+      "/guides/setup/business-bank-account",
+      "/guides/banking/reduce-bank-fees",
+      "/articles/business-bank-fees",
+      "/tools/bank-fee-checker"
+    ],
+    "/category/clearing": [
+      "/best/best-clearing-small-business",
+      "/best/best-clearing-ecommerce",
+      "/compare/cardcom-vs-tranzila",
+      "/compare/payplus-vs-grow",
+      "/compare/grow-vs-paypal",
+      "/calculators/clearing-fees"
+    ],
+    "/category/crm": [
+      "/best/best-crm-small-business",
+      "/compare/monday-vs-fireberry",
+      "/compare/zoho-vs-pipedrive",
+      "/best/best-accounting-software",
+      "/guides/tools/choose-accounting-software"
+    ],
+    "/category/invoicing": [
+      "/best/best-invoicing-software-freelancers",
+      "/best/best-invoicing-osek-patur",
+      "/compare/green-invoice-vs-morning",
+      "/compare/icount-vs-green-invoice",
+      "/calculators/invoicing-cost"
+    ],
+    "/category/pension": [
+      "/compare/pension-vs-management-insurance",
+      "/guides/pension/pension-for-self-employed",
+      "/articles/keren-hishtalmut-how-it-works",
+      "/articles/pension-for-self-employed-facts",
+      "/calculators/pension-self-employed"
+    ],
+    "/compare/cardcom-vs-tranzila": [
+      "/compare/grow-vs-paypal",
+      "/compare/isracard-vs-max",
+      "/best/best-clearing-small-business",
+      "/guides/banking/how-to-choose-clearing"
+    ],
+    "/compare/employee-vs-freelancer": [
+      "/compare/osek-patur-vs-osek-murshe",
+      "/articles/employee-vs-freelancer-beyond-net",
+      "/articles/cost-of-being-self-employed-first-year",
+      "/guides/setup/open-osek-patur"
+    ],
+    "/compare/green-invoice-vs-morning": [
+      "/compare/icount-vs-green-invoice",
+      "/best/best-invoicing-software-freelancers",
+      "/calculators/invoicing-cost",
+      "/guides/tax/issue-invoice-allocation-number"
+    ],
+    "/compare/grow-vs-paypal": [
+      "/compare/payplus-vs-grow",
+      "/best/best-clearing-ecommerce",
+      "/articles/selling-to-foreign-customers-vat-export",
+      "/articles/how-clearing-fee-works"
+    ],
+    "/compare/icount-vs-green-invoice": [
+      "/compare/green-invoice-vs-morning",
+      "/compare/rivhit-vs-green-invoice",
+      "/best/best-invoicing-software-freelancers",
+      "/best/best-invoicing-osek-patur"
+    ],
+    "/compare/isracard-vs-max": [
+      "/compare/cardcom-vs-tranzila",
+      "/best/best-clearing-small-business",
+      "/articles/business-credit-card-cashback",
+      "/guides/banking/how-to-choose-clearing"
+    ],
+    "/compare/monday-vs-fireberry": [
+      "/compare/zoho-vs-pipedrive",
+      "/best/best-crm-small-business",
+      "/reviews/monday",
+      "/reviews/fireberry"
+    ],
+    "/compare/osek-patur-vs-osek-murshe": [
+      "/guides/tax/vat-for-self-employed",
+      "/guides/setup/open-osek-patur",
+      "/guides/setup/open-osek-murshe",
+      "/calculators/osek-patur-threshold"
+    ],
+    "/compare/payplus-vs-grow": [
+      "/compare/cardcom-vs-tranzila",
+      "/compare/grow-vs-paypal",
+      "/best/best-clearing-ecommerce",
+      "/articles/hidden-clearing-costs"
+    ],
+    "/compare/pension-vs-management-insurance": [
+      "/guides/pension/pension-for-self-employed",
+      "/articles/pension-for-self-employed-facts",
+      "/articles/keren-hishtalmut-how-it-works",
+      "/guides/pension/hishtalmut-deposit-self-employed"
+    ],
+    "/compare/rivhit-vs-green-invoice": [
+      "/compare/icount-vs-green-invoice",
+      "/compare/green-invoice-vs-morning",
+      "/best/best-accounting-software",
+      "/guides/tools/choose-accounting-software"
+    ],
+    "/compare/zoho-vs-pipedrive": [
+      "/compare/monday-vs-fireberry",
+      "/best/best-crm-small-business",
+      "/reviews/zoho",
+      "/reviews/pipedrive"
+    ],
+    "/guides/banking/business-credit-card-guide": [
+      "/articles/business-credit-card-cashback",
+      "/articles/business-bank-fees",
+      "/guides/setup/business-bank-account",
+      "/best/best-business-bank-startups",
+      "/compare/isracard-vs-max"
+    ],
+    "/guides/banking/how-to-choose-clearing": [
+      "/category/clearing",
+      "/best/best-clearing-small-business",
+      "/best/best-clearing-ecommerce",
+      "/compare/cardcom-vs-tranzila",
+      "/compare/payplus-vs-grow",
+      "/compare/grow-vs-paypal",
+      "/articles/hidden-clearing-costs"
+    ],
+    "/guides/banking/reduce-bank-fees": [
+      "/guides/setup/business-bank-account",
+      "/articles/business-bank-fees",
+      "/best/best-business-bank-startups",
+      "/tools/bank-fee-checker",
+      "/reviews/bank-hapoalim",
+      "/reviews/bank-leumi"
+    ],
+    "/guides/ecommerce/ecommerce-payments-setup": [
+      "/best/best-clearing-ecommerce",
+      "/compare/cardcom-vs-tranzila",
+      "/compare/payplus-vs-grow",
+      "/compare/grow-vs-paypal",
+      "/guides/banking/how-to-choose-clearing",
+      "/guides/ecommerce/selling-online-basics",
+      "/category/clearing"
+    ],
+    "/guides/ecommerce/selling-online-basics": [
+      "/guides/ecommerce/ecommerce-payments-setup",
+      "/best/best-clearing-ecommerce",
+      "/articles/digital-payments-israel-bit-paybox",
+      "/guides/tax/vat-for-self-employed",
+      "/articles/selling-to-foreign-customers-vat-export",
+      "/compare/osek-patur-vs-osek-murshe"
+    ],
+    "/guides/pension/hishtalmut-deposit-self-employed": [
+      "/articles/keren-hishtalmut-how-it-works",
+      "/articles/management-fees-pension-hishtalmut-30-years",
+      "/guides/pension/pension-for-self-employed",
+      "/articles/pension-for-self-employed-facts",
+      "/compare/pension-vs-management-insurance"
+    ],
+    "/guides/pension/pension-for-self-employed": [
+      "/articles/pension-for-self-employed-facts",
+      "/articles/management-fees-pension-hishtalmut-30-years",
+      "/articles/keren-hishtalmut-how-it-works",
+      "/guides/pension/hishtalmut-deposit-self-employed",
+      "/compare/pension-vs-management-insurance"
+    ],
+    "/guides/setup/business-bank-account": [
+      "/best/best-business-bank-startups",
+      "/guides/banking/reduce-bank-fees",
+      "/tools/bank-fee-checker",
+      "/guides/banking/how-to-choose-clearing",
+      "/articles/business-bank-fees"
+    ],
+    "/guides/setup/business-setup-cost": [
+      "/guides/setup/open-osek-patur",
+      "/guides/setup/open-company-ltd",
+      "/guides/setup/business-bank-account",
+      "/calculators/invoicing-cost",
+      "/best/best-invoicing-osek-patur"
+    ],
+    "/guides/setup/open-company-ltd": [
+      "/guides/setup/open-osek-murshe",
+      "/tools/business-structure-quiz",
+      "/guides/setup/business-setup-cost",
+      "/guides/tax/choose-accountant",
+      "/articles/osek-murshe-vs-company-ltd"
+    ],
+    "/guides/setup/open-osek-murshe": [
+      "/guides/setup/open-osek-patur",
+      "/compare/osek-patur-vs-osek-murshe",
+      "/guides/tax/vat-for-self-employed",
+      "/guides/tax/issue-invoice-allocation-number",
+      "/guides/tax/choose-accountant"
+    ],
+    "/guides/setup/open-osek-patur": [
+      "/guides/setup/open-osek-murshe",
+      "/compare/osek-patur-vs-osek-murshe",
+      "/guides/tax/vat-for-self-employed",
+      "/calculators/osek-patur-threshold",
+      "/guides/setup/business-bank-account"
+    ],
+    "/guides/tax/advance-payments-self-employed": [
+      "/guides/tax/annual-tax-report-self-employed",
+      "/guides/tax/vat-for-self-employed",
+      "/guides/tax/year-end-tax-prep",
+      "/guides/tax/choose-accountant",
+      "/articles/cost-of-being-self-employed-first-year"
+    ],
+    "/guides/tax/annual-tax-report-self-employed": [
+      "/guides/tax/year-end-tax-prep",
+      "/guides/tax/recognized-expenses",
+      "/guides/tax/choose-accountant",
+      "/articles/income-tax-advance-payments",
+      "/tools/tax-calendar"
+    ],
+    "/guides/tax/choose-accountant": [
+      "/guides/setup/open-osek-patur",
+      "/guides/setup/open-osek-murshe",
+      "/guides/tax/annual-tax-report-self-employed",
+      "/guides/tax/recognized-expenses",
+      "/guides/tools/choose-accounting-software"
+    ],
+    "/guides/tax/issue-invoice-allocation-number": [
+      "/guides/tax/vat-for-self-employed",
+      "/best/best-invoicing-software-freelancers",
+      "/compare/green-invoice-vs-morning",
+      "/calculators/invoicing-cost",
+      "/articles/accounting-document-types"
+    ],
+    "/guides/tax/recognized-expenses": [
+      "/guides/tax/annual-tax-report-self-employed",
+      "/guides/tax/choose-accountant",
+      "/articles/accounting-document-types",
+      "/articles/recognized-expenses-self-employed",
+      "/calculators/vat"
+    ],
+    "/guides/tax/vat-for-self-employed": [
+      "/guides/setup/open-osek-murshe",
+      "/compare/osek-patur-vs-osek-murshe",
+      "/guides/tax/issue-invoice-allocation-number",
+      "/calculators/osek-patur-threshold",
+      "/articles/selling-to-foreign-customers-vat-export"
+    ],
+    "/guides/tax/year-end-tax-prep": [
+      "/guides/tax/annual-tax-report-self-employed",
+      "/guides/tax/recognized-expenses",
+      "/guides/tax/vat-for-self-employed",
+      "/articles/income-tax-advance-payments",
+      "/tools/tax-calendar",
+      "/tools/tax-refund-estimator"
+    ],
+    "/guides/tools/choose-accounting-software": [
+      "/best/best-accounting-software",
+      "/best/best-invoicing-software-freelancers",
+      "/guides/tax/choose-accountant",
+      "/compare/rivhit-vs-green-invoice",
+      "/compare/icount-vs-green-invoice",
+      "/category/invoicing"
+    ],
+    "/about": [
+      "/methodology",
+      "/editorial-policy",
+      "/contact"
+    ],
+    "/advertise": [
+      "/about",
+      "/contact",
+      "/methodology"
+    ],
+    "/contact": [
+      "/about",
+      "/editorial-policy",
+      "/methodology"
+    ],
+    "/editorial-policy": [
+      "/methodology",
+      "/about",
+      "/contact"
+    ],
+    "/": [
+      "/category/invoicing",
+      "/category/clearing",
+      "/category/business-banking",
+      "/category/crm"
+    ],
+    "/lead/accountant": [
+      "/guides/tax/choose-accountant",
+      "/best/best-accounting-software",
+      "/guides/tax/annual-tax-report-self-employed"
+    ],
+    "/lead/mortgage-information": [
+      "/category/business-banking",
+      "/best/best-business-bank-startups",
+      "/calculators/compound-interest-mortgage"
+    ],
+    "/lead/pension-information": [
+      "/category/pension",
+      "/guides/pension/pension-for-self-employed",
+      "/articles/pension-for-self-employed-facts"
+    ],
+    "/methodology": [
+      "/editorial-policy",
+      "/about",
+      "/"
+    ],
+    "/reviews/bank-hapoalim": [
+      "/reviews/bank-leumi",
+      "/best/best-business-bank-startups",
+      "/articles/business-bank-fees",
+      "/guides/banking/reduce-bank-fees"
+    ],
+    "/reviews/bank-leumi": [
+      "/reviews/bank-hapoalim",
+      "/best/best-business-bank-startups",
+      "/articles/business-bank-fees",
+      "/guides/setup/business-bank-account"
+    ],
+    "/reviews/cal": [
+      "/compare/isracard-vs-max",
+      "/best/best-clearing-small-business",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/cardcom-invoices": [
+      "/reviews/green-invoice",
+      "/reviews/icount",
+      "/reviews/rivhit",
+      "/reviews/cardcom"
+    ],
+    "/reviews/cardcom": [
+      "/compare/cardcom-vs-tranzila",
+      "/best/best-clearing-small-business",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/fireberry": [
+      "/reviews/monday",
+      "/reviews/zoho",
+      "/reviews/pipedrive",
+      "/compare/monday-vs-fireberry"
+    ],
+    "/reviews/green-invoice": [
+      "/compare/green-invoice-vs-morning",
+      "/compare/icount-vs-green-invoice",
+      "/calculators/invoicing-cost",
+      "/best/best-invoicing-software-freelancers"
+    ],
+    "/reviews/grow": [
+      "/compare/payplus-vs-grow",
+      "/compare/grow-vs-paypal",
+      "/best/best-clearing-ecommerce",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/hashavshevet": [
+      "/reviews/rivhit",
+      "/reviews/green-invoice",
+      "/reviews/icount",
+      "/best/best-accounting-software"
+    ],
+    "/reviews/hilan": [
+      "/reviews/michpal",
+      "/reviews/payslips",
+      "/best/best-payroll-software"
+    ],
+    "/reviews/hubspot": [
+      "/reviews/salesforce",
+      "/reviews/fireberry",
+      "/reviews/zoho",
+      "/best/best-crm-small-business"
+    ],
+    "/reviews/hyp-ezcount": [
+      "/reviews/green-invoice",
+      "/reviews/icount",
+      "/reviews/rivhit",
+      "/best/best-invoicing-software-freelancers"
+    ],
+    "/reviews/icount": [
+      "/compare/icount-vs-green-invoice",
+      "/reviews/green-invoice",
+      "/calculators/invoicing-cost",
+      "/best/best-invoicing-software-freelancers"
+    ],
+    "/reviews/invoice4u": [
+      "/compare/icount-vs-green-invoice",
+      "/reviews/green-invoice",
+      "/calculators/invoicing-cost",
+      "/best/best-invoicing-software-freelancers"
+    ],
+    "/reviews/isracard": [
+      "/compare/isracard-vs-max",
+      "/best/best-clearing-small-business",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/max": [
+      "/compare/isracard-vs-max",
+      "/best/best-clearing-small-business",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/michpal": [
+      "/reviews/hilan",
+      "/reviews/payslips",
+      "/best/best-payroll-software"
+    ],
+    "/reviews/monday": [
+      "/reviews/fireberry",
+      "/reviews/zoho",
+      "/reviews/pipedrive",
+      "/compare/monday-vs-fireberry"
+    ],
+    "/reviews/paypal": [
+      "/compare/grow-vs-paypal",
+      "/reviews/grow",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/payplus": [
+      "/compare/payplus-vs-grow",
+      "/best/best-clearing-ecommerce",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/payslips": [
+      "/reviews/hilan",
+      "/reviews/michpal",
+      "/best/best-payroll-software"
+    ],
+    "/reviews/pelecard": [
+      "/compare/payplus-vs-grow",
+      "/best/best-clearing-small-business",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/pipedrive": [
+      "/reviews/zoho",
+      "/reviews/monday",
+      "/reviews/fireberry",
+      "/compare/zoho-vs-pipedrive"
+    ],
+    "/reviews/rivhit-accounting": [
+      "/reviews/rivhit",
+      "/reviews/green-invoice",
+      "/reviews/icount",
+      "/best/best-accounting-software"
+    ],
+    "/reviews/rivhit": [
+      "/compare/rivhit-vs-green-invoice",
+      "/reviews/green-invoice",
+      "/guides/tools/choose-accounting-software",
+      "/calculators/invoicing-cost"
+    ],
+    "/reviews/salesforce": [
+      "/reviews/hubspot",
+      "/reviews/pipedrive",
+      "/reviews/zoho",
+      "/best/best-crm-small-business"
+    ],
+    "/reviews/stripe": [
+      "/compare/grow-vs-paypal",
+      "/best/best-clearing-ecommerce",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/tranzila": [
+      "/compare/cardcom-vs-tranzila",
+      "/best/best-clearing-small-business",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees"
+    ],
+    "/reviews/yaad-sarig": [
+      "/best/best-clearing-small-business",
+      "/articles/how-clearing-fee-works",
+      "/calculators/clearing-fees",
+      "/compare/cardcom-vs-tranzila"
+    ],
+    "/reviews/zoho": [
+      "/reviews/pipedrive",
+      "/reviews/fireberry",
+      "/reviews/monday",
+      "/compare/zoho-vs-pipedrive"
+    ],
+    "/tools/bank-fee-checker": [
+      "/articles/business-bank-fees",
+      "/guides/banking/reduce-bank-fees",
+      "/guides/setup/business-bank-account",
+      "/best/best-business-bank-startups"
+    ],
+    "/tools/business-setup-cost-calculator": [
+      "/guides/setup/business-setup-cost",
+      "/guides/setup/open-osek-patur",
+      "/guides/setup/open-osek-murshe",
+      "/calculators/invoicing-cost"
+    ],
+    "/tools/business-structure-quiz": [
+      "/compare/osek-patur-vs-osek-murshe",
+      "/articles/osek-murshe-vs-company-ltd",
+      "/calculators/osek-patur-threshold",
+      "/guides/setup/open-company-ltd"
+    ],
+    "/tools/freelancer-hourly-rate": [
+      "/articles/how-to-price-freelance-services",
+      "/calculators/atzmai-net",
+      "/compare/employee-vs-freelancer",
+      "/calculators/osek-patur-threshold"
+    ],
+    "/tools/payslip-decoder": [
+      "/articles/how-to-read-payslip",
+      "/calculators/salary-net",
+      "/calculators/severance",
+      "/calculators/unemployment"
+    ],
+    "/tools/tax-calendar": [
+      "/guides/tax/vat-for-self-employed",
+      "/articles/income-tax-advance-payments",
+      "/guides/tax/annual-tax-report-self-employed",
+      "/guides/tax/year-end-tax-prep"
+    ],
+    "/tools/tax-refund-estimator": [
+      "/articles/income-tax-brackets-decade",
+      "/articles/how-to-read-payslip",
+      "/calculators/salary-net",
+      "/articles/income-tax-advance-payments"
+    ]
+  },
+  "rules": {
+    "guide": "link to >=1 calculator and >=1 comparison",
+    "compare": "link to its calculator, 2 sibling versus pages, the category hub and 2 guides",
+    "calculator": "link to its comparison page and 2 guides",
+    "review": "link to versus pages featuring that provider",
+    "max_links_per_1000_words": 10,
+    "max_affiliate_links_per_300_words_outside_tables": 1,
+    "depth": "every page reachable within 3 clicks of home"
+  }
+}

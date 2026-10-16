@@ -1,0 +1,25 @@
+{
+  "_template": "Article / BlogPosting — guides, articles, compares, best, reviews. NewsArticle only for /news (deferred).",
+  "_inputs": ["headline (title)", "description", "url", "updated (dateModified)", "published (datePublished)", "author Organization", "hero image"],
+  "json": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": "https://il-tools.co.il{{page_path}}#article",
+    "headline": "{{title}}",
+    "description": "{{description}}",
+    "inLanguage": "he-IL",
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://il-tools.co.il{{page_path}}" },
+    "datePublished": "{{published}}",
+    "dateModified": "{{updated}}",
+    "author": { "@type": "Organization", "name": "צוות המערכת של IL-Tools", "url": "https://il-tools.co.il/about", "@id": "https://il-tools.co.il/#organization" },
+    "publisher": { "@id": "https://il-tools.co.il/#organization" },
+    "image": ["{{og_image_absolute}}"],
+    "isAccessibleForFree": true,
+    "keywords": "{{primary_keyword}}"
+  },
+  "_notes": [
+    "author MUST be Organization (team persona), never Person. Do not emit reviewer/person names — no credentialed reviewer exists yet.",
+    "dateModified comes from the page `updated` token; datePublished from the git first-commit date or `updated` at launch.",
+    "Never emit reviewRating / aggregateRating (no star ratings are displayed)."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_template": "ItemList — 'best of' pages, category hubs and comparison lists.",
+  "_inputs": ["ordered list of {name_he, url} spokes"],
+  "json": {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{{list_title_he}}",
+    "itemListOrder": "https://schema.org/ItemListOrderDescending",
+    "numberOfItems": "{{n}}",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "{{item_name_he}}", "url": "https://il-tools.co.il{{item_path}}" }
+    ]
+  },
+  "_notes": [
+    "Order the list to match the visible order on the page.",
+    "Do NOT imply a paid ranking: order follows the published methodology only."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "_template": "WebSite (+ SearchAction) — site-wide, home page and root layout.",
+  "_inputs": ["site name", "site url", "search route (/search?q={query})"],
+  "json": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://il-tools.co.il/#website",
+    "url": "https://il-tools.co.il",
+    "name": "IL-Tools",
+    "inLanguage": "he-IL",
+    "publisher": { "@id": "https://il-tools.co.il/#organization" },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://il-tools.co.il/search?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  },
+  "_notes": [
+    "SearchAction requires a real, crawlable search results route. If search is client-only, wire the route before shipping this markup."
+  ]
+}
