@@ -1,0 +1,14 @@
+# Deploying to Vercel
+
+The repo needs no code changes: `vercel.json` (framework `nextjs`, `pnpm build`, region `fra1`, crons, redirects) and `package.json` `engines` (Node 22) are committed.
+
+1. **Import**: vercel.com → Add New → Project → import `WRusher24/iltools`. Framework preset: *Next.js* (auto-detected). Build command `pnpm build`, output directory default, install command from `vercel.json`.
+2. **Environment variables**: add the variables you have from `docs/engineering/ENV_VARS.md` (all optional; start with `NEXT_PUBLIC_SITE_URL`, `CRON_SECRET`). Production and Preview are separate; Preview deployments are `noindex` automatically.
+3. **Database (optional, needed for leads/newsletter/click log)**: Vercel → Storage → Neon (or paste a Supabase pooler URL) → this sets `DATABASE_URL`. Also set `ENCRYPTION_KEY` (**required** once `DATABASE_URL` exists, otherwise the build fails fast by design), `HASH_SALT_SECRET`, `RESEND_API_KEY`, `EMAIL_FROM`. Then locally with the production URL: `pnpm db:migrate && pnpm db:seed`. Least privilege: create an app role with only DML on the tables and put *its* URL in Vercel; keep the owner URL for migrations.
+4. **Lead partners**: insert verified licensed partners (see LEGAL_COMPLIANCE §7.3), e.g. `insert into lead_partners(name,licence_number,verified_on,webhook_url,lead_types,active) values (…, current_date, 'https://…', '{accountant}', true);` Until then the lead pages show "בקרוב".
+5. **Affiliate links**: fill `data/internal/affiliate_programs.json` (`[{ "provider_id": "green_invoice", "network": "…", "destination_url": "https://…", "params": {"aff":"…"}, "status": "active" }]`) and commit; `pnpm affiliate:check` health-checks destinations.
+6. **Legal facts**: fill `data/legal/owner-facts.json` (see BLOCKERS §A) and commit.
+7. **Domain**: add `il-tools.co.il` (apex primary) and `www` (redirects to apex via `vercel.json`).
+8. **Search Console / Bing**: verify the domain via DNS TXT, submit `https://il-tools.co.il/sitemap.xml`.
+9. **AdSense** (after Google approval and a live, content-rich site): set `NEXT_PUBLIC_ADSENSE_CLIENT`, `ADSENSE_PUBLISHER_ID`, slot ids → `/ads.txt` is served automatically; ads load only after advertising consent. Auto-ads stay off.
+10. **Post-deploy smoke checklist**: `/` has `lang=he dir=rtl` · `/robots.txt` (no `/_next/` block) · `/sitemap.xml` · `/ads.txt` · a compare page shows the affiliate strip + DISC-COMPARE · `/compare/pension-vs-management-insurance` shows **no** affiliate module · calculator opens the disclaimer modal once · consent banner blocks Google scripts until accepted (DevTools → Network) · `/go/green_invoice` → 302 · `/api/og?type=compare&slug=green-invoice-vs-morning` renders Hebrew RTL · submit the newsletter form (needs DB + email) · Cron tab shows `/api/cron/*` runs (with `CRON_SECRET` set) · Lighthouse mobile on `/` and a calculator.
