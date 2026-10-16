@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://il-tools.co.il/schemas/rates.schema.json",
+  "title": "IL-Tools statutory rates file (one per tax year)",
+  "type": "object",
+  "required": ["tax_year", "currency", "generated_on", "parameters"],
+  "additionalProperties": false,
+  "properties": {
+    "tax_year": { "type": "integer", "minimum": 2020, "maximum": 2035 },
+    "currency": { "const": "ILS" },
+    "generated_on": { "type": "string", "format": "date" },
+    "notes": { "type": "string" },
+    "parameters": {
+      "type": "object",
+      "description": "Flat registry keyed by dotted parameter key, e.g. income_tax.bracket.b1.rate. Calculators reference keys, never literal numbers.",
+      "propertyNames": { "pattern": "^[a-z0-9_]+(\\.[a-z0-9_]+)*$" },
+      "additionalProperties": { "$ref": "#/$defs/parameter" }
+    }
+  },
+  "$defs": {
+    "parameter": {
+      "type": "object",
+      "required": ["value", "unit", "applies_to", "effective_from", "effective_to", "legal_basis", "source_id", "accessed_on", "confidence", "notes"],
+      "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["number", "boolean", "string", "null"], "description": "Numeric (no currency symbols). null only if confidence=low AND listed in OPEN_QUESTIONS.md; rates:check rejects nulls for production." },
+        "unit": { "enum": ["ILS_per_year", "ILS_per_month", "ILS", "ratio", "percent", "points", "years", "months", "days", "count", "boolean", "text"] },
+        "label_he": { "type": "string" },
+        "label_en": { "type": "string" },
+        "applies_to": { "type": "string" },
+        "effective_from": { "type": "string", "format": "date" },
+        "effective_to": { "type": ["string", "null"], "format": "date" },
+        "legal_basis": { "type": "string", "minLength": 3 },
+        "source_id": { "type": "string", "pattern": "^src_[a-z0-9_]+$" },
+        "secondary_source_ids": { "type": "array", "items": { "type": "string", "pattern": "^src_[a-z0-9_]+$" } },
+        "accessed_on": { "type": "string", "format": "date" },
+        "confidence": { "enum": ["high", "medium", "low"] },
+        "change_alert": { "type": "boolean" },
+        "conflicts": { "type": "array", "items": { "type": "object", "required": ["value", "source_id", "explanation"], "properties": { "value": {}, "source_id": { "type": "string" }, "explanation": { "type": "string" } } } },
+        "notes": { "type": "string" }
+      },
+      "allOf": [
+        { "if": { "properties": { "value": { "const": null } } }, "then": { "properties": { "confidence": { "const": "low" } } } }
+      ]
+    }
+  }
+}
