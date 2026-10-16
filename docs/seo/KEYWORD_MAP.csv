@@ -1,0 +1,435 @@
+query,cluster,intent,funnel_stage,volume_tier,difficulty_tier,target_url,page_type,serp_features,monetization_slot_priority,notes
+חשבונית ירוקה,invoicing,commercial,moz,high,high,/reviews/green-invoice,review,"sitelinks, PAA, review snippet*, video",AFF-1,brand head term; URL → review
+חשבונית ירוקה או מורנינג,invoicing-compare,commercial,moz,med,low,/compare/green-invoice-vs-morning,compare,"featured snippet, PAA",AFF-1 > AFF-2,A-vs-B; same product rebrand
+morning green invoice,invoicing-compare,commercial,moz,low,low,/compare/green-invoice-vs-morning,compare,PAA,AFF-1 > AFF-2,English-mixed brand variant
+חשבונית ירוקה מורנינג,invoicing-compare,commercial,moz,low,low,/compare/green-invoice-vs-morning,compare,PAA,AFF-1 > AFF-2,"brand pair, no connector"
+grinvoice,invoicing-compare,navigational,moz,low,low,/reviews/green-invoice,review,sitelinks,AFF-1,common misspelling/mashup
+green invoice,invoicing-compare,navigational,moz,med,med,/reviews/green-invoice,review,sitelinks,AFF-1,English brand
+חשבונית ירוקה מחיר,invoicing,commercial,bofu,med,med,/reviews/green-invoice,review,"PAA, price table snippet",AFF-1,price intent
+חשבונית ירוקה מחירון,invoicing,commercial,bofu,low,low,/category/invoicing,category hub,table snippet,AFF-1 > AFF-2 > AD-3,price list
+תוכנה להפקת חשבוניות,invoicing,commercial,moz,high,high,/best/best-invoicing-software-freelancers,best,"featured snippet, PAA",AFF-1 > LEAD-2,category + best
+תוכנת חשבוניות,invoicing,commercial,moz,high,high,/category/invoicing,category hub,"sitelinks, PAA",AFF-1 > AFF-2 > AD-3,head term
+תוכנות חשבוניות,invoicing,commercial,moz,med,med,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,plural variant
+תוכנה לעוסק פטור,invoicing,commercial,bofu,med,med,/best/best-invoicing-osek-patur,best,featured snippet,AFF-1 > LEAD-2,osek patur angle
+חשבוניות לעוסק פטור,invoicing,commercial,bofu,med,med,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,plural
+icount,invoicing,navigational,moz,med,med,/reviews/icount,review,sitelinks,AFF-1,brand
+icount מחיר,invoicing,commercial,bofu,low,low,/reviews/icount,review,price snippet,AFF-1,price
+iCount או חשבונית ירוקה,invoicing-compare,commercial,moz,low,low,/compare/icount-vs-green-invoice,compare,PAA,AFF-1 > AFF-2,A-vs-B
+ריווחית,invoicing,navigational,moz,med,med,/reviews/rivhit,review,sitelinks,AFF-1,brand (Rivhit)
+rivhit מחיר,invoicing,commercial,bofu,low,low,/reviews/rivhit,review,price snippet,AFF-1,English brand + price
+ריווחית או חשבונית ירוקה,invoicing-compare,commercial,moz,low,low,/compare/rivhit-vs-green-invoice,compare,PAA,AFF-1 > AFF-2,A-vs-B
+חשבונית4u,invoicing,navigational,moz,low,low,/reviews/invoice4u,review,sitelinks,AFF-1,brand
+invoice4u מחיר,invoicing,commercial,bofu,low,low,/reviews/invoice4u,review,price snippet,AFF-1,price
+חשבשבת,invoicing,navigational,moz,med,med,/reviews/hashavshevet,review,sitelinks,AFF-1,brand
+איזיקאונט,invoicing,navigational,moz,low,low,/reviews/hyp-ezcount,review,sitelinks,AFF-1,brand (Hyp/EZcount)
+ezcount מחיר,invoicing,commercial,bofu,low,low,/reviews/hyp-ezcount,review,price snippet,AFF-1,brand + price
+קארדקום חשבוניות,invoicing,commercial,moz,low,low,/reviews/cardcom-invoices,review,PAA,AFF-1,product
+חשבונית מס,articles-tax,informational,tofu,high,med,/articles/accounting-document-types,article,"featured snippet, PAA",AD-3 > AFF-2,doc types
+חשבונית מס קבלה,articles-tax,informational,tofu,med,low,/articles/accounting-document-types,article,featured snippet,AD-3 > AFF-2,doc types
+חשבונית זיכוי,articles-tax,informational,tofu,low,low,/articles/income-tax-brackets-decade,article,PAA,AD-3 > AFF-2,doc types
+מספר הקצאה,tax,informational,tofu,med,low,/guides/tax/issue-invoice-allocation-number,guide,"featured snippet, PAA",AD-3 > LEAD-2,allocation number
+חשבונית ישראל,tax,informational,tofu,med,low,/articles/israel-invoice-allocation-number-timeline,article,PAA,AD-3 > AFF-2,Israel Invoice model
+איך מפיקים חשבונית,tax,informational,tofu,med,low,/guides/tax/issue-invoice-allocation-number,guide,"featured snippet, video",AD-3 > LEAD-2,how-to
+חברת סליקה,clearing,commercial,moz,high,high,/category/clearing,category hub,"sitelinks, PAA",AFF-1 > AFF-2 > AD-3,head term
+סליקת אשראי,clearing,commercial,moz,high,high,/category/clearing,category hub,"featured snippet, PAA",AFF-1 > AFF-2 > AD-3,head term
+השוואת עמלות סליקה,clearing,commercial,bofu,med,med,/articles/clearing-fees-by-turnover,article,"table snippet, PAA",AD-3 > AFF-2,comparison intent
+עמלות סליקה,articles-clearing,commercial,moz,high,med,/articles/how-clearing-fee-works,article,"featured snippet, PAA",AD-3 > AFF-2,explainer
+כמה עולה סליקה,clearing-calc,commercial,bofu,med,low,/calculators/clearing-fees,calculator,"calculator, PAA",CALC-RESULT-CTA,calculator intent
+סליקה לעסק קטן,clearing,commercial,bofu,med,med,/best/best-clearing-small-business,best,featured snippet,AFF-1 > LEAD-2,segment
+סליקה לחנות אונליין,clearing,commercial,bofu,med,med,/best/best-clearing-ecommerce,best,PAA,AFF-1 > LEAD-2,segment
+סליקה לאיקומרס,clearing,commercial,bofu,low,low,/best/best-clearing-ecommerce,best,PAA,AFF-1 > LEAD-2,segment
+cardcom,clearing,navigational,moz,med,med,/reviews/cardcom,review,sitelinks,AFF-1,brand
+קארדקום,clearing,navigational,moz,med,med,/reviews/cardcom,review,sitelinks,AFF-1,brand HE
+cardcom או tranzila,clearing-compare,commercial,moz,low,low,/compare/cardcom-vs-tranzila,compare,PAA,AFF-1 > AFF-2,A-vs-B
+tranzila,clearing,navigational,moz,med,med,/reviews/tranzila,review,sitelinks,AFF-1,brand
+טרנזילה,clearing,navigational,moz,low,low,/reviews/tranzila,review,sitelinks,AFF-1,brand HE
+payplus,clearing,navigational,moz,med,med,/reviews/payplus,review,sitelinks,AFF-1,brand
+פייפלוס,clearing,navigational,moz,low,low,/reviews/payplus,review,sitelinks,AFF-1,brand HE
+payplus או משולם,clearing-compare,commercial,moz,low,low,/compare/payplus-vs-grow,compare,PAA,AFF-1 > AFF-2,A-vs-B
+meshulam,clearing,navigational,moz,med,med,/reviews/grow,review,sitelinks,AFF-1,brand legacy (Grow)
+משולם,clearing,navigational,moz,med,med,/reviews/grow,review,sitelinks,AFF-1,brand HE legacy
+grow סליקה,clearing,commercial,moz,low,low,/reviews/grow,review,PAA,AFF-1,brand + category
+grow או paypal,clearing-compare,commercial,bofu,low,low,/compare/grow-vs-paypal,compare,PAA,AFF-1 > AFF-2,A-vs-B
+pelecard,clearing,navigational,moz,low,low,/reviews/pelecard,review,sitelinks,AFF-1,brand
+פלאקארד,clearing,navigational,moz,low,low,/reviews/pelecard,review,sitelinks,AFF-1,brand HE
+yaad sarig,clearing,navigational,moz,low,low,/reviews/yaad-sarig,review,sitelinks,AFF-1,brand
+יעד סליקה,clearing,navigational,moz,low,low,/reviews/yaad-sarig,review,sitelinks,AFF-1,brand HE
+stripe israel,clearing,navigational,moz,med,med,/reviews/stripe,review,sitelinks,AFF-1,brand
+סטרייפ,clearing,navigational,moz,low,low,/reviews/stripe,review,sitelinks,AFF-1,brand HE
+paypal עסקי,clearing,navigational,moz,med,med,/reviews/paypal,review,sitelinks,AFF-1,brand
+פייפאל עמלות,clearing,commercial,bofu,med,med,/reviews/paypal,review,price snippet,AFF-1,brand + price
+isracard,clearing,navigational,moz,med,med,/reviews/isracard,review,sitelinks,AFF-1,brand
+ישראכרט או מקס,clearing-compare,commercial,moz,low,low,/compare/isracard-vs-max,compare,PAA,AFF-1 > AFF-2,A-vs-B
+max סליקה,clearing,navigational,moz,low,low,/reviews/max,review,sitelinks,AFF-1,brand
+cal סליקה,clearing,navigational,moz,low,low,/reviews/cal,review,sitelinks,AFF-1,brand
+עמלת סליקה כמה זה באמת,articles-clearing,informational,tofu,low,low,/articles/how-clearing-fee-works,article,featured snippet,AD-3 > AFF-2,long tail
+עלויות נסתרות בסליקה,articles-clearing,informational,tofu,low,low,/articles/hidden-clearing-costs,article,featured snippet,AD-3 > AFF-2,list snippet
+chargeback עמלה,articles-clearing,informational,tofu,low,low,/articles/hidden-clearing-costs,article,PAA,AD-3 > AFF-2,jargon
+חשבון בנק לעסק,business-banking,commercial,moz,high,high,/best/best-business-bank-startups,best,"featured snippet, PAA",AFF-1 > LEAD-2,head term
+בנק לעסקים,business-banking,commercial,moz,med,med,/category/business-banking,category hub,PAA,AFF-1 > AFF-2 > AD-3,head term
+פתיחת חשבון בנק לעסק,business-banking,commercial,bofu,med,med,/guides/setup/business-bank-account,guide,featured snippet,AD-3 > LEAD-2,how-to
+עמלות בנק לעסק,business-banking,commercial,moz,med,med,/articles/business-bank-fees,article,"featured snippet, PAA",AD-3 > AFF-2,explainer
+איך מקטינים עמלות בנק,business-banking,informational,tofu,med,low,/guides/banking/reduce-bank-fees,guide,featured snippet,AD-3 > LEAD-2,how-to
+בנק הפועלים עסקים,business-banking,navigational,moz,med,med,/reviews/bank-hapoalim,review,sitelinks,AFF-1,brand
+בנק לאומי עסקים,business-banking,navigational,moz,med,med,/reviews/bank-leumi,review,sitelinks,AFF-1,brand
+כרטיס אשראי עסקי,business-cards,commercial,moz,med,med,/guides/banking/business-credit-card-guide,guide,"featured snippet, PAA",AD-3 > LEAD-2,head term
+כרטיס אשראי לעצמאי,business-cards,commercial,moz,low,low,/guides/banking/business-credit-card-guide,guide,PAA,AD-3 > LEAD-2,segment
+קאשבק כרטיס עסקי,business-cards,informational,tofu,low,low,/articles/business-credit-card-cashback,article,featured snippet,AD-3 > AFF-2,explainer
+crm לעסק קטן,crm,commercial,moz,med,med,/best/best-crm-small-business,best,"featured snippet, PAA",AFF-1 > LEAD-2,head term
+מערכת crm,crm,commercial,moz,high,high,/category/crm,category hub,"sitelinks, PAA",AFF-1 > AFF-2 > AD-3,head term
+monday crm,crm,navigational,moz,med,med,/reviews/monday,review,sitelinks,AFF-1,brand
+monday או fireberry,crm,commercial,moz,low,low,/compare/monday-vs-fireberry,compare,PAA,AFF-1 > AFF-2,A-vs-B
+fireberry,crm,navigational,moz,low,low,/reviews/fireberry,review,sitelinks,AFF-1,brand
+zoho crm מחיר,crm,commercial,bofu,low,low,/reviews/zoho,review,price snippet,AFF-1,brand + price
+zoho או pipedrive,crm,commercial,moz,low,low,/compare/zoho-vs-pipedrive,compare,PAA,AFF-1 > AFF-2,A-vs-B
+pipedrive,crm,navigational,moz,med,med,/reviews/pipedrive,review,sitelinks,AFF-1,brand
+salesforce ישראל,crm,navigational,moz,low,low,/reviews/salesforce,review,sitelinks,AFF-1,brand
+hubspot מחיר,crm,commercial,bofu,low,low,/reviews/hubspot,review,price snippet,AFF-1,brand + price
+תוכנת הנהלת חשבונות,accounting,commercial,moz,high,high,/best/best-accounting-software,best,"featured snippet, PAA",AFF-1 > LEAD-2,head term
+תוכנה להנהלת חשבונות לעסק,accounting,commercial,moz,med,med,/guides/tools/choose-accounting-software,guide,PAA,AD-3 > LEAD-2,how-to choose
+רואה חשבון לעצמאי,accounting,commercial,bofu,high,high,/lead/accountant,lead page,"PAA, local pack",LEAD-1,lead term
+איך בוחרים רואה חשבון,accounting,informational,tofu,med,low,/guides/tax/choose-accountant,guide,featured snippet,AD-3 > LEAD-2,how-to
+מחיר רואה חשבון לעוסק פטור,accounting,commercial,bofu,med,med,/lead/accountant,lead page,PAA,LEAD-1,lead term
+יועץ מס לעצמאי,accounting,commercial,bofu,med,med,/lead/accountant,lead page,local pack,LEAD-1,lead term
+תוכנת שכר,payroll,commercial,moz,med,med,/best/best-payroll-software,best,featured snippet,AFF-1 > LEAD-2,head term
+hilan,payroll,navigational,moz,low,low,/reviews/hilan,review,sitelinks,AFF-1,brand
+חילן שכר,payroll,navigational,moz,low,low,/reviews/hilan,review,sitelinks,AFF-1,brand HE
+מיכפל,payroll,navigational,moz,low,low,/reviews/michpal,review,sitelinks,AFF-1,brand
+הפצת תלושי שכר,payroll,commercial,moz,low,low,/reviews/payslips,review,PAA,AFF-1,product
+פנסיה לעצמאים,pension,informational,tofu,high,high,/guides/pension/pension-for-self-employed,guide (regulated),"featured snippet, PAA",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated — educational
+חובת פנסיה לעצמאי,pension,informational,tofu,med,low,/articles/pension-for-self-employed-facts,article,featured snippet,LEAD-1 (licensed only) — no affiliate on regulated pages,regulated
+קרן השתלמות,keren-hishtalmut,informational,tofu,high,high,/articles/keren-hishtalmut-how-it-works,article,"featured snippet, PAA",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated
+קרן השתלמות לעצמאי,keren-hishtalmut,informational,moz,med,med,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),featured snippet,LEAD-1 (licensed only) — no affiliate on regulated pages,regulated
+תקרת קרן השתלמות,kh-calc,informational,bofu,med,low,/calculators/keren-hishtalmut,calculator (regulated),"calculator, PAA",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated calculator
+הפקדה לקרן השתלמות,keren-hishtalmut,informational,tofu,med,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),featured snippet,LEAD-1 (licensed only) — no affiliate on regulated pages,regulated
+דמי ניהול פנסיה,pension,informational,moz,med,low,/articles/management-fees-pension-hishtalmut-30-years,article,PAA,LEAD-1 (licensed only) — no affiliate on regulated pages,regulated — no ranking by return
+קרן פנסיה או ביטוח מנהלים,pension,informational,moz,med,med,/compare/pension-vs-management-insurance,compare,PAA,LEAD-1 (licensed only) — no affiliate on regulated pages,regulated compare
+מחשבון פנסיה לעצמאי,pension-calc,transactional,bofu,med,low,/calculators/pension-self-employed,calculator (regulated),calculator,LEAD-1 (licensed only) — no affiliate on regulated pages,regulated calculator
+פתיחת תיק עוסק פטור,self-employed-setup,informational,tofu,high,high,/guides/setup/open-osek-patur,guide,"featured snippet, PAA, video",AD-3 > LEAD-2,how-to head
+עוסק פטור או עוסק מורשה,tax,commercial,moz,high,high,/compare/osek-patur-vs-osek-murshe,compare,"featured snippet, PAA",AFF-1 > AFF-2,A-vs-B head
+תקרת עוסק פטור,tax,informational,tofu,high,med,/articles/osek-patur-ceiling-over-years,article,"featured snippet, PAA",AD-3 > AFF-2,data head term
+פתיחת עוסק מורשה,self-employed-setup,informational,tofu,med,med,/guides/setup/open-osek-murshe,guide,featured snippet,AD-3 > LEAD-2,how-to
+פתיחת חברה בע״מ,self-employed-setup,informational,tofu,med,med,/guides/setup/open-company-ltd,guide,"featured snippet, PAA",AD-3 > LEAD-2,how-to
+עוסק מורשה או חברה בע״מ,tax,commercial,moz,med,low,/articles/osek-murshe-vs-company-ltd,article,PAA,AD-3 > AFF-2,A-vs-B
+שכיר או עצמאי,tax,commercial,moz,high,high,/compare/employee-vs-freelancer,compare,"featured snippet, PAA",AFF-1 > AFF-2,A-vs-B head
+שכיר או עצמאי מחשבון,net-self,transactional,bofu,med,low,/calculators/employee-vs-freelancer-calculator,calculator,calculator,CALC-RESULT-CTA,calculator intent
+כמה עולה להקים עסק,self-employed-setup,informational,tofu,med,low,/guides/setup/business-setup-cost,guide,featured snippet,AD-3 > LEAD-2,cost article
+מע״מ לעצמאים,tax,informational,tofu,high,med,/guides/tax/vat-for-self-employed,guide,"featured snippet, PAA",AD-3 > LEAD-2,guide head
+מקדמות מס הכנסה,tax,informational,tofu,high,med,/articles/income-tax-advance-payments,article,"featured snippet, PAA",AD-3 > AFF-2,data head
+דוח שנתי לעצמאי,tax,informational,tofu,high,med,/guides/tax/annual-tax-report-self-employed,guide,"featured snippet, PAA",AD-3 > LEAD-2,how-to
+הוצאות מוכרות לעצמאי,tax,informational,tofu,med,low,/articles/recognized-expenses-self-employed,article,"featured snippet, list",AD-3 > AFF-2,list snippet
+מדרגות מס הכנסה,articles-tax,informational,tofu,high,high,/articles/income-tax-brackets-decade,article,"featured snippet, table",AD-3 > AFF-2,data head
+מדרגות מס הכנסה 2026,articles-tax,informational,tofu,med,med,/articles/income-tax-brackets-decades,article,"table snippet, PAA",AD-3 > AFF-2,year-modified (cannibal resolved → decade article)
+נקודות זיכוי,articles-tax,informational,tofu,med,med,/articles/income-tax-brackets-decade,article,"featured snippet, table",AD-3 > AFF-2,statutory term → decade article
+ביטוח לאומי לעצמאים,articles-ni,informational,tofu,high,med,/articles/national-insurance-self-employed,article,"featured snippet, PAA",AD-3 > AFF-2,data head
+מס יסף,articles-tax,informational,tofu,low,low,/articles/income-tax-brackets-decade,article,featured snippet,AD-3 > AFF-2,statutory term
+"תשלומי ביט, פייבוקס לעסק",ecommerce,informational,tofu,low,low,/articles/digital-payments-israel-bit-paybox,article,PAA,AD-3 > AFF-2,payments explainer
+מכירה ללקוחות בחו״ל מע״מ,tax,informational,tofu,low,low,/articles/selling-to-foreign-customers-vat-export,article,featured snippet,AD-3 > AFF-2,export VAT
+הקמת סליקה לחנות אונליין,ecommerce,informational,moz,med,low,/guides/ecommerce/ecommerce-payments-setup,guide,featured snippet,AD-3 > LEAD-2,how-to
+יסודות מכירה אונליין,ecommerce,informational,tofu,med,low,/guides/ecommerce/selling-online-basics,guide,featured snippet,AD-3 > LEAD-2,how-to
+מחשבון נטו לעצמאי,net-self,transactional,bofu,high,high,/calculators/atzmai-net,calculator,"calculator, featured snippet",CALC-RESULT-CTA,head calculator
+מחשבון מס הכנסה,net-self,transactional,bofu,high,high,/calculators/atzmai-net,calculator,calculator,CALC-RESULT-CTA,calculator head
+מחשבון מע״מ,vat-calc,transactional,bofu,high,high,/calculators/vat,calculator,"calculator, featured snippet",CALC-RESULT-CTA,head calculator
+מחשבון שכר נטו,salary-calc,transactional,bofu,high,high,/calculators/salary-net,calculator,calculator,CALC-RESULT-CTA,head calculator
+מחשבון ברוטו נטו,salary-calc,transactional,bofu,med,med,/calculators/salary-net,calculator,calculator,CALC-RESULT-CTA,variant
+מחשבון עמלות סליקה,clearing-calc,transactional,bofu,med,med,/calculators/clearing-fees,calculator,calculator,CALC-RESULT-CTA,calculator head
+מחשבון עלות תוכנת חשבוניות,invoicing-calc,transactional,bofu,low,low,/calculators/invoicing-cost,calculator,calculator,CALC-RESULT-CTA,calculator
+מחשבון קרן השתלמות,kh-calc,transactional,bofu,med,low,/calculators/keren-hishtalmut,calculator (regulated),calculator,LEAD-1 (licensed only) — no affiliate on regulated pages,regulated calculator
+מחשבון פיצויים,sev-calc,transactional,bofu,med,med,/calculators/severance,calculator,calculator,CALC-RESULT-CTA,calculator
+מחשבון דמי אבטלה,unemployment-calc,transactional,bofu,med,med,/calculators/unemployment,calculator,calculator,CALC-RESULT-CTA,calculator
+מחשבון תקרת עוסק פטור,net-self,transactional,bofu,low,low,/calculators/osek-patur-threshold,calculator,calculator,CALC-RESULT-CTA,calculator
+מחשבון ריבית דריבית,tools,transactional,bofu,med,med,/calculators/compound-interest-mortgage,calculator,"calculator, PAA",CALC-RESULT-CTA,calculator
+מחשבון משכנתא,tools,transactional,bofu,high,high,/calculators/compound-interest-mortgage,calculator,calculator,CALC-RESULT-CTA,calculator
+מחשבון תעריף שעתי לפרילנסר,tools,transactional,bofu,low,low,/tools/freelancer-hourly-rate,tool,calculator,CALC-RESULT-CTA,viral tool
+מפענח תלוש שכר,tools,transactional,bofu,low,low,/tools/payslip-decoder,tool,"calculator, PAA",CALC-RESULT-CTA,viral tool
+לוח שנה פיננסי לעצמאים,tools,informational,tofu,low,low,/tools/tax-calendar,tool,PAA,CALC-RESULT-CTA,tool
+מחשבון החזר מס,tools,transactional,bofu,high,med,/tools/tax-refund-estimator,tool,"calculator, PAA",CALC-RESULT-CTA,lead-friendly tool
+עמלות הסליקה,clearing,informational,tofu,med,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,definite article variant
+עמלות סליקה לעסק,clearing,commercial,tofu,med,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,segment
+לעמלות סליקה,clearing,informational,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,prefix ל
+בחשבונית ירוקה,invoicing,informational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,prefix ב
+החשבונית הירוקה,invoicing,informational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,definite+construct
+חשבוניות ירוקות,invoicing,informational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,plural
+קרנות השתלמות,keren-hishtalmut,informational,tofu,med,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,plural
+לקרן השתלמות,keren-hishtalmut,informational,tofu,low,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,prefix ל
+הקרן השתלמות,keren-hishtalmut,informational,tofu,low,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,definite
+מס ההכנסה,articles-tax,informational,tofu,med,low,/articles/income-tax-brackets-decade,article,"PAA, featured snippet",AD-3 > AFF-2,definite spelling variant
+מס הכנסה 2026,articles-tax,informational,tofu,med,low,/articles/income-tax-brackets-decade,article,"PAA, featured snippet",AD-3 > AFF-2,year-modified
+נקודת זיכוי,articles-tax,informational,tofu,low,low,/articles/income-tax-brackets-decade,article,"PAA, featured snippet",AD-3 > AFF-2,singular of נקודות זיכוי
+מדרגת מס,articles-tax,informational,tofu,low,low,/articles/income-tax-brackets-decade,article,"PAA, featured snippet",AD-3 > AFF-2,singular
+תקרת העוסק הפטור,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,definite
+לעוסק פטור,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,prefix ל
+עוסק פטור ומע״מ,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,combined
+דמי הניהול בפנסיה,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,definite
+הפקדות לפנסיה לעצמאי,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,plural
+חשבון הבנק לעסק,business-banking,informational,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,definite
+עמלות הבנק,business-banking,informational,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,definite
+כרטיסים עסקיים,business-cards,informational,tofu,low,low,/guides/banking/business-credit-card-guide,guide,"PAA, featured snippet",AD-3 > LEAD-2,plural
+סליקת האשראי,clearing,informational,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,definite construct
+חשבונית ירוקה מחירים,invoicing,informational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,plural price
+חשבונית ירוקה ביקורת,invoicing,commercial,tofu,low,low,/reviews/green-invoice,review,"PAA, featured snippet",AFF-1,review intent
+מחירון חשבונית ירוקה,invoicing,informational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,price list
+חשבונית ירוקה חינם,invoicing,informational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,free-plan intent
+תוכנה חינם לחשבוניות,invoicing,informational,tofu,med,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,free intent
+חשבוניות חינם לעסק,invoicing,informational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,free intent
+הנהלת חשבונות לעצמאי,accounting,commercial,tofu,med,low,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,segment
+הנהלת חשבונות אונליין,accounting,commercial,tofu,med,low,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,cloud
+תוכנת הנהלת חשבונות חינם,accounting,informational,tofu,low,low,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,free intent
+רו״ח לעצמאי,accounting,commercial,tofu,med,low,/lead/accountant,lead page,"PAA, featured snippet",LEAD-1,abbreviation (רו״ח)
+"רו""ח לעצמאי",accounting,informational,tofu,low,low,/lead/accountant,lead page,"PAA, featured snippet",LEAD-1,ASCII-quote misspelling
+רואה חשבון מומלץ,accounting,informational,tofu,med,low,/lead/accountant,lead page,"PAA, featured snippet",LEAD-1,lead intent
+"מע""מ 2026",vat-calc,informational,tofu,med,low,/calculators/vat,calculator,"PAA, featured snippet",CALC-RESULT-CTA,ASCII-quote misspelling of מע״מ
+"מע""מ 18",vat-calc,informational,tofu,low,low,/calculators/vat,calculator,"PAA, featured snippet",CALC-RESULT-CTA,rate-modified
+"חישוב מע""מ",vat-calc,transactional,tofu,med,low,/calculators/vat,calculator,"PAA, featured snippet",CALC-RESULT-CTA,ASCII-quote misspelling
+חישוב מע״מ הפוך,vat-calc,informational,tofu,low,low,/calculators/vat,calculator,"PAA, featured snippet",CALC-RESULT-CTA,reverse calc
+פיצול מע״מ,vat-calc,informational,tofu,low,low,/calculators/vat,calculator,"PAA, featured snippet",CALC-RESULT-CTA,split
+מע״מ תשומות ותפוקות,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,jargon
+ביטוח לאומי עצמאי 2026,articles-ni,informational,tofu,med,low,/articles/national-insurance-self-employed,article,"PAA, featured snippet",AD-3 > AFF-2,year-modified
+שיעור ביטוח לאומי לעצמאי,articles-ni,informational,tofu,low,low,/articles/national-insurance-self-employed,article,"PAA, featured snippet",AD-3 > AFF-2,rate
+מדרגות ביטוח לאומי,articles-ni,informational,tofu,low,low,/articles/national-insurance-self-employed,article,"PAA, featured snippet",AD-3 > AFF-2,brackets
+מס בריאות לעצמאי,articles-ni,informational,tofu,low,low,/articles/national-insurance-self-employed,article,"PAA, featured snippet",AD-3 > AFF-2,health tax
+מס הכנסה לעצמאי,net-self,transactional,tofu,med,low,/calculators/atzmai-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,calculator intent
+נטו מעצמאי,net-self,informational,tofu,low,low,/calculators/atzmai-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,colloquial
+כמה נטו מקבל עצמאי,net-self,informational,tofu,med,low,/calculators/atzmai-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,question form
+שכר נטו 12000,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic-eligible
+שכר נטו 15000,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic-eligible
+ברוטו לנטו,salary-calc,informational,tofu,med,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,core query
+מחשבון מס הכנסה 2026,net-self,informational,tofu,med,low,/calculators/atzmai-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,year-modified
+דמי אבטלה לעצמאי,unemployment-calc,informational,tofu,med,low,/calculators/unemployment,calculator,"PAA, featured snippet",CALC-RESULT-CTA,segment
+זכאות לדמי אבטלה,unemployment-calc,informational,tofu,med,low,/calculators/unemployment,calculator,"PAA, featured snippet",CALC-RESULT-CTA,eligibility
+פיצויי פיטורים פטורים ממס,sev-calc,informational,tofu,low,low,/calculators/severance,calculator,"PAA, featured snippet",CALC-RESULT-CTA,tax angle
+מחשבון פיצויים ותקרות,sev-calc,informational,tofu,low,low,/calculators/severance,calculator,"PAA, featured snippet",CALC-RESULT-CTA,variant
+green invoice מחיר,invoicing,commercial,tofu,low,low,/reviews/green-invoice,review,"PAA, featured snippet",AFF-1,English brand + price
+morning מחיר,invoicing,informational,tofu,low,low,/reviews/green-invoice,review,"PAA, featured snippet",AFF-1,English brand
+icount login,invoicing,navigational,tofu,low,low,/reviews/icount,review,"PAA, featured snippet",AFF-1,navigational
+icount אונליין,invoicing,informational,tofu,low,low,/reviews/icount,review,"PAA, featured snippet",AFF-1,variant
+rivhit אונליין,invoicing,informational,tofu,low,low,/reviews/rivhit,review,"PAA, featured snippet",AFF-1,variant
+meshulam סליקה,clearing,commercial,tofu,low,low,/reviews/grow,review,"PAA, featured snippet",AFF-1,legacy brand
+grow business,clearing,navigational,tofu,low,low,/reviews/grow,review,"PAA, featured snippet",AFF-1,English brand
+payplus סליקה,clearing,informational,tofu,low,low,/reviews/payplus,review,"PAA, featured snippet",AFF-1,brand + category
+tranzila עמלות,clearing,commercial,tofu,low,low,/reviews/tranzila,review,"PAA, featured snippet",AFF-1,brand + fees
+cardcom עמלות,clearing,commercial,tofu,low,low,/reviews/cardcom,review,"PAA, featured snippet",AFF-1,brand + fees
+pelecard סליקה,clearing,informational,tofu,low,low,/reviews/pelecard,review,"PAA, featured snippet",AFF-1,brand + category
+stripe israel עסק,clearing,informational,tofu,low,low,/reviews/stripe,review,"PAA, featured snippet",AFF-1,brand + segment
+paypal עמלות עסקי,clearing,commercial,tofu,low,low,/reviews/paypal,review,"PAA, featured snippet",AFF-1,brand + fees
+monday.com crm,crm,navigational,tofu,med,low,/reviews/monday,review,"PAA, featured snippet",AFF-1,brand with domain
+monday.com מחיר,crm,commercial,tofu,low,low,/reviews/monday,review,"PAA, featured snippet",AFF-1,brand + price
+fireberry crm מחיר,crm,commercial,tofu,low,low,/reviews/fireberry,review,"PAA, featured snippet",AFF-1,brand + price
+zoho crm israel,crm,informational,tofu,low,low,/reviews/zoho,review,"PAA, featured snippet",AFF-1,brand + geo
+pipedrive israel,crm,informational,tofu,low,low,/reviews/pipedrive,review,"PAA, featured snippet",AFF-1,brand + geo
+salesforce starter suite,crm,commercial,tofu,low,low,/reviews/salesforce,review,"PAA, featured snippet",AFF-1,plan name
+hubspot free,crm,informational,tofu,low,low,/reviews/hubspot,review,"PAA, featured snippet",AFF-1,free plan
+hilan payslip,payroll,informational,tofu,low,low,/reviews/hilan,review,"PAA, featured snippet",AFF-1,brand + product
+michpal שכר,payroll,informational,tofu,low,low,/reviews/michpal,review,"PAA, featured snippet",AFF-1,brand + category
+payslips תלושים,payroll,informational,tofu,low,low,/reviews/payslips,review,"PAA, featured snippet",AFF-1,brand + product
+חשבונית ירוקה או ריווחית,invoicing-compare,commercial,tofu,low,low,/compare/rivhit-vs-green-invoice,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B (301)
+חשבונית ירוקה או icount,invoicing-compare,commercial,tofu,low,low,/compare/icount-vs-green-invoice,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B
+tranzila או cardcom,clearing-compare,commercial,tofu,low,low,/compare/cardcom-vs-tranzila,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B (301)
+משולם או פייפלוס,clearing-compare,commercial,tofu,low,low,/compare/payplus-vs-grow,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B
+מקס או ישראכרט,clearing-compare,commercial,tofu,low,low,/compare/isracard-vs-max,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B
+fireberry או monday,crm,commercial,tofu,low,low,/compare/monday-vs-fireberry,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B
+pipedrive או zoho,crm,commercial,tofu,low,low,/compare/zoho-vs-pipedrive,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B
+עוסק מורשה או עוסק פטור,tax,informational,tofu,low,low,/compare/osek-patur-vs-osek-murshe,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B
+עצמאי או שכיר,tax,informational,tofu,med,low,/compare/employee-vs-freelancer,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B
+ביטוח מנהלים או קרן פנסיה,pension,informational,tofu,low,low,/compare/pension-vs-management-insurance,compare,"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,reverse-order A-vs-B (regulated)
+paypal או grow,clearing-compare,informational,tofu,low,low,/compare/grow-vs-paypal,compare,"PAA, featured snippet",AFF-1 > AFF-2,reverse-order A-vs-B
+איך פותחים עוסק פטור,self-employed-setup,informational,tofu,med,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,how-to question
+מהי תקרת עוסק פטור,tax,informational,tofu,med,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,question
+מה זה מספר הקצאה,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,question
+איך משלמים מע״מ,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,question
+מתי משלמים מקדמות מס,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,question
+מה זה רואה חשבון,accounting,informational,tofu,low,low,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,question
+איך בוחרים חברת סליקה,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,question/how-to
+מה זו עמלת סליקה,articles-clearing,informational,tofu,low,low,/articles/how-clearing-fee-works,article,"PAA, featured snippet",AD-3 > AFF-2,question
+כמה עולה פתיחת עסק,self-employed-setup,informational,tofu,med,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,question
+האם עוסק פטור צריך רואה חשבון,accounting,informational,tofu,low,low,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,question
+איך מגישים דוח שנתי,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,question
+מה זה קרן השתלמות,keren-hishtalmut,informational,tofu,med,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,question (regulated)
+למי מתאים ביטוח מנהלים,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,question (regulated)
+איך מתמחרים פרילנסר,tools,informational,tofu,low,low,/tools/freelancer-hourly-rate,tool,"PAA, featured snippet",CALC-RESULT-CTA,question
+כמה לגבות בשעה כפרילנסר,tools,informational,tofu,low,low,/tools/freelancer-hourly-rate,tool,"PAA, featured snippet",CALC-RESULT-CTA,question
+איך קוראים תלוש שכר,tools,informational,tofu,med,low,/tools/freelancer-hourly-rate,tool,"PAA, featured snippet",CALC-RESULT-CTA,question
+מה זה נקודות זיכוי,articles-tax,informational,tofu,med,low,/articles/income-tax-brackets-decade,article,"PAA, featured snippet",AD-3 > AFF-2,question
+מה זה מס יסף,articles-tax,informational,tofu,low,low,/articles/income-tax-brackets-decade,article,"PAA, featured snippet",AD-3 > AFF-2,question
+האם כדאי לעבור לעוסק מורשה,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,decision question
+עוסק פטור עד כמה הכנסה,tax,informational,tofu,med,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,question
+כמה מע״מ משלמים,vat-calc,informational,tofu,low,low,/calculators/vat,calculator,"PAA, featured snippet",CALC-RESULT-CTA,question
+סליקה עם מסופון,clearing,transactional,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,product discovery
+סליקה בלי עמלה חודשית,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,feature-led
+סליקה בזיכוי מיידי,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,feature-led
+חיבור סליקה לשופיפיי,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,integration
+חיבור סליקה לוויקומרס,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,integration
+api לחשבוניות,invoicing,commercial,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,feature-led
+חשבוניות עם api,invoicing,commercial,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,feature-led
+תוכנת חשבוניות עם מלאי,invoicing,commercial,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,feature-led
+crm בעברית,crm,commercial,tofu,low,low,/category/crm,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,feature-led
+crm עם וואטסאפ,crm,commercial,tofu,low,low,/category/crm,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,integration
+מערכת crm חינם,crm,commercial,tofu,low,low,/category/crm,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,free plan
+בנק דיגיטלי לעסק,business-banking,commercial,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,segment
+one zero עסק,business-banking,navigational,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,brand
+חשבון עסקי בלי עמלות,business-banking,commercial,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,feature-led
+שכר נטו 7000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 7000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 8000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 8000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 9000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 9000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 10000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 10000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 11000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 11000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 12000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 13000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 13000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 14000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 14000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 15000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 17000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 17000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 18000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 18000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 20000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 20000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 25000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 25000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+שכר נטו 30000,salary-calc,transactional,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+משכורת 30000 נטו,salary-calc,informational,tofu,low,low,/calculators/salary-net,calculator,"PAA, featured snippet",CALC-RESULT-CTA,programmatic salary level
+"סליקה לעסק עם מחזור 5,000 שקל",clearing-calc,commercial,tofu,low,low,/calculators/clearing-fees,calculator,"PAA, featured snippet",CALC-RESULT-CTA,turnover segment (calculator query state)
+"סליקה לעסק עם מחזור 10,000 שקל",clearing-calc,commercial,tofu,low,low,/calculators/clearing-fees,calculator,"PAA, featured snippet",CALC-RESULT-CTA,turnover segment (calculator query state)
+"סליקה לעסק עם מחזור 20,000 שקל",clearing-calc,commercial,tofu,low,low,/calculators/clearing-fees,calculator,"PAA, featured snippet",CALC-RESULT-CTA,turnover segment (calculator query state)
+"סליקה לעסק עם מחזור 50,000 שקל",clearing-calc,commercial,tofu,low,low,/calculators/clearing-fees,calculator,"PAA, featured snippet",CALC-RESULT-CTA,turnover segment (calculator query state)
+"סליקה לעסק עם מחזור 100,000 שקל",clearing-calc,commercial,tofu,low,low,/calculators/clearing-fees,calculator,"PAA, featured snippet",CALC-RESULT-CTA,turnover segment (calculator query state)
+חשבונית ירוקה לעסק קטן,invoicing,commercial,tofu,low,low,/reviews/green-invoice,review,"PAA, featured snippet",AFF-1,brand x segment
+חשבונית ירוקה לעוסק פטור,invoicing,commercial,tofu,low,low,/reviews/green-invoice,review,"PAA, featured snippet",AFF-1,brand x segment
+חשבונית ירוקה חלופות,invoicing,commercial,tofu,low,low,/reviews/green-invoice,review,"PAA, featured snippet",AFF-1,brand + alternatives
+icount לעסק קטן,invoicing,commercial,tofu,low,low,/reviews/icount,review,"PAA, featured snippet",AFF-1,brand x segment
+icount לעוסק פטור,invoicing,commercial,tofu,low,low,/reviews/icount,review,"PAA, featured snippet",AFF-1,brand x segment
+icount ביקורת,invoicing,commercial,tofu,low,low,/reviews/icount,review,"PAA, featured snippet",AFF-1,brand + review
+icount חלופות,invoicing,commercial,tofu,low,low,/reviews/icount,review,"PAA, featured snippet",AFF-1,brand + alternatives
+ריווחית לעסק קטן,invoicing,commercial,tofu,low,low,/reviews/rivhit,review,"PAA, featured snippet",AFF-1,brand x segment
+ריווחית לעוסק פטור,invoicing,commercial,tofu,low,low,/reviews/rivhit,review,"PAA, featured snippet",AFF-1,brand x segment
+ריווחית ביקורת,invoicing,commercial,tofu,low,low,/reviews/rivhit,review,"PAA, featured snippet",AFF-1,brand + review
+ריווחית חלופות,invoicing,commercial,tofu,low,low,/reviews/rivhit,review,"PAA, featured snippet",AFF-1,brand + alternatives
+חשבונית4u לעסק קטן,invoicing,commercial,tofu,low,low,/reviews/invoice4u,review,"PAA, featured snippet",AFF-1,brand x segment
+חשבונית4u לעוסק פטור,invoicing,commercial,tofu,low,low,/reviews/invoice4u,review,"PAA, featured snippet",AFF-1,brand x segment
+חשבונית4u ביקורת,invoicing,commercial,tofu,low,low,/reviews/invoice4u,review,"PAA, featured snippet",AFF-1,brand + review
+חשבונית4u חלופות,invoicing,commercial,tofu,low,low,/reviews/invoice4u,review,"PAA, featured snippet",AFF-1,brand + alternatives
+חשבשבת לעסק קטן,invoicing,commercial,tofu,low,low,/reviews/hashavshevet,review,"PAA, featured snippet",AFF-1,brand x segment
+חשבשבת לעוסק פטור,invoicing,commercial,tofu,low,low,/reviews/hashavshevet,review,"PAA, featured snippet",AFF-1,brand x segment
+חשבשבת ביקורת,invoicing,commercial,tofu,low,low,/reviews/hashavshevet,review,"PAA, featured snippet",AFF-1,brand + review
+חשבשבת חלופות,invoicing,commercial,tofu,low,low,/reviews/hashavshevet,review,"PAA, featured snippet",AFF-1,brand + alternatives
+cardcom לעסק קטן,clearing,commercial,tofu,low,low,/reviews/cardcom,review,"PAA, featured snippet",AFF-1,brand x segment
+cardcom לחנות אונליין,clearing,commercial,tofu,low,low,/reviews/cardcom,review,"PAA, featured snippet",AFF-1,brand x segment
+cardcom דמי הקמה,clearing,commercial,tofu,low,low,/reviews/cardcom,review,"PAA, featured snippet",AFF-1,brand + setup fee
+tranzila לעסק קטן,clearing,commercial,tofu,low,low,/reviews/tranzila,review,"PAA, featured snippet",AFF-1,brand x segment
+tranzila לחנות אונליין,clearing,commercial,tofu,low,low,/reviews/tranzila,review,"PAA, featured snippet",AFF-1,brand x segment
+tranzila דמי הקמה,clearing,commercial,tofu,low,low,/reviews/tranzila,review,"PAA, featured snippet",AFF-1,brand + setup fee
+payplus לעסק קטן,clearing,commercial,tofu,low,low,/reviews/payplus,review,"PAA, featured snippet",AFF-1,brand x segment
+payplus לחנות אונליין,clearing,commercial,tofu,low,low,/reviews/payplus,review,"PAA, featured snippet",AFF-1,brand x segment
+payplus דמי הקמה,clearing,commercial,tofu,low,low,/reviews/payplus,review,"PAA, featured snippet",AFF-1,brand + setup fee
+pelecard לעסק קטן,clearing,commercial,tofu,low,low,/reviews/pelecard,review,"PAA, featured snippet",AFF-1,brand x segment
+pelecard לחנות אונליין,clearing,commercial,tofu,low,low,/reviews/pelecard,review,"PAA, featured snippet",AFF-1,brand x segment
+pelecard דמי הקמה,clearing,commercial,tofu,low,low,/reviews/pelecard,review,"PAA, featured snippet",AFF-1,brand + setup fee
+grow לעסק קטן,clearing,commercial,tofu,low,low,/reviews/grow,review,"PAA, featured snippet",AFF-1,brand x segment
+grow לחנות אונליין,clearing,commercial,tofu,low,low,/reviews/grow,review,"PAA, featured snippet",AFF-1,brand x segment
+grow דמי הקמה,clearing,commercial,tofu,low,low,/reviews/grow,review,"PAA, featured snippet",AFF-1,brand + setup fee
+monday לעסק קטן,crm,commercial,tofu,low,low,/reviews/monday,review,"PAA, featured snippet",AFF-1,brand x segment
+monday מול מתחרים,crm,commercial,tofu,low,low,/reviews/monday,review,"PAA, featured snippet",AFF-1,brand + comparison
+fireberry לעסק קטן,crm,commercial,tofu,low,low,/reviews/fireberry,review,"PAA, featured snippet",AFF-1,brand x segment
+fireberry מול מתחרים,crm,commercial,tofu,low,low,/reviews/fireberry,review,"PAA, featured snippet",AFF-1,brand + comparison
+zoho לעסק קטן,crm,commercial,tofu,low,low,/reviews/zoho,review,"PAA, featured snippet",AFF-1,brand x segment
+zoho מול מתחרים,crm,commercial,tofu,low,low,/reviews/zoho,review,"PAA, featured snippet",AFF-1,brand + comparison
+pipedrive לעסק קטן,crm,commercial,tofu,low,low,/reviews/pipedrive,review,"PAA, featured snippet",AFF-1,brand x segment
+pipedrive מול מתחרים,crm,commercial,tofu,low,low,/reviews/pipedrive,review,"PAA, featured snippet",AFF-1,brand + comparison
+השוואת חשבונית ירוקה למורנינג,invoicing-compare,commercial,tofu,low,low,/compare/green-invoice-vs-morning,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+חשבונית ירוקה מול מורנינג,invoicing-compare,commercial,tofu,low,low,/compare/green-invoice-vs-morning,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+השוואת icount לחשבונית ירוקה,invoicing-compare,commercial,tofu,low,low,/compare/icount-vs-green-invoice,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+icount מול חשבונית ירוקה,invoicing-compare,commercial,tofu,low,low,/compare/icount-vs-green-invoice,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+השוואת ריווחית לחשבונית ירוקה,invoicing-compare,commercial,tofu,low,low,/compare/rivhit-vs-green-invoice,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+ריווחית מול חשבונית ירוקה,invoicing-compare,commercial,tofu,low,low,/compare/rivhit-vs-green-invoice,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+השוואת cardcom לtranzila,invoicing-compare,commercial,tofu,low,low,/compare/cardcom-vs-tranzila,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+cardcom מול tranzila,invoicing-compare,commercial,tofu,low,low,/compare/cardcom-vs-tranzila,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+השוואת payplus למשולם,invoicing-compare,commercial,tofu,low,low,/compare/payplus-vs-grow,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+payplus מול משולם,invoicing-compare,commercial,tofu,low,low,/compare/payplus-vs-grow,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+השוואת grow לpaypal,invoicing-compare,commercial,tofu,low,low,/compare/grow-vs-paypal,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+grow מול paypal,invoicing-compare,commercial,tofu,low,low,/compare/grow-vs-paypal,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+השוואת ישראכרט למקס,invoicing-compare,commercial,tofu,low,low,/compare/isracard-vs-max,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+ישראכרט מול מקס,invoicing-compare,commercial,tofu,low,low,/compare/isracard-vs-max,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+השוואת monday לfireberry,invoicing-compare,commercial,tofu,low,low,/compare/monday-vs-fireberry,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+monday מול fireberry,invoicing-compare,commercial,tofu,low,low,/compare/monday-vs-fireberry,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+השוואת zoho לpipedrive,invoicing-compare,commercial,tofu,low,low,/compare/zoho-vs-pipedrive,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+zoho מול pipedrive,invoicing-compare,commercial,tofu,low,low,/compare/zoho-vs-pipedrive,compare,"PAA, featured snippet",AFF-1 > AFF-2,explicit comparison
+חשבונית ירוקה morning,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+מורנינג חשבוניות,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+morning חשבוניות,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+greeninvoice,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+green invoice israel,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+rivhit חשבוניות,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+icount חשבונית,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+invoice4u חשבוניות,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+ezcount חשבוניות,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+hashavshevet erp,invoicing,navigational,tofu,low,low,/category/invoicing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,misspelling / brand-mashup
+clearing company israel,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,English / transliteration variant
+credit card clearing israel,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,English / transliteration variant
+payment gateway israel,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,English / transliteration variant
+payment processor israel,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,English / transliteration variant
+סולק אשראי,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,English / transliteration variant
+חברת אשראי לעסק,clearing,commercial,tofu,low,low,/category/clearing,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,English / transliteration variant
+accounting software israel,accounting,commercial,tofu,med,med,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,English-mixed head term
+invoicing software israel,accounting,commercial,tofu,med,med,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,English-mixed head term
+bookkeeping software israel,accounting,commercial,tofu,med,med,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,English-mixed head term
+payroll software israel,accounting,commercial,tofu,med,med,/best/best-accounting-software,best,"PAA, featured snippet",AFF-1 > LEAD-2,English-mixed head term
+איך פותחים עוסק פטור אונליין,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,setup long tail
+פתיחת תיק עוסק פטור אונליין,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,setup long tail
+רישום כעוסק פטור,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,setup long tail
+עוסק פטור מסמכים נדרשים,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,setup long tail
+עוסק פטור רשות המסים,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,setup long tail
+איך מחשבים מע״מ,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,VAT long tail
+מע״מ עסקאות ותשומות,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,VAT long tail
+מועדי דיווח מע״מ,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,VAT long tail
+מע״מ דו חודשי,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,VAT long tail
+מע״מ חודשי לעסק,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,VAT long tail
+מקדמות מס איך מחשבים,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,advance-payments long tail
+מקדמות מס לעצמאי,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,advance-payments long tail
+התאמת מקדמות מס,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,advance-payments long tail
+מס הכנסה מקדמות חודשיות,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,advance-payments long tail
+הוצאות מוכרות רכב,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,recognized-expenses long tail
+הוצאות מוכרות בית,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,recognized-expenses long tail
+הוצאות מוכרות טלפון,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,recognized-expenses long tail
+הוצאה מוכרת מע״מ,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,recognized-expenses long tail
+קבלות והוצאות מוכרות,tax,informational,tofu,low,low,/guides/tax/vat-for-self-employed,guide,"PAA, featured snippet",AD-3 > LEAD-2,recognized-expenses long tail
+פנסיה חובה לעצמאי,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+הפקדה מינימלית לפנסיה עצמאי,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+הטבות מס פנסיה עצמאי,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+זיכוי מס פנסיה,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+סעיף 47 פנסיה עצמאי,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+משיכת קרן השתלמות,keren-hishtalmut,informational,tofu,low,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+כלל 6 השנים קרן השתלמות,keren-hishtalmut,informational,tofu,low,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+פטור ממס קרן השתלמות,keren-hishtalmut,informational,tofu,low,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+תקרה מוטבת קרן השתלמות,keren-hishtalmut,informational,tofu,low,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+קרן השתלמות לעצמאי 2026,keren-hishtalmut,informational,tofu,low,low,/guides/pension/hishtalmut-deposit-self-employed,guide (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated long tail
+דמי ניהול קרן פנסיה,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated — route to official tools
+השוואת דמי ניהול פנסיה,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated — route to official tools
+גמל נט דמי ניהול,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated — route to official tools
+פנסיה נט בדיקה,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated — route to official tools
+דמי ניהול קרן השתלמות,pension,informational,tofu,low,low,/category/pension,category hub (regulated),"PAA, featured snippet",LEAD-1 (licensed only) — no affiliate on regulated pages,regulated — route to official tools
+עמלות בנק הפועלים עסקי,business-banking,commercial,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,bank fee long tail
+עמלות בנק לאומי עסקי,business-banking,commercial,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,bank fee long tail
+עמלות בנק דיסקונט עסקי,business-banking,commercial,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,bank fee long tail
+עמלות בנק מזרחי טפחות עסקי,business-banking,commercial,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,bank fee long tail
+מסלול עמלות מוזל לעסק,business-banking,commercial,tofu,low,low,/category/business-banking,category hub,"PAA, featured snippet",AFF-1 > AFF-2 > AD-3,bank fee long tail
+החזר מס לשכירים,tools,transactional,tofu,med,med,/tools/tax-refund-estimator,tool,"PAA, featured snippet",CALC-RESULT-CTA,refund long tail (lead-friendly)
+בדיקת החזר מס,tools,transactional,tofu,med,med,/tools/tax-refund-estimator,tool,"PAA, featured snippet",CALC-RESULT-CTA,refund long tail (lead-friendly)
+זכאות להחזר מס,tools,transactional,tofu,med,med,/tools/tax-refund-estimator,tool,"PAA, featured snippet",CALC-RESULT-CTA,refund long tail (lead-friendly)
+החזר מס 6 שנים אחורה,tools,transactional,tofu,med,med,/tools/tax-refund-estimator,tool,"PAA, featured snippet",CALC-RESULT-CTA,refund long tail (lead-friendly)
+מחשבון החזר מס 2026,tools,transactional,tofu,med,med,/tools/tax-refund-estimator,tool,"PAA, featured snippet",CALC-RESULT-CTA,refund long tail (lead-friendly)
+הוצאות פתיחת עסק,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,cost long tail
+עלויות עצמאי שנה ראשונה,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,cost long tail
+כמה עולה רואה חשבון לעסק,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,cost long tail
+עלות הקמת עוסק פטור,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,cost long tail
+עלות תוכנת חשבוניות לשנה,self-employed-setup,informational,tofu,low,low,/guides/setup/open-osek-patur,guide,"PAA, featured snippet",AD-3 > LEAD-2,cost long tail
+דמי אבטלה שכיר,unemployment-calc,informational,tofu,low,low,/calculators/unemployment,calculator,"PAA, featured snippet",CALC-RESULT-CTA,unemployment long tail
+אבטלה לעצמאי,unemployment-calc,informational,tofu,low,low,/calculators/unemployment,calculator,"PAA, featured snippet",CALC-RESULT-CTA,unemployment long tail
+תקופת אכשרה אבטלה,unemployment-calc,informational,tofu,low,low,/calculators/unemployment,calculator,"PAA, featured snippet",CALC-RESULT-CTA,unemployment long tail
+זכאות אבטלה 2026,unemployment-calc,informational,tofu,low,low,/calculators/unemployment,calculator,"PAA, featured snippet",CALC-RESULT-CTA,unemployment long tail
+כמה משלמים אבטלה,unemployment-calc,informational,tofu,low,low,/calculators/unemployment,calculator,"PAA, featured snippet",CALC-RESULT-CTA,unemployment long tail
