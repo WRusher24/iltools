@@ -1,0 +1,29 @@
+{
+  "article": "business-bank-fees",
+  "charts": [
+    {
+      "id": "bank-fee-structure",
+      "type": "table",
+      "title_he": "מבנה עמלות בחשבון עסקי — מה קיים ומה מסומן 'לא זמין'",
+      "x_label_he": "סוג עמלה",
+      "y_label_he": "ערך (לא זמין / נתון)",
+      "unit": "מעורב",
+      "series": [
+        {
+          "name_he": "מבנה עמלות חשבון עסקי",
+          "data": [
+            { "label": "דמי ניהול חודשיים", "value": null, "value_display": "לא זמין" },
+            { "label": "עמלת פעולה בדלפק", "value": null, "value_display": "לא זמין" },
+            { "label": "עמלת פעולה בערוץ ישיר", "value": null, "value_display": "לא זמין" },
+            { "label": "עמלת המרת מטבע", "value": null, "value_display": "לא זמין" },
+            { "label": "ריבית פריים — עוגן למשיכת יתר", "value": 4.75, "value_display": "4.75%" },
+            { "label": "החזר מע״מ ברבעון — מרכנתיל ביזנס קלאס (עד)", "value": 500, "value_display": "500 ₪" }
+          ]
+        }
+      ],
+      "source_ids": ["src_bank_hapoalim_fees", "src_bank_hapoalim_interest", "src_bank_mercantile_bizclass", "src_onezero_promo"],
+      "derived": true,
+      "assumptions_he": "תרשים מבנה בלבד, לא מחירון. רוב הבנקים (לאומי, הפועלים, דיסקונט, מזרחי-טפחות, הבינלאומי, יהב, אוצר החייל) מתמחרים דמי ניהול ועמלות פעולה בהצעת מחיר ואינם מפרסמים סכום — מסומן 'לא זמין'. שני נתונים כמותיים בלבד: ריבית פריים 4.75% (ספטמבר 2026, src_bank_hapoalim_interest) כעוגן לריבית משיכת יתר, והחזר מע״מ של 1% ברבעון עד 500 ₪ במסלול מרכנתיל ביזנס קלאס (src_bank_mercantile_bizclass)."
+    }
+  ]
+}

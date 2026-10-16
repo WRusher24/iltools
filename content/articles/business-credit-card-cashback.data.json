@@ -1,0 +1,36 @@
+{
+  "article": "business-credit-card-cashback",
+  "charts": [
+    {
+      "id": "cashback-example",
+      "type": "bar",
+      "title_he": "דוגמה: שווי קאשבק שנתי לפי הוצאה שנתית (בהנחות 1% ו‑2%)",
+      "x_label_he": "הוצאה שנתית בכרטיס",
+      "y_label_he": "שווי קאשבק שנתי (₪)",
+      "unit": "₪",
+      "series": [
+        {
+          "name_he": "קאשבק בדוגמה — 1%",
+          "data": [
+            { "label": "60,000 ₪", "value": 600 },
+            { "label": "120,000 ₪", "value": 1200 },
+            { "label": "240,000 ₪", "value": 2400 },
+            { "label": "480,000 ₪", "value": 4800 }
+          ]
+        },
+        {
+          "name_he": "קאשבק בדוגמה — 2%",
+          "data": [
+            { "label": "60,000 ₪", "value": 1200 },
+            { "label": "120,000 ₪", "value": 2400 },
+            { "label": "240,000 ₪", "value": 4800 },
+            { "label": "480,000 ₪", "value": 9600 }
+          ]
+        }
+      ],
+      "source_ids": ["src_card_isracard_business", "src_card_max_business", "src_card_cal_business", "src_card_diners_home"],
+      "derived": true,
+      "assumptions_he": "דוגמה מחושבת בלבד. שיעורי הקאשבק, דמי הכרטיס והנקודות של הכרטיסים העסקיים (ישראכרט Business, MAX Business, כאל עסקים, דיינרס) אינם מפורסמים בנתונים ואינם מאומתים — לכן מדגימים 1% ו-2% כהנחות שרירותיות. ההוצאה השנתית = הוצאה חודשית כפול 12. החישוב אינו כולל דמי כרטיס, תקרות החזר או קטגוריות מוחרגות, ואינו המלצה או הצעה."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "article": "cost-of-being-self-employed-first-year",
+  "charts": [
+    {
+      "id": "first-year-software-cost",
+      "type": "bar",
+      "title_he": "עלות שנתית של תוכנת חשבוניות לעצמאי/ת — מסלולי בסיס שפורסמו (2026)",
+      "x_label_he": "מערכת",
+      "y_label_he": "עלות שנתית (₪)",
+      "unit": "₪",
+      "series": [
+        {
+          "name_he": "מחיר שנתי מפורסם (לפני מע״מ)",
+          "data": [
+            { "label": "חשבונית ירוקה Basic", "value": 348 },
+            { "label": "iCount Express", "value": 276 },
+            { "label": "חשבונית4U — ורוד", "value": 252 },
+            { "label": "Hyp — גבעול", "value": 252 },
+            { "label": "ריווחית Basic", "value": 1200 }
+          ]
+        }
+      ],
+      "source_ids": ["src_inv_gi_pricing", "src_inv_icount_pricing", "src_inv_inv4u_pricing", "src_inv_hyp_pricing", "src_inv_rivhit_pricing"],
+      "derived": false,
+      "assumptions_he": "העמודות מציגות מחיר שנתי מפורסם (לפני מע״מ) של מסלול בסיס בכל מערכת, לפי המידע שפורסם באתרי הספקים ב-16.10.2026. חשבונית ירוקה (מורנינג) Basic — 348 ₪ בשנה; iCount Express — 276 ₪ בשנה; חשבונית4U המסלול הוורוד — 252 ₪ בשנה; Hyp (לשעבר EZcount) מסלול גבעול — 252 ₪ בשנה; ריווחית Basic — 1,200 ₪ בשנה (מחיר מבצע 12 במחיר 10). אין מדובר בהשוואת תכונות, בקביעת התאמה או בהמלצה."
+    }
+  ]
+}

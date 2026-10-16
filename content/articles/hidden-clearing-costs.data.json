@@ -1,0 +1,30 @@
+{
+  "article": "hidden-clearing-costs",
+  "charts": [
+    {
+      "id": "hidden-clearing-costs",
+      "type": "table",
+      "title_he": "עלויות נלוות בסליקה — לפי תעריפים שפורסמו (2026)",
+      "x_label_he": "עלות נלווית",
+      "y_label_he": "סכום (₪)",
+      "unit": "₪",
+      "series": [
+        {
+          "name_he": "סכומים שפורסמו (לפני מע״מ)",
+          "data": [
+            { "label": "מינימום לעסקה — Grow", "value": 0.5 },
+            { "label": "העברה בנקאית נכנסת — Grow", "value": 1 },
+            { "label": "3DS לפעולה — Grow", "value": 2.5 },
+            { "label": "זיכוי עסקה — Grow", "value": 6.9 },
+            { "label": "מחלוקת — PayPal (רגיל)", "value": 30 },
+            { "label": "החזר חיוב (Chargeback) — Grow", "value": 55 },
+            { "label": "מחלוקת — PayPal (נפח גבוה)", "value": 60 }
+          ]
+        }
+      ],
+      "source_ids": ["src_clr_grow_fees", "src_clr_paypal_fees"],
+      "derived": false,
+      "assumptions_he": "הטבלה מציגה עמלות נלוות שפורסמו באתרי הספקים ב-16.10.2026. Grow (src_clr_grow_fees): מינימום 0.5 ₪ לעסקה, העברה בנקאית נכנסת 1 ₪, 3DS 2.5 ₪ לפעולה, זיכוי עסקה 6.9 ₪, החזר חיוב (Chargeback) 55 ₪. PayPal (src_clr_paypal_fees): עמלת מחלוקת/סירוב 30 ₪ (רגיל) או 60 ₪ (נפח גבוה). כל הסכומים לפני מע״מ ואינם כוללים עמלות דומות אצל ספקים אחרים, שאינם מפרסמים תעריפון."
+    }
+  ]
+}
