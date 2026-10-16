@@ -1,0 +1,92 @@
+{
+  "host_level": [
+    "http → https",
+    "www.il-tools.co.il → il-tools.co.il (apex canonical)"
+  ],
+  "rules": [
+    {
+      "source": "/compare/green-invoice-vs-icount",
+      "destination": "/compare/icount-vs-green-invoice",
+      "permanent": true,
+      "reason": "A-vs-B canonical order (forward convention); committed slug is authoritative"
+    },
+    {
+      "source": "/compare/fireberry-vs-monday",
+      "destination": "/compare/monday-vs-fireberry",
+      "permanent": true,
+      "reason": "A-vs-B canonical order (forward convention); committed slug is authoritative"
+    },
+    {
+      "source": "/compare/osek-murshe-vs-osek-patur",
+      "destination": "/compare/osek-patur-vs-osek-murshe",
+      "permanent": true,
+      "reason": "A-vs-B canonical order (forward convention); committed slug is authoritative"
+    },
+    {
+      "source": "/compare/grow-vs-payplus",
+      "destination": "/compare/payplus-vs-grow",
+      "permanent": true,
+      "reason": "A-vs-B canonical order (forward convention); committed slug is authoritative"
+    },
+    {
+      "source": "/compare/management-insurance-vs-pension",
+      "destination": "/compare/pension-vs-management-insurance",
+      "permanent": true,
+      "reason": "A-vs-B canonical order (forward convention); committed slug is authoritative"
+    },
+    {
+      "source": "/compare/green-invoice-vs-rivhit",
+      "destination": "/compare/rivhit-vs-green-invoice",
+      "permanent": true,
+      "reason": "A-vs-B canonical order (forward convention); committed slug is authoritative"
+    },
+    {
+      "source": "/compare/pipedrive-vs-zoho",
+      "destination": "/compare/zoho-vs-pipedrive",
+      "permanent": true,
+      "reason": "A-vs-B canonical order (forward convention); committed slug is authoritative"
+    },
+    {
+      "source": "/categories/:slug",
+      "destination": "/category/:slug",
+      "permanent": true,
+      "reason": "route is /category/ though folder is content/categories/"
+    },
+    {
+      "source": "/tax-year/current",
+      "destination": "/tax-year/2026",
+      "permanent": false,
+      "reason": "evergreen current-year alias (302 while year rolls)"
+    },
+    {
+      "source": "/calculators/employee-vs-freelancer",
+      "destination": "/calculators/employee-vs-freelancer-calculator",
+      "permanent": true,
+      "reason": "disambiguated slug"
+    },
+    {
+      "source": "/guides/tax/income-tax-advance-payments",
+      "destination": "/guides/tax/advance-payments-self-employed",
+      "permanent": true,
+      "reason": "disambiguated slug (guide vs article)"
+    },
+    {
+      "source": "/tools/business-setup-cost",
+      "destination": "/tools/business-setup-cost-calculator",
+      "permanent": true,
+      "reason": "disambiguated slug (tool vs guide)"
+    },
+    {
+      "source": "/:path*/",
+      "destination": "/:path*",
+      "permanent": true,
+      "reason": "no trailing slashes; canonicalise to slash-less URL"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true,
+      "reason": "legacy index"
+    }
+  ]
+}

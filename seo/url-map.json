@@ -1,0 +1,2870 @@
+{
+  "$schema": "https://il-tools.co.il/schemas/url-map.json",
+  "generated_for": "Agent 6 (build)",
+  "domain": "https://il-tools.co.il",
+  "locale": {
+    "lang": "he",
+    "dir": "rtl",
+    "hreflang": "he-IL"
+  },
+  "title_template": "{title} | IL-Tools (brand suffix appended by template when it keeps the <title> <= 60 chars)",
+  "og_image_route": "/api/og?type={type}&slug={slug}",
+  "pages": [
+    {
+      "slug": "accounting-document-types",
+      "path": "/articles/accounting-document-types",
+      "url": "https://il-tools.co.il/articles/accounting-document-types",
+      "type": "article",
+      "category": "accounting",
+      "title": "סוגי מסמכים חשבונאיים: מתי משתמשים בכל אחד",
+      "description": "מה ההבדל בין חשבונית מס, קבלה, חשבונית מס/קבלה וחשבונית זיכוי, ומתי מנפיקים כל מסמך — עם דוגמה מחושבת.",
+      "primary_keyword": "סוגי מסמכים חשבונאיים",
+      "canonical": "/articles/accounting-document-types",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "סוגי מסמכים חשבונאיים: מתי משתמשים בכל אחד | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=accounting-document-types"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "business-bank-fees",
+      "path": "/articles/business-bank-fees",
+      "url": "https://il-tools.co.il/articles/business-bank-fees",
+      "type": "article",
+      "category": "business-banking",
+      "title": "עמלות בנק לעסק: אילו קיימות ואיך מתמקחים",
+      "description": "אילו עמלות נגבות בחשבון עסקי, למה רוב הבנקים מתמחרים בהצעת מחיר בלבד, ואיך לבקש הצעה שאפשר להשוות באמת.",
+      "primary_keyword": "עמלות בנק לעסק",
+      "canonical": "/articles/business-bank-fees",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "עמלות בנק לעסק: אילו קיימות ואיך מתמקחים | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=business-bank-fees"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "business-credit-card-cashback",
+      "path": "/articles/business-credit-card-cashback",
+      "url": "https://il-tools.co.il/articles/business-credit-card-cashback",
+      "type": "article",
+      "category": "business-banking",
+      "title": "כרטיס אשראי עסקי: מתי הקאשבק משתלם",
+      "description": "איך עובד קאשבק בכרטיס אשראי עסקי, מה ידוע על הכרטיסים ומה לא, ואיך מחשבים את שווי ההחזר לפי הוצאה — עם דוגמאות והנחות.",
+      "primary_keyword": "כרטיס אשראי עסקי קאשבק",
+      "canonical": "/articles/business-credit-card-cashback",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "כרטיס אשראי עסקי: מתי הקאשבק משתלם | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=business-credit-card-cashback"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "clearing-fees-by-turnover",
+      "path": "/articles/clearing-fees-by-turnover",
+      "url": "https://il-tools.co.il/articles/clearing-fees-by-turnover",
+      "type": "article",
+      "category": "clearing",
+      "title": "עמלות סליקה לפי רמת מחזור: דוגמאות מחושבות",
+      "description": "איך משתנה עלות הסליקה לפי המחזור, מה פורסם ומה בהצעת מחיר בלבד, ודוגמה מחושבת לעלות חודשית בשלוש רמות מחזור.",
+      "primary_keyword": "עמלות סליקה לפי מחזור",
+      "canonical": "/articles/clearing-fees-by-turnover",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "עמלות סליקה לפי רמת מחזור: דוגמאות מחושבות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=clearing-fees-by-turnover"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "cost-of-being-self-employed-first-year",
+      "path": "/articles/cost-of-being-self-employed-first-year",
+      "url": "https://il-tools.co.il/articles/cost-of-being-self-employed-first-year",
+      "type": "article",
+      "category": "tax",
+      "title": "כמה עולה להיות עצמאי בשנה הראשונה",
+      "description": "פירוט עלויות עצמאי בשנה הראשונה: תוכנת חשבוניות, ביטוח לאומי, מע״מ ותקרת עוסק פטור — לפי הנתונים שפורסמו ל-2026.",
+      "primary_keyword": "עלות להיות עצמאי שנה ראשונה",
+      "canonical": "/articles/cost-of-being-self-employed-first-year",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "כמה עולה להיות עצמאי בשנה הראשונה | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=cost-of-being-self-employed-first-year"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "digital-payments-israel-bit-paybox",
+      "path": "/articles/digital-payments-israel-bit-paybox",
+      "url": "https://il-tools.co.il/articles/digital-payments-israel-bit-paybox",
+      "type": "article",
+      "category": "clearing",
+      "title": "תשלומים דיגיטליים בישראל: ביט ופייבוקס — ואיך סוחר מקבל כסף",
+      "description": "מה ההבדל בין ארנקי תשלום לבין סליקה לעסק, ואיזו עמלה גובה כל אמצעי — עם דוגמה מחושבת לפי העמלות שפורסמו, בלי המצאת סטטיסטיקות.",
+      "primary_keyword": "תשלומים דיגיטליים בישראל",
+      "canonical": "/articles/digital-payments-israel-bit-paybox",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "תשלומים דיגיטליים בישראל: ביט ופייבוקס — ואיך סוחר מקבל כסף | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=digital-payments-israel-bit-paybox"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "employee-vs-freelancer-beyond-net",
+      "path": "/articles/employee-vs-freelancer-beyond-net",
+      "url": "https://il-tools.co.il/articles/employee-vs-freelancer-beyond-net",
+      "type": "article",
+      "category": "tax",
+      "title": "שכיר או עצמאי: מעבר לנטו — מה הזכויות שכדאי להכיר",
+      "description": "מה יש בשכר שכיר מעבר לנטו, מה חסר לעצמאי/ת, ואיך נראית התמונה הכוללת של זכויות, ביטוח לאומי ופנסיה — מידע חינוכי בלבד.",
+      "primary_keyword": "שכיר או עצמאי זכויות",
+      "canonical": "/articles/employee-vs-freelancer-beyond-net",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "שכיר או עצמאי: מעבר לנטו — מה הזכויות שכדאי להכיר | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=employee-vs-freelancer-beyond-net"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "hidden-clearing-costs",
+      "path": "/articles/hidden-clearing-costs",
+      "url": "https://il-tools.co.il/articles/hidden-clearing-costs",
+      "type": "article",
+      "category": "clearing",
+      "title": "שבע עלויות נסתרות בסליקה שלא רואים במחיר",
+      "description": "עמלות נלוות בסליקה: Chargeback, זיכוי, 3DS, כרטיס תייר, מינימום לעסקה ועמלת ניכיון — לפי התעריפים שפורסמו.",
+      "primary_keyword": "עלויות נסתרות בסליקה",
+      "canonical": "/articles/hidden-clearing-costs",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "שבע עלויות נסתרות בסליקה שלא רואים במחיר | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=hidden-clearing-costs"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "how-clearing-fee-works",
+      "path": "/articles/how-clearing-fee-works",
+      "url": "https://il-tools.co.il/articles/how-clearing-fee-works",
+      "type": "article",
+      "category": "clearing",
+      "title": "איך עובדת עמלת סליקה: מי לוקח מה בכל עסקה",
+      "description": "פירוט עמלת הסליקה: מה משלמים על כל עסקת אשראי, מי מקבל כל חלק, ואיך משווים בין ספקים כשרוב התעריפים בהצעת מחיר בלבד.",
+      "primary_keyword": "עמלת סליקה",
+      "canonical": "/articles/how-clearing-fee-works",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך עובדת עמלת סליקה: מי לוקח מה בכל עסקה | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=how-clearing-fee-works"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "how-to-price-freelance-services",
+      "path": "/articles/how-to-price-freelance-services",
+      "url": "https://il-tools.co.il/articles/how-to-price-freelance-services",
+      "type": "article",
+      "category": "business-finance",
+      "title": "איך מתמחרים שירות כפרילנסר: תעריף לשעה בדוגמה",
+      "description": "איך בונים תעריף לשעה כפרילנסר מיעד הכנסה שנתית, מה להכניס למשוואה, ולמה תמחור לפי ערך שונה מתמחור לפי שעה.",
+      "primary_keyword": "איך מתמחרים שירות כפרילנסר",
+      "canonical": "/articles/how-to-price-freelance-services",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך מתמחרים שירות כפרילנסר: תעריף לשעה בדוגמה | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=how-to-price-freelance-services"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "how-to-read-payslip",
+      "path": "/articles/how-to-read-payslip",
+      "url": "https://il-tools.co.il/articles/how-to-read-payslip",
+      "type": "article",
+      "category": "payroll",
+      "title": "איך לקרוא תלוש שכר שורה אחר שורה",
+      "description": "מדריך לקריאת תלוש שכר: מה המשמעות של כל שורה, איך מחושבים ביטוח לאומי ומס הכנסה, ואיך מגיעים מהברוטו לנטו.",
+      "primary_keyword": "איך לקרוא תלוש שכר",
+      "canonical": "/articles/how-to-read-payslip",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך לקרוא תלוש שכר שורה אחר שורה | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=how-to-read-payslip"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "income-tax-advance-payments",
+      "path": "/articles/income-tax-advance-payments",
+      "url": "https://il-tools.co.il/articles/income-tax-advance-payments",
+      "type": "article",
+      "category": "tax",
+      "title": "מקדמות מס הכנסה: איך מחושבות ולמה הן משתנות",
+      "description": "מה הן מקדמות מס הכנסה לעצמאי, איך רשות המסים קובעת אותן, למה הן משתנות במהלך השנה ואיך מתמודדים עם פער בחבות.",
+      "primary_keyword": "מקדמות מס הכנסה",
+      "canonical": "/articles/income-tax-advance-payments",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מקדמות מס הכנסה: איך מחושבות ולמה הן משתנות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=income-tax-advance-payments"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "income-tax-brackets-decade",
+      "path": "/articles/income-tax-brackets-decade",
+      "url": "https://il-tools.co.il/articles/income-tax-brackets-decade",
+      "type": "article",
+      "category": "tax",
+      "title": "מדרגות מס הכנסה 2026: איך הן עובדות",
+      "description": "שיעורי מדרגות מס הכנסה לשנת 2026, המשמעות של שיעור שולי, נקודות זיכוי ומס יסף — ומדוע סדרה היסטורית של מדרגות אינה זמינה.",
+      "primary_keyword": "מדרגות מס הכנסה",
+      "canonical": "/articles/income-tax-brackets-decade",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מדרגות מס הכנסה 2026: איך הן עובדות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=income-tax-brackets-decade"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "israel-invoice-allocation-number-timeline",
+      "path": "/articles/israel-invoice-allocation-number-timeline",
+      "url": "https://il-tools.co.il/articles/israel-invoice-allocation-number-timeline",
+      "type": "article",
+      "category": "invoicing",
+      "title": "חשבונית ישראל ומספר הקצאה: איך זה עובד",
+      "description": "מהו מספר הקצאה, איך מתחבר המודל 'חשבונית ישראל', ואילו כלים תומכים בו — עם עלויות לדוגמה. ציר הזמן ההיסטורי אינו זמין בנתונים.",
+      "primary_keyword": "חשבונית ישראל מספר הקצאה",
+      "canonical": "/articles/israel-invoice-allocation-number-timeline",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "חשבונית ישראל ומספר הקצאה: איך זה עובד | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=israel-invoice-allocation-number-timeline"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "keren-hishtalmut-how-it-works",
+      "path": "/articles/keren-hishtalmut-how-it-works",
+      "url": "https://il-tools.co.il/articles/keren-hishtalmut-how-it-works",
+      "type": "article",
+      "category": "pension",
+      "title": "קרן השתלמות: איך היא עובדת ומה פטור ממס",
+      "description": "שיעורי ההפקדה והתקרות לקרן השתלמות ב-2026, כלל שש השנים והפטור ממס — מידע חינוכי בלבד, לא ייעוץ.",
+      "primary_keyword": "קרן השתלמות",
+      "canonical": "/articles/keren-hishtalmut-how-it-works",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "קרן השתלמות: איך היא עובדת ומה פטור ממס | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=keren-hishtalmut-how-it-works"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "management-fees-pension-hishtalmut-30-years",
+      "path": "/articles/management-fees-pension-hishtalmut-30-years",
+      "url": "https://il-tools.co.il/articles/management-fees-pension-hishtalmut-30-years",
+      "type": "article",
+      "category": "pension",
+      "title": "דמי ניהול: מה פער קטן עושה אחרי 30 שנה (הדגמה)",
+      "description": "הדגמה חינוכית בלבד: איך פער של 0.5% בדמי ניהול מצטבר לאורך 30 שנה על הפקדה חודשית קבועה — עם הנחות מלאות.",
+      "primary_keyword": "דמי ניהול פנסיה",
+      "canonical": "/articles/management-fees-pension-hishtalmut-30-years",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "דמי ניהול: מה פער קטן עושה אחרי 30 שנה (הדגמה) | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=management-fees-pension-hishtalmut-30-years"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "national-insurance-self-employed",
+      "path": "/articles/national-insurance-self-employed",
+      "url": "https://il-tools.co.il/articles/national-insurance-self-employed",
+      "type": "article",
+      "category": "tax",
+      "title": "ביטוח לאומי לעצמאים: לאן הכסף הולך",
+      "description": "שיעורי וסכומי ביטוח לאומי ל-2026, המדרגה המופחתת והתקרות, ולאן הולכים דמי הביטוח — לפי הנתונים שפורסמו.",
+      "primary_keyword": "ביטוח לאומי לעצמאים",
+      "canonical": "/articles/national-insurance-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "ביטוח לאומי לעצמאים: לאן הכסף הולך | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=national-insurance-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "osek-murshe-vs-company-ltd",
+      "path": "/articles/osek-murshe-vs-company-ltd",
+      "url": "https://il-tools.co.il/articles/osek-murshe-vs-company-ltd",
+      "type": "article",
+      "category": "tax",
+      "title": "עוסק מורשה או חברה בע״מ: השוואה במספרים",
+      "description": "מתי עוסק מורשה מתאים ומתי חברה בע״מ — השוואת מס הכנסה לפי מדרגות 2026, שיקולי מיסוי וניהול, ומתי כדאי לבחון שינוי מבנה.",
+      "primary_keyword": "עוסק מורשה או חברה בע״מ",
+      "canonical": "/articles/osek-murshe-vs-company-ltd",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "עוסק מורשה או חברה בע״מ: השוואה במספרים | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=osek-murshe-vs-company-ltd"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "osek-patur-ceiling-over-years",
+      "path": "/articles/osek-patur-ceiling-over-years",
+      "url": "https://il-tools.co.il/articles/osek-patur-ceiling-over-years",
+      "type": "article",
+      "category": "tax",
+      "title": "תקרת עוסק פטור: מה קורה כשחוצים אותה",
+      "description": "מהי תקרת עוסק פטור ב-2026, מה קורה כשהמחזור עובר אותה, וכמה מע״מ לא נגבה בכל רמת מחזור — עם דוגמה מחושבת.",
+      "primary_keyword": "תקרת עוסק פטור",
+      "canonical": "/articles/osek-patur-ceiling-over-years",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "תקרת עוסק פטור: מה קורה כשחוצים אותה | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=osek-patur-ceiling-over-years"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "pension-for-self-employed-facts",
+      "path": "/articles/pension-for-self-employed-facts",
+      "url": "https://il-tools.co.il/articles/pension-for-self-employed-facts",
+      "type": "article",
+      "category": "pension",
+      "title": "פנסיה לעצמאים: מה חובה ומה ההטבה במס",
+      "description": "מה חובה בהפקדה לפנסיה כעצמאי/ת, שיעורי ההפקדה והטבות המס ל-2026, ואיפה בודקים דמי ניהול — מידע חינוכי בלבד.",
+      "primary_keyword": "פנסיה לעצמאים",
+      "canonical": "/articles/pension-for-self-employed-facts",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פנסיה לעצמאים: מה חובה ומה ההטבה במס | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=pension-for-self-employed-facts"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "recognized-expenses-self-employed",
+      "path": "/articles/recognized-expenses-self-employed",
+      "url": "https://il-tools.co.il/articles/recognized-expenses-self-employed",
+      "type": "article",
+      "category": "tax",
+      "title": "הוצאות מוכרות לעצמאי: מה מותר לנכות ומה לא",
+      "description": "מדריך להוצאות מוכרות לעצמאי: איך הוצאה מפחיתה את המס, מה בדרך כלל מוכר ומה פחות, ואילו אסמכתאות חייבים לשמור.",
+      "primary_keyword": "הוצאות מוכרות לעצמאי",
+      "canonical": "/articles/recognized-expenses-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "הוצאות מוכרות לעצמאי: מה מותר לנכות ומה לא | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=recognized-expenses-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "selling-to-foreign-customers-vat-export",
+      "path": "/articles/selling-to-foreign-customers-vat-export",
+      "url": "https://il-tools.co.il/articles/selling-to-foreign-customers-vat-export",
+      "type": "article",
+      "category": "tax",
+      "title": "מכירה ללקוחות בחו״ל: מה ידוע על מע״מ ביצוא",
+      "description": "מה כן ידוע מנתוני IL-Tools על מע״מ במכירה ללקוחות בחו״ל, מה לא ידוע, ולמה אין להסתמך על הנחות על שיעור אפס בלי בדיקה מקצועית.",
+      "primary_keyword": "מע״מ יצוא שירותים",
+      "canonical": "/articles/selling-to-foreign-customers-vat-export",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מכירה ללקוחות בחו״ל: מה ידוע על מע״מ ביצוא | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=selling-to-foreign-customers-vat-export"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "ten-mistakes-new-freelancers-tax-vat",
+      "path": "/articles/ten-mistakes-new-freelancers-tax-vat",
+      "url": "https://il-tools.co.il/articles/ten-mistakes-new-freelancers-tax-vat",
+      "type": "article",
+      "category": "tax",
+      "title": "עשר טעויות של עצמאים חדשים במס ובמע״מ",
+      "description": "הטעויות הנפוצות של עצמאים חדשים בתחום המס והמע״מ, איך להימנע מהן, ואילו עוגנים מספריים כדאי להכיר מראש.",
+      "primary_keyword": "טעויות עצמאים חדשים",
+      "canonical": "/articles/ten-mistakes-new-freelancers-tax-vat",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "עשר טעויות של עצמאים חדשים במס ובמע״מ | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=ten-mistakes-new-freelancers-tax-vat"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "unemployment-benefits-self-employed",
+      "path": "/articles/unemployment-benefits-self-employed",
+      "url": "https://il-tools.co.il/articles/unemployment-benefits-self-employed",
+      "type": "article",
+      "category": "business-finance",
+      "title": "דמי אבטלה לעצמאים: מי זכאי ולמה לא להסתמך",
+      "description": "מידע חינוכי על דמי אבטלה לעצמאים: למה הכיסוי שונה מזה של שכירים, מה בודקים, ואילו נתונים חסרים — בלי הבטחות ובלי סכומים לא מבוססים.",
+      "primary_keyword": "דמי אבטלה לעצמאים",
+      "canonical": "/articles/unemployment-benefits-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "דמי אבטלה לעצמאים: מי זכאי ולמה לא להסתמך | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=article&slug=unemployment-benefits-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "best-accounting-software",
+      "path": "/best/best-accounting-software",
+      "url": "https://il-tools.co.il/best/best-accounting-software",
+      "type": "best",
+      "category": "accounting",
+      "title": "תוכנת הנהלת חשבונות לעצמאי: השוואה ומדריך",
+      "description": "השוואת תוכנות הנהלת חשבונות לעצמאים ולעסקים קטנים: מחירון שפורסם, תמיכה במספר הקצאה, דיווח מע״מ והבדל בין מערכת בסיסית למערכת מייצגים.",
+      "primary_keyword": "תוכנת הנהלת חשבונות",
+      "canonical": "/best/best-accounting-software",
+      "robots": "index, follow",
+      "schema_types": [
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "תוכנת הנהלת חשבונות לעצמאי: השוואה ומדריך | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=best&slug=best-accounting-software"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "best-business-bank-startups",
+      "path": "/best/best-business-bank-startups",
+      "url": "https://il-tools.co.il/best/best-business-bank-startups",
+      "type": "best",
+      "category": "business-banking",
+      "title": "חשבון בנק לעסק: איך בוחרים בנק לעסק חדש",
+      "description": "מה משווים בין בנקים לעסקים, אילו נתונים פומביים קיימים, ואיך בוחרים חשבון בנק לסטארטאפ או לעסק חדש בלי להסתמך על מספרים לא מאומתים.",
+      "primary_keyword": "חשבון בנק לעסק",
+      "canonical": "/best/best-business-bank-startups",
+      "robots": "index, follow",
+      "schema_types": [
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "חשבון בנק לעסק: איך בוחרים בנק לעסק חדש | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=best&slug=best-business-bank-startups"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "best-clearing-ecommerce",
+      "path": "/best/best-clearing-ecommerce",
+      "url": "https://il-tools.co.il/best/best-clearing-ecommerce",
+      "type": "best",
+      "category": "clearing",
+      "title": "סליקה לחנות אונליין: מה מתאים לעסק אונליין",
+      "description": "איך בוחרים סליקה לחנות אונליין בישראל: חיבור לחנות, 3DS, תשלומים, תעריפים שפורסמו וההבדל בין ספק מקומי לבינלאומי.",
+      "primary_keyword": "סליקה לחנות אונליין",
+      "canonical": "/best/best-clearing-ecommerce",
+      "robots": "index, follow",
+      "schema_types": [
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "סליקה לחנות אונליין: מה מתאים לעסק אונליין | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=best&slug=best-clearing-ecommerce"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "best-clearing-small-business",
+      "path": "/best/best-clearing-small-business",
+      "url": "https://il-tools.co.il/best/best-clearing-small-business",
+      "type": "best",
+      "category": "clearing",
+      "title": "סליקה לעסק קטן: איך בוחרים חברת סליקה",
+      "description": "השוואת סליקה לעסק קטן בישראל: אילו ספקים מפרסמים תעריף, מה נשאר בהצעת מחיר, ואיך מחשבים את העלות החודשית לפי המחזור.",
+      "primary_keyword": "סליקה לעסק קטן",
+      "canonical": "/best/best-clearing-small-business",
+      "robots": "index, follow",
+      "schema_types": [
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "סליקה לעסק קטן: איך בוחרים חברת סליקה | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=best&slug=best-clearing-small-business"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "best-crm-small-business",
+      "path": "/best/best-crm-small-business",
+      "url": "https://il-tools.co.il/best/best-crm-small-business",
+      "type": "best",
+      "category": "crm",
+      "title": "CRM לעסק קטן בישראל: איך בוחרים מערכת",
+      "description": "השוואת מערכות CRM לעסקים קטנים בישראל: מחירון שפורסם, מינימום משתמשים, התאמה לעברית ואילו מסלולים חינמיים באמת קיימים.",
+      "primary_keyword": "crm לעסק קטן",
+      "canonical": "/best/best-crm-small-business",
+      "robots": "index, follow",
+      "schema_types": [
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "CRM לעסק קטן בישראל: איך בוחרים מערכת | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=best&slug=best-crm-small-business"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "best-invoicing-osek-patur",
+      "path": "/best/best-invoicing-osek-patur",
+      "url": "https://il-tools.co.il/best/best-invoicing-osek-patur",
+      "type": "best",
+      "category": "invoicing",
+      "title": "הכלים המומלצים לעוסק פטור: חשבוניות בלי מע״מ",
+      "description": "מה כדאי לעוסק פטור: אילו תוכנות להפקת חשבוניות מתאימות למחזור נמוך, מהי התקרה, ואיך בוחרים מסלול זול בלי לשלם על מה שלא צריך.",
+      "primary_keyword": "תוכנה לעוסק פטור",
+      "canonical": "/best/best-invoicing-osek-patur",
+      "robots": "index, follow",
+      "schema_types": [
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "הכלים המומלצים לעוסק פטור: חשבוניות בלי מע״מ | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=best&slug=best-invoicing-osek-patur"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "best-invoicing-software-freelancers",
+      "path": "/best/best-invoicing-software-freelancers",
+      "url": "https://il-tools.co.il/best/best-invoicing-software-freelancers",
+      "type": "best",
+      "category": "invoicing",
+      "title": "תוכנה להפקת חשבוניות לעצמאים: איך בוחרים נכון",
+      "description": "השוואה של תוכנות להפקת חשבוניות לעצמאים בישראל: מסלולים, מחירון שפורסם, מספר מסמכים, API וסליקה — לפי הנתונים הרשמיים.",
+      "primary_keyword": "תוכנה להפקת חשבוניות לעצמאים",
+      "canonical": "/best/best-invoicing-software-freelancers",
+      "robots": "index, follow",
+      "schema_types": [
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "תוכנה להפקת חשבוניות לעצמאים: איך בוחרים נכון | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=best&slug=best-invoicing-software-freelancers"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "best-payroll-software",
+      "path": "/best/best-payroll-software",
+      "url": "https://il-tools.co.il/best/best-payroll-software",
+      "type": "best",
+      "category": "payroll",
+      "title": "תוכנת שכר לעסק: איך בוחרים מערכת",
+      "description": "איך בוחרים תוכנת שכר לעסק בישראל: מה כולל מסלול שכר, אילו ספקים קיימים, ולמה רוב הספקים מתמחרים בהצעת מחיר בלבד.",
+      "primary_keyword": "תוכנת שכר",
+      "canonical": "/best/best-payroll-software",
+      "robots": "index, follow",
+      "schema_types": [
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "תוכנת שכר לעסק: איך בוחרים מערכת | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=best&slug=best-payroll-software"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "atzmai-net",
+      "path": "/calculators/atzmai-net",
+      "url": "https://il-tools.co.il/calculators/atzmai-net",
+      "type": "calculator",
+      "category": "tax",
+      "title": "מחשבון נטו לעצמאי: מס הכנסה וביטוח לאומי 2026",
+      "description": "איך מחשבים נטו לעצמאי/ת: מס הכנסה לפי מדרגות 2026, ביטוח לאומי ומס בריאות, נקודות זיכוי והפקדות לפנסיה ולקרן השתלמות.",
+      "primary_keyword": "מחשבון נטו לעצמאי",
+      "canonical": "/calculators/atzmai-net",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון נטו לעצמאי: מס הכנסה וביטוח לאומי 2026 | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=atzmai-net"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "clearing-fees",
+      "path": "/calculators/clearing-fees",
+      "url": "https://il-tools.co.il/calculators/clearing-fees",
+      "type": "calculator",
+      "category": "clearing",
+      "title": "מחשבון עמלות סליקה: כמה הסליקה עולה לעסק",
+      "description": "הערכת עלות סליקת אשראי חודשית לפי מחזור וסוג עסקאות, בהתאם לתעריפים שפורסמו על ידי ספקי הסליקה בישראל.",
+      "primary_keyword": "מחשבון עמלות סליקה",
+      "canonical": "/calculators/clearing-fees",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון עמלות סליקה: כמה הסליקה עולה לעסק | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=clearing-fees"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "compound-interest-mortgage",
+      "path": "/calculators/compound-interest-mortgage",
+      "url": "https://il-tools.co.il/calculators/compound-interest-mortgage",
+      "type": "calculator",
+      "category": "business-finance",
+      "title": "מחשבון ריבית דריבית ומשכנתא: איך צומחת יתרה",
+      "description": "המחשׁ חינוכי של ריבית דריבית לאורך שנים, וההשפעה של ריבית על החזר משכנתא. כולל ריבית הפריים שפורסמה.",
+      "primary_keyword": "מחשבון ריבית דריבית",
+      "canonical": "/calculators/compound-interest-mortgage",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון ריבית דריבית ומשכנתא: איך צומחת יתרה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=compound-interest-mortgage"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "employee-vs-freelancer-calculator",
+      "path": "/calculators/employee-vs-freelancer-calculator",
+      "url": "https://il-tools.co.il/calculators/employee-vs-freelancer-calculator",
+      "type": "calculator",
+      "category": "tax",
+      "title": "מחשבון שכיר מול עצמאי: מה נשאר נטו בכל צד",
+      "description": "השוואת נטו בין שכיר לעצמאי לפי מדרגות 2026, ביטוח לאומי והפרשות פנסיה. כולל חישוב תעריף שעתי לאיזון.",
+      "primary_keyword": "מחשבון שכיר מול עצמאי",
+      "canonical": "/calculators/employee-vs-freelancer-calculator",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון שכיר מול עצמאי: מה נשאר נטו בכל צד | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=employee-vs-freelancer-calculator"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "invoicing-cost",
+      "path": "/calculators/invoicing-cost",
+      "url": "https://il-tools.co.il/calculators/invoicing-cost",
+      "type": "calculator",
+      "category": "invoicing",
+      "title": "מחשבון עלות תוכנת חשבוניות: כמה תשלמו בשנה",
+      "description": "חישוב עלות שנתית של תוכנת הפקת חשבוניות לפי מספר מסמכים בחודש, משתמשים ויכולות נדרשות כמו API ומלאי.",
+      "primary_keyword": "מחשבון עלות תוכנת חשבוניות",
+      "canonical": "/calculators/invoicing-cost",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון עלות תוכנת חשבוניות: כמה תשלמו בשנה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=invoicing-cost"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "keren-hishtalmut",
+      "path": "/calculators/keren-hishtalmut",
+      "url": "https://il-tools.co.il/calculators/keren-hishtalmut",
+      "type": "calculator",
+      "category": "pension",
+      "title": "מחשבון קרן השתלמות: הפקדות, תקרות ופטור",
+      "description": "מידע חינוכי על קרן השתלמות: שיעורי הפקדה, תקרת הפקדה שנתית, התקרה המוטבת לפטור ממס וכלל שש השנים. ללא המלצת מוצר.",
+      "primary_keyword": "מחשבון קרן השתלמות",
+      "canonical": "/calculators/keren-hishtalmut",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון קרן השתלמות: הפקדות, תקרות ופטור | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=keren-hishtalmut"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "osek-patur-threshold",
+      "path": "/calculators/osek-patur-threshold",
+      "url": "https://il-tools.co.il/calculators/osek-patur-threshold",
+      "type": "calculator",
+      "category": "tax",
+      "title": "מחשבון תקרת עוסק פטור: להישאר פטור או לעבור",
+      "description": "בדיקה אם המחזור מתקרב לתקרת העוסק הפטור, ומה משמעות המעבר לעוסק מורשה על המחיר ללקוח ועל ההתנהלות.",
+      "primary_keyword": "מחשבון תקרת עוסק פטור",
+      "canonical": "/calculators/osek-patur-threshold",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון תקרת עוסק פטור: להישאר פטור או לעבור | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=osek-patur-threshold"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "pension-self-employed",
+      "path": "/calculators/pension-self-employed",
+      "url": "https://il-tools.co.il/calculators/pension-self-employed",
+      "type": "calculator",
+      "category": "pension",
+      "title": "מחשבון פנסיה לעצמאי: הפקדה מינימלית והטבות מס",
+      "description": "מידע חינוכי על פנסיה לעצמאי: הפקדה מינימלית שפורסמה, הטבות מס לפי סעיף 47, ודמי ניהול. ללא המלצת מוצר או גוף.",
+      "primary_keyword": "מחשבון פנסיה לעצמאי",
+      "canonical": "/calculators/pension-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון פנסיה לעצמאי: הפקדה מינימלית והטבות מס | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=pension-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "salary-net",
+      "path": "/calculators/salary-net",
+      "url": "https://il-tools.co.il/calculators/salary-net",
+      "type": "calculator",
+      "category": "tax",
+      "title": "מחשבון שכר נטו: מהברוטו לתלוש, שורה אחר שורה",
+      "description": "חישוב שכר נטו לשכיר/ה לפי מדרגות 2026, נקודות זיכוי, ביטוח לאומי ומס בריאות, והפרשות לפנסיה ולקרן השתלמות.",
+      "primary_keyword": "מחשבון שכר נטו",
+      "canonical": "/calculators/salary-net",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון שכר נטו: מהברוטו לתלוש, שורה אחר שורה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=salary-net"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "severance",
+      "path": "/calculators/severance",
+      "url": "https://il-tools.co.il/calculators/severance",
+      "type": "calculator",
+      "category": "tax",
+      "title": "מחשבון פיצויים: כמה מגיע ומה פטור ממס",
+      "description": "הערכת פיצויי פיטורים לפי שכר וותק, ומהן התקרות הפטורות ממס. מידע כללי בלבד, לא תחליף לחישוב רשמי.",
+      "primary_keyword": "מחשבון פיצויים",
+      "canonical": "/calculators/severance",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון פיצויים: כמה מגיע ומה פטור ממס | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=severance"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "unemployment",
+      "path": "/calculators/unemployment",
+      "url": "https://il-tools.co.il/calculators/unemployment",
+      "type": "calculator",
+      "category": "tax",
+      "title": "מחשבון דמי אבטלה: אומדן ראשוני לזכאות",
+      "description": "אומדן ראשוני לדמי אבטלה לפי שכר קודם ותק, על בסיס כללי ביטוח לאומי. מידע כללי בלבד, לא תחליף לבדיקה מול ביטוח לאומי.",
+      "primary_keyword": "מחשבון דמי אבטלה",
+      "canonical": "/calculators/unemployment",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון דמי אבטלה: אומדן ראשוני לזכאות | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=unemployment"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "vat",
+      "path": "/calculators/vat",
+      "url": "https://il-tools.co.il/calculators/vat",
+      "type": "calculator",
+      "category": "tax",
+      "title": "מחשבון מע״מ: חישוב, פיצול והחזר מע״מ לעסק",
+      "description": "חישוב מע״מ 18% על סכום כולל או לא כולל, פיצול מע״מ מתוך סכום, וחישוב מע״מ לתשלום או להחזר לפי תשומות ותפוקות.",
+      "primary_keyword": "מחשבון מע״מ",
+      "canonical": "/calculators/vat",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון מע״מ: חישוב, פיצול והחזר מע״מ לעסק | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=vat"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "business-banking",
+      "path": "/category/business-banking",
+      "url": "https://il-tools.co.il/category/business-banking",
+      "type": "category",
+      "category": "business-banking",
+      "title": "בנקים לעסקים — מה משווים ואיך בוחרים",
+      "description": "מדריך לחשבון בנק לעסק בישראל: מה כולל התעריפון העסקי, מה פורסם פומבית, ואיך מנהלים משא ומתן על דמי ניהול ועמלות.",
+      "primary_keyword": "בנק לעסקים",
+      "canonical": "/category/business-banking",
+      "robots": "index, follow",
+      "schema_types": [
+        "CollectionPage",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "בנקים לעסקים — מה משווים ואיך בוחרים | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=category&slug=business-banking"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "clearing",
+      "path": "/category/clearing",
+      "url": "https://il-tools.co.il/category/clearing",
+      "type": "category",
+      "category": "clearing",
+      "title": "סליקת אשראי לעסקים — השוואה ומדריך בחירה",
+      "description": "מדריך לבחירת חברת סליקה לעסק בישראל: מה משווים, אילו ספקים מפרסמים תעריף, אילו עובדים בהצעת מחיר ואיך מחשבים עלות לפי מחזור.",
+      "primary_keyword": "חברת סליקה",
+      "canonical": "/category/clearing",
+      "robots": "index, follow",
+      "schema_types": [
+        "CollectionPage",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "סליקת אשראי לעסקים — השוואה ומדריך בחירה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=category&slug=clearing"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "crm",
+      "path": "/category/crm",
+      "url": "https://il-tools.co.il/category/crm",
+      "type": "category",
+      "category": "crm",
+      "title": "מערכות CRM לעסקים קטנים — השוואה ומדריך",
+      "description": "השוואת מערכות CRM לעסקים קטנים בישראל: מה משווים, מחירון שפורסם למושב, מינימום משתמשים וממשק בעברית.",
+      "primary_keyword": "מערכות CRM",
+      "canonical": "/category/crm",
+      "robots": "index, follow",
+      "schema_types": [
+        "CollectionPage",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מערכות CRM לעסקים קטנים — השוואה ומדריך | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=category&slug=crm"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "invoicing",
+      "path": "/category/invoicing",
+      "url": "https://il-tools.co.il/category/invoicing",
+      "type": "category",
+      "category": "invoicing",
+      "title": "תוכנות חשבוניות בישראל — השוואה ומדריך בחירה",
+      "description": "מדריך לבחירת תוכנת חשבוניות בישראל: מה משווים, אילו ספקים קיימים, מה המחירים שפורסמו ואיך מחברים מספר הקצאה ומע״מ.",
+      "primary_keyword": "תוכנות חשבוניות",
+      "canonical": "/category/invoicing",
+      "robots": "index, follow",
+      "schema_types": [
+        "CollectionPage",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "תוכנות חשבוניות בישראל — השוואה ומדריך בחירה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=category&slug=invoicing"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "pension",
+      "path": "/category/pension",
+      "url": "https://il-tools.co.il/category/pension",
+      "type": "category",
+      "category": "pension",
+      "title": "פנסיה וחיסכון — מידע חינוכי (לא ייעוץ)",
+      "description": "מידע חינוכי על פנסיה וקרן השתלמות בישראל: איך פועלות ההפקדות, מה הדין לעצמאים ואיפה בודקים דמי ניהול. אין כאן ייעוץ או דירוג מוצרים.",
+      "primary_keyword": "פנסיה וחיסכון",
+      "canonical": "/category/pension",
+      "robots": "index, follow",
+      "schema_types": [
+        "CollectionPage",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פנסיה וחיסכון — מידע חינוכי (לא ייעוץ) | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=category&slug=pension"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "cardcom-vs-tranzila",
+      "path": "/compare/cardcom-vs-tranzila",
+      "url": "https://il-tools.co.il/compare/cardcom-vs-tranzila",
+      "type": "compare",
+      "category": "clearing",
+      "title": "Cardcom או Tranzila: איזו חברת סליקה מתאימה לעסק?",
+      "description": "השוואה בין Cardcom ל-Tranzila: מה ידוע על עמלות הסליקה, מה מחייב הצעת מחיר בלבד, ואיך בוחרים ספק סליקה לעסק קטן.",
+      "primary_keyword": "cardcom או tranzila",
+      "canonical": "/compare/cardcom-vs-tranzila",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "Cardcom או Tranzila: איזו חברת סליקה מתאימה לעסק? | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=cardcom-vs-tranzila"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "employee-vs-freelancer",
+      "path": "/compare/employee-vs-freelancer",
+      "url": "https://il-tools.co.il/compare/employee-vs-freelancer",
+      "type": "compare",
+      "category": "tax",
+      "title": "שכיר או עצמאי: מה משתלם ומה חשוב לבדוק",
+      "description": "שכיר או עצמאי: ההבדל בתשלומי ביטוח לאומי, מס הכנסה, זכויות סוציאליות והפקדות לפנסיה — ואיך בודקים מה מתאים.",
+      "primary_keyword": "שכיר או עצמאי",
+      "canonical": "/compare/employee-vs-freelancer",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "שכיר או עצמאי: מה משתלם ומה חשוב לבדוק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=employee-vs-freelancer"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "green-invoice-vs-morning",
+      "path": "/compare/green-invoice-vs-morning",
+      "url": "https://il-tools.co.il/compare/green-invoice-vs-morning",
+      "type": "compare",
+      "category": "invoicing",
+      "title": "חשבונית ירוקה או מורנינג: מה ההבדל ומה מתאים לעצמאי?",
+      "description": "חשבונית ירוקה ומורנינג הם אותו מוצר בעצם — מיתוג מחדש. השוואה מלאה של מסלולים, מחירים, מספר הקצאה והתאמה לעצמאי.",
+      "primary_keyword": "חשבונית ירוקה או מורנינג",
+      "canonical": "/compare/green-invoice-vs-morning",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "חשבונית ירוקה או מורנינג: מה ההבדל ומה מתאים לעצמאי? | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=green-invoice-vs-morning"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "grow-vs-paypal",
+      "path": "/compare/grow-vs-paypal",
+      "url": "https://il-tools.co.il/compare/grow-vs-paypal",
+      "type": "compare",
+      "category": "clearing",
+      "title": "Grow או PayPal: סליקה מקומית מול סליקה בינלאומית",
+      "description": "Grow או PayPal: השוואת עמלות סליקה לעסק — 0.75% מקומית מול 3.40% ועוד 1.20 ₪, ומתי כדאי PayPal ומתי סליקה ישראלית.",
+      "primary_keyword": "grow או paypal",
+      "canonical": "/compare/grow-vs-paypal",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "Grow או PayPal: סליקה מקומית מול סליקה בינלאומית | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=grow-vs-paypal"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "icount-vs-green-invoice",
+      "path": "/compare/icount-vs-green-invoice",
+      "url": "https://il-tools.co.il/compare/icount-vs-green-invoice",
+      "type": "compare",
+      "category": "invoicing",
+      "title": "iCount או חשבונית ירוקה: איזו מערכת מתאימה לעצמאי?",
+      "description": "השוואה בין iCount לחשבונית ירוקה (מורנינג): מסלולים, מחירים, מספר הקצאה, API והתאמה לעצמאי ולעסק קטן.",
+      "primary_keyword": "icount או חשבונית ירוקה",
+      "canonical": "/compare/icount-vs-green-invoice",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "iCount או חשבונית ירוקה: איזו מערכת מתאימה לעצמאי? | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=icount-vs-green-invoice"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "isracard-vs-max",
+      "path": "/compare/isracard-vs-max",
+      "url": "https://il-tools.co.il/compare/isracard-vs-max",
+      "type": "compare",
+      "category": "clearing",
+      "title": "ישראכרט או מקס: סליקה ישירה לעסק",
+      "description": "ישראכרט או מקס: מה ידוע על סליקה ישירה, למה בשתיהן אין תעריפון מפורסם, ומה חשוב לבדוק בהצעת מחיר לסולקת ישירה.",
+      "primary_keyword": "ישראכרט או מקס",
+      "canonical": "/compare/isracard-vs-max",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "ישראכרט או מקס: סליקה ישירה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=isracard-vs-max"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "monday-vs-fireberry",
+      "path": "/compare/monday-vs-fireberry",
+      "url": "https://il-tools.co.il/compare/monday-vs-fireberry",
+      "type": "compare",
+      "category": "crm",
+      "title": "monday או Fireberry: איזה CRM מתאים לעסק קטן",
+      "description": "השוואה בין monday ל-Fireberry: מחירי CRM למושב, מינימום משתמשים, אוטומציות והתאמה לעסק קטן בישראל.",
+      "primary_keyword": "monday או fireberry",
+      "canonical": "/compare/monday-vs-fireberry",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "monday או Fireberry: איזה CRM מתאים לעסק קטן | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=monday-vs-fireberry"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "osek-patur-vs-osek-murshe",
+      "path": "/compare/osek-patur-vs-osek-murshe",
+      "url": "https://il-tools.co.il/compare/osek-patur-vs-osek-murshe",
+      "type": "compare",
+      "category": "business-banking",
+      "title": "עוסק פטור או עוסק מורשה: ההבדל, התקרה ומתי עוברים",
+      "description": "מה ההבדל בין עוסק פטור למורשה, מהי תקרת המחזור, מה קורה כשחוצים אותה ואיך זה משפיע על מע״מ ומס הכנסה.",
+      "primary_keyword": "עוסק פטור או עוסק מורשה",
+      "canonical": "/compare/osek-patur-vs-osek-murshe",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "עוסק פטור או עוסק מורשה: ההבדל, התקרה ומתי עוברים | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=osek-patur-vs-osek-murshe"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "payplus-vs-grow",
+      "path": "/compare/payplus-vs-grow",
+      "url": "https://il-tools.co.il/compare/payplus-vs-grow",
+      "type": "compare",
+      "category": "clearing",
+      "title": "PayPlus או Grow (משולם): איזו סליקה מתאימה לעסק?",
+      "description": "השוואה בין PayPlus ל-Grow (משולם): עמלות שפורסמו מול הצעת מחיר בלבד, תוספות ואיזו סליקה מתאימה לעסק קטן.",
+      "primary_keyword": "payplus או משולם",
+      "canonical": "/compare/payplus-vs-grow",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "PayPlus או Grow (משולם): איזו סליקה מתאימה לעסק? | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=payplus-vs-grow"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "pension-vs-management-insurance",
+      "path": "/compare/pension-vs-management-insurance",
+      "url": "https://il-tools.co.il/compare/pension-vs-management-insurance",
+      "type": "compare",
+      "category": "pension",
+      "title": "קרן פנסיה או ביטוח מנהלים: מה ההבדל (מידע חינוכי)",
+      "description": "הבדלים בין קרן פנסיה לביטוח מנהלים: מבנה המוצר, הפקדות, הטבות מס ודמי ניהול — מידע חינוכי בלבד, ללא ייעוץ וללא דירוג.",
+      "primary_keyword": "קרן פנסיה או ביטוח מנהלים",
+      "canonical": "/compare/pension-vs-management-insurance",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "קרן פנסיה או ביטוח מנהלים: מה ההבדל (מידע חינוכי) | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=pension-vs-management-insurance"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "rivhit-vs-green-invoice",
+      "path": "/compare/rivhit-vs-green-invoice",
+      "url": "https://il-tools.co.il/compare/rivhit-vs-green-invoice",
+      "type": "compare",
+      "category": "invoicing",
+      "title": "ריווחית או חשבונית ירוקה: מה מתאים לעצמאי ולעסק",
+      "description": "השוואה בין ריווחית לחשבונית ירוקה (מורנינג): מחירון שנתי מול מסלולים חודשיים, מספר הקצאה, API והתאמה לעסק.",
+      "primary_keyword": "ריווחית או חשבונית ירוקה",
+      "canonical": "/compare/rivhit-vs-green-invoice",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "ריווחית או חשבונית ירוקה: מה מתאים לעצמאי ולעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=rivhit-vs-green-invoice"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "zoho-vs-pipedrive",
+      "path": "/compare/zoho-vs-pipedrive",
+      "url": "https://il-tools.co.il/compare/zoho-vs-pipedrive",
+      "type": "compare",
+      "category": "crm",
+      "title": "Zoho או Pipedrive: איזה CRM מתאים לעסק",
+      "description": "השוואה בין Zoho CRM ל-Pipedrive: מחירים למושב, מסלול חופשי, מיקוד מכירות ותוספות — ואיזה CRM מתאים לעסק קטן.",
+      "primary_keyword": "zoho או pipedrive",
+      "canonical": "/compare/zoho-vs-pipedrive",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "ItemList",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "Zoho או Pipedrive: איזה CRM מתאים לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=compare&slug=zoho-vs-pipedrive"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "business-credit-card-guide",
+      "path": "/guides/banking/business-credit-card-guide",
+      "url": "https://il-tools.co.il/guides/banking/business-credit-card-guide",
+      "type": "guide",
+      "category": "business-banking",
+      "title": "מדריך לכרטיס אשראי עסקי",
+      "description": "מה לבדוק בבחירת כרטיס אשראי עסקי: סוגי כרטיסים, קאשבק ונקודות, מסגרת, הפרדה מהוצאות אישיות והתאמות להנהלת חשבונות.",
+      "primary_keyword": "כרטיס אשראי עסקי",
+      "canonical": "/guides/banking/business-credit-card-guide",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מדריך לכרטיס אשראי עסקי | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=business-credit-card-guide"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "how-to-choose-clearing",
+      "path": "/guides/banking/how-to-choose-clearing",
+      "url": "https://il-tools.co.il/guides/banking/how-to-choose-clearing",
+      "type": "guide",
+      "category": "clearing",
+      "title": "איך בוחרים חברת סליקה לעסק",
+      "description": "מדריך לבחירת חברת סליקה: מרכיבי העמלה, תעריפונים שפורסמו, עלויות נלוות, מועדי זיכוי והשוואת הצעות מחיר.",
+      "primary_keyword": "איך בוחרים חברת סליקה",
+      "canonical": "/guides/banking/how-to-choose-clearing",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך בוחרים חברת סליקה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=how-to-choose-clearing"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "reduce-bank-fees",
+      "path": "/guides/banking/reduce-bank-fees",
+      "url": "https://il-tools.co.il/guides/banking/reduce-bank-fees",
+      "type": "guide",
+      "category": "business-banking",
+      "title": "איך מקטינים עמלות בנק לעסק",
+      "description": "מדריך מעשי להפחתת עמלות בנק לעסק: מיפוי פעולות, השוואת מסלולים, משא ומתן, מעבר לדיגיטל ובדיקת בנקים חלופיים.",
+      "primary_keyword": "עמלות בנק לעסק",
+      "canonical": "/guides/banking/reduce-bank-fees",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך מקטינים עמלות בנק לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=reduce-bank-fees"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "ecommerce-payments-setup",
+      "path": "/guides/ecommerce/ecommerce-payments-setup",
+      "url": "https://il-tools.co.il/guides/ecommerce/ecommerce-payments-setup",
+      "type": "guide",
+      "category": "ecommerce",
+      "title": "הקמת סליקה לחנות אונליין",
+      "description": "מדריך להקמת סליקה לחנות אונליין: בחירת סולק ושער תשלום, חיבור לחנות, אמצעי תשלום, חשבוניות ועלויות נלוות.",
+      "primary_keyword": "סליקה לחנות אונליין",
+      "canonical": "/guides/ecommerce/ecommerce-payments-setup",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "הקמת סליקה לחנות אונליין | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=ecommerce-payments-setup"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "selling-online-basics",
+      "path": "/guides/ecommerce/selling-online-basics",
+      "url": "https://il-tools.co.il/guides/ecommerce/selling-online-basics",
+      "type": "guide",
+      "category": "ecommerce",
+      "title": "יסודות מכירה אונליין בישראל",
+      "description": "הצעדים הראשונים למכירה אונליין בישראל: מודל מכירה, פלטפורמה, סליקה, מע״מ, משלוחים, שירות לקוחות ומדידה.",
+      "primary_keyword": "מכירה אונליין",
+      "canonical": "/guides/ecommerce/selling-online-basics",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "יסודות מכירה אונליין בישראל | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=selling-online-basics"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "hishtalmut-deposit-self-employed",
+      "path": "/guides/pension/hishtalmut-deposit-self-employed",
+      "url": "https://il-tools.co.il/guides/pension/hishtalmut-deposit-self-employed",
+      "type": "guide",
+      "category": "pension",
+      "title": "הפקדה לקרן השתלמות לעצמאי",
+      "description": "מדריך חינוכי להפקדה לקרן השתלמות לעצמאי: שיעורי הפקדה, תקרות מוטבת, כלל הנזילות, והטבות המס — מידע בלבד.",
+      "primary_keyword": "קרן השתלמות לעצמאי",
+      "canonical": "/guides/pension/hishtalmut-deposit-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "הפקדה לקרן השתלמות לעצמאי | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=hishtalmut-deposit-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "pension-for-self-employed",
+      "path": "/guides/pension/pension-for-self-employed",
+      "url": "https://il-tools.co.il/guides/pension/pension-for-self-employed",
+      "type": "guide",
+      "category": "pension",
+      "title": "פנסיה לעצמאים: מה חובה ומה אפשר",
+      "description": "מדריך חינוכי לפנסיה של עצמאים: חובת ההפקדה, שיעורי ההפקדה, הטבות המס, ואיך בודקים דמי ניהול בגמל נט ובפנסיה נט.",
+      "primary_keyword": "פנסיה לעצמאים",
+      "canonical": "/guides/pension/pension-for-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פנסיה לעצמאים: מה חובה ומה אפשר | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=pension-for-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "business-bank-account",
+      "path": "/guides/setup/business-bank-account",
+      "url": "https://il-tools.co.il/guides/setup/business-bank-account",
+      "type": "guide",
+      "category": "business-banking",
+      "title": "פתיחת חשבון בנק לעסק: בחירה, מסמכים וניהול עמלות",
+      "description": "איך פותחים חשבון בנק לעסק: אילו מסמכים נדרשים, איך בוחרים מסלול, ואיך מנהלים עמלות חשבון לאורך הזמן.",
+      "primary_keyword": "פתיחת חשבון בנק לעסק",
+      "canonical": "/guides/setup/business-bank-account",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פתיחת חשבון בנק לעסק: בחירה, מסמכים וניהול עמלות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=business-bank-account"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "business-setup-cost",
+      "path": "/guides/setup/business-setup-cost",
+      "url": "https://il-tools.co.il/guides/setup/business-setup-cost",
+      "type": "guide",
+      "category": "business-banking",
+      "title": "כמה עולה להקים עסק בישראל: פירוט רכיבי העלות",
+      "description": "פירוט רכיבי העלות של הקמת עסק בישראל: רישום, תוכנה, בנק וליווי מקצועי — ומה מהם מפורסם ומה בהצעת מחיר בלבד.",
+      "primary_keyword": "כמה עולה להקים עסק",
+      "canonical": "/guides/setup/business-setup-cost",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "כמה עולה להקים עסק בישראל: פירוט רכיבי העלות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=business-setup-cost"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "open-company-ltd",
+      "path": "/guides/setup/open-company-ltd",
+      "url": "https://il-tools.co.il/guides/setup/open-company-ltd",
+      "type": "guide",
+      "category": "business-banking",
+      "title": "פתיחת חברה בע״מ: מתי זה מתאים ואיך עושים זאת",
+      "description": "מתי כדאי להקים חברה בע״מ, אילו מסמכים נדרשים, איך רושמים אותה ואילו חובות שוטפות מלוות את בעלי החברה.",
+      "primary_keyword": "פתיחת חברה בע״מ",
+      "canonical": "/guides/setup/open-company-ltd",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פתיחת חברה בע״מ: מתי זה מתאים ואיך עושים זאת | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=open-company-ltd"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "open-osek-murshe",
+      "path": "/guides/setup/open-osek-murshe",
+      "url": "https://il-tools.co.il/guides/setup/open-osek-murshe",
+      "type": "guide",
+      "category": "business-banking",
+      "title": "פתיחת עוסק מורשה — מדריך מלא",
+      "description": "מתי נדרש עוסק מורשה, איך פותחים תיק, איך מדווחים מע״מ ומשלמים אותו, ומה לנהל כדי לא להיתקע מול רשות המסים.",
+      "primary_keyword": "פתיחת עוסק מורשה",
+      "canonical": "/guides/setup/open-osek-murshe",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פתיחת עוסק מורשה — מדריך מלא | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=open-osek-murshe"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "open-osek-patur",
+      "path": "/guides/setup/open-osek-patur",
+      "url": "https://il-tools.co.il/guides/setup/open-osek-patur",
+      "type": "guide",
+      "category": "business-banking",
+      "title": "פתיחת תיק עוסק פטור — מדריך צעד אחר צעד",
+      "description": "איך פותחים תיק עוסק פטור: מתי זה מתאים, אילו מסמכים נדרשים, מה קורה בתקרת המחזור ואיך מנהלים את השוטף.",
+      "primary_keyword": "פתיחת תיק עוסק פטור",
+      "canonical": "/guides/setup/open-osek-patur",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פתיחת תיק עוסק פטור — מדריך צעד אחר צעד | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=open-osek-patur"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "advance-payments-self-employed",
+      "path": "/guides/tax/advance-payments-self-employed",
+      "url": "https://il-tools.co.il/guides/tax/advance-payments-self-employed",
+      "type": "guide",
+      "category": "tax",
+      "title": "מקדמות מס הכנסה לעצמאי: איך הן עובדות",
+      "description": "מה הן מקדמות מס הכנסה, איך קובעים אותן, מתי אפשר להתאים אותן וכיצד הן מתקזזות בדו״ח השנתי.",
+      "primary_keyword": "מקדמות מס הכנסה",
+      "canonical": "/guides/tax/advance-payments-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מקדמות מס הכנסה לעצמאי: איך הן עובדות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=advance-payments-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "annual-tax-report-self-employed",
+      "path": "/guides/tax/annual-tax-report-self-employed",
+      "url": "https://il-tools.co.il/guides/tax/annual-tax-report-self-employed",
+      "type": "guide",
+      "category": "tax",
+      "title": "דו״ח שנתי לעצמאי: איך מגישים ומה לכלול",
+      "description": "מדריך להגשת דו״ח שנתי לעצמאי: מי חייב, אילו מסמכים לאסוף, איך מדווחים הכנסות והוצאות ומתי מקבלים החזר.",
+      "primary_keyword": "דו״ח שנתי לעצמאי",
+      "canonical": "/guides/tax/annual-tax-report-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "דו״ח שנתי לעצמאי: איך מגישים ומה לכלול | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=annual-tax-report-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "choose-accountant",
+      "path": "/guides/tax/choose-accountant",
+      "url": "https://il-tools.co.il/guides/tax/choose-accountant",
+      "type": "guide",
+      "category": "tax",
+      "title": "איך בוחרים רואה חשבון לעסק קטן",
+      "description": "מה לבדוק לפני שבוחרים רואה חשבון או יועץ מס: התמחות, היקף השירות, הצעת מחיר מפורטת, תקשורת וכלים דיגיטליים.",
+      "primary_keyword": "איך בוחרים רואה חשבון",
+      "canonical": "/guides/tax/choose-accountant",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך בוחרים רואה חשבון לעסק קטן | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=choose-accountant"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "issue-invoice-allocation-number",
+      "path": "/guides/tax/issue-invoice-allocation-number",
+      "url": "https://il-tools.co.il/guides/tax/issue-invoice-allocation-number",
+      "type": "guide",
+      "category": "tax",
+      "title": "איך מפיקים חשבונית ואיך עובד מספר הקצאה",
+      "description": "סוגי המסמכים החשבונאיים, איך מפיקים חשבונית תקינה ומה זה מספר הקצאה — צעד אחר צעד, כולל חיבור לרשות המסים.",
+      "primary_keyword": "מספר הקצאה",
+      "canonical": "/guides/tax/issue-invoice-allocation-number",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך מפיקים חשבונית ואיך עובד מספר הקצאה | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=issue-invoice-allocation-number"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "recognized-expenses",
+      "path": "/guides/tax/recognized-expenses",
+      "url": "https://il-tools.co.il/guides/tax/recognized-expenses",
+      "type": "guide",
+      "category": "tax",
+      "title": "הוצאות מוכרות לעצמאי: מה מותר לנכות",
+      "description": "מהי הוצאה מוכרת לעצמאי, אילו הוצאות נפוצות מנוכות, איך מתעדים אותן ומה בדרך כלל אינו מוכר לצורכי מס.",
+      "primary_keyword": "הוצאות מוכרות לעצמאי",
+      "canonical": "/guides/tax/recognized-expenses",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "הוצאות מוכרות לעצמאי: מה מותר לנכות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=recognized-expenses"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "vat-for-self-employed",
+      "path": "/guides/tax/vat-for-self-employed",
+      "url": "https://il-tools.co.il/guides/tax/vat-for-self-employed",
+      "type": "guide",
+      "category": "tax",
+      "title": "מע״מ לעצמאים: חישוב, דיווח ותשלום",
+      "description": "מדריך מע״מ לעצמאי: מי חייב, איך מחשבים מע״מ עסקאות מול תשומות, איך מדווחים ומשלמים ומה קורה עם יצוא.",
+      "primary_keyword": "מע״מ לעצמאים",
+      "canonical": "/guides/tax/vat-for-self-employed",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מע״מ לעצמאים: חישוב, דיווח ותשלום | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=vat-for-self-employed"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "year-end-tax-prep",
+      "path": "/guides/tax/year-end-tax-prep",
+      "url": "https://il-tools.co.il/guides/tax/year-end-tax-prep",
+      "type": "guide",
+      "category": "tax",
+      "title": "איך מתכוננים לסוף שנת מס",
+      "description": "צעד אחר צעד לקראת סוף שנת המס: ריכוז מסמכים, בדיקת מקדמות, נקודות זיכוי, הוצאות מוכרות והגשת הדו״ח בזמן.",
+      "primary_keyword": "הכנה לסוף שנת מס",
+      "canonical": "/guides/tax/year-end-tax-prep",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך מתכוננים לסוף שנת מס | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=year-end-tax-prep"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "choose-accounting-software",
+      "path": "/guides/tools/choose-accounting-software",
+      "url": "https://il-tools.co.il/guides/tools/choose-accounting-software",
+      "type": "guide",
+      "category": "accounting",
+      "title": "איך בוחרים תוכנת הנהלת חשבונות",
+      "description": "מדריך לבחירת תוכנת הנהלת חשבונות: התאמה לחשבוניות ישראל, מחירונים שפורסמו, יכולות דיווח, אינטגרציות ותמיכה.",
+      "primary_keyword": "תוכנת הנהלת חשבונות",
+      "canonical": "/guides/tools/choose-accounting-software",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איך בוחרים תוכנת הנהלת חשבונות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=guide&slug=choose-accounting-software"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "about",
+      "path": "/about",
+      "url": "https://il-tools.co.il/about",
+      "type": "page",
+      "category": "tools",
+      "title": "אודות IL-Tools — מי אנחנו ומה אנחנו עושים",
+      "description": "מה עושה אתר IL-Tools, איך נכתב התוכן, ומה אנחנו לא עושים: בלי ייעוץ, בלי הבטחות ובלי ציטוטים או דירוגי משתמשים שאין לנו.",
+      "primary_keyword": "אודות IL-Tools",
+      "canonical": "/about",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "אודות IL-Tools — מי אנחנו ומה אנחנו עושים | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=about"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "advertise",
+      "path": "/advertise",
+      "url": "https://il-tools.co.il/advertise",
+      "type": "page",
+      "category": "tools",
+      "title": "פרסום ושיתופי פעולה ב-IL-Tools",
+      "description": "אפשרויות שיתוף פעולה עם IL-Tools — תוכן ממומן מסומן, מיקום בתשלום, אפיליאייט ולידים. שקוף לקוראים, בלי הבטחת מיקום בדירוג.",
+      "primary_keyword": "פרסום ב-IL-Tools",
+      "canonical": "/advertise",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פרסום ושיתופי פעולה ב-IL-Tools | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=advertise"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "contact",
+      "path": "/contact",
+      "url": "https://il-tools.co.il/contact",
+      "type": "page",
+      "category": "tools",
+      "title": "יצירת קשר עם IL-Tools",
+      "description": "ערוצי הפנייה ל-IL-Tools לפניות תוכן ותיקוני טעויות, פרסום, פרטיות ונגישות — ומה כדאי לכלול בפנייה ומה זמני התגובה.",
+      "primary_keyword": "יצירת קשר עם IL-Tools",
+      "canonical": "/contact",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "יצירת קשר עם IL-Tools | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=contact"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "editorial-policy",
+      "path": "/editorial-policy",
+      "url": "https://il-tools.co.il/editorial-policy",
+      "type": "page",
+      "category": "tools",
+      "title": "מדיניות המערכת: מקורות, תיקונים ועדכונים",
+      "description": "תקני המקורות שלנו, שימוש בכלי בינה מלאכותית, מדיניות תיקון טעויות וקצב הבדיקה — כולל בדיקה מחדש של מספרים סטטוטוריים בכל ינואר.",
+      "primary_keyword": "מדיניות מערכת",
+      "canonical": "/editorial-policy",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מדיניות המערכת: מקורות, תיקונים ועדכונים | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=editorial-policy"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "home",
+      "path": "/",
+      "url": "https://il-tools.co.il/",
+      "type": "page",
+      "category": "tools",
+      "title": "השוואות ומחשבונים לעצמאים ולעסקים | IL-Tools",
+      "description": "השוואות תוכנות, סליקה, בנקים ו-CRM, מחשבונים למיסים ולמע״מ ומדריכים בעברית — עם נתונים ממקורות רשמיים ושיטת דירוג שקופה.",
+      "primary_keyword": "השוואות ומחשבונים לעצמאים",
+      "canonical": "/",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebSite",
+        "Organization",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "השוואות ומחשבונים לעצמאים ולעסקים | IL-Tools | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=home"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "lead-accountant",
+      "path": "/lead/accountant",
+      "url": "https://il-tools.co.il/lead/accountant",
+      "type": "page",
+      "category": "accounting",
+      "title": "רואה חשבון או יועץ מס לעצמאי — בקשת הצעה",
+      "description": "רואה חשבון או יועץ מס מטפלים בדו״חות, מע״מ ומקדמות. אפשר להשאיר פרטים, והפנייה תועבר לבעל/ת מקצוע מורשה/ית שיחזרו אליכם.",
+      "primary_keyword": "רואה חשבון לעצמאי",
+      "canonical": "/lead/accountant",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "רואה חשבון או יועץ מס לעצמאי — בקשת הצעה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=lead-accountant"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "lead-mortgage-information",
+      "path": "/lead/mortgage-information",
+      "url": "https://il-tools.co.il/lead/mortgage-information",
+      "type": "page",
+      "category": "business-finance",
+      "title": "מידע על משכנתא — בקשת המשך שיחה",
+      "description": "מידע כללי על הליך משכנתא ופנייה להמשך שיחה מבעל/ת מקצוע. IL-Tools אינו יועץ מורשה ואינו מבטיח אישור הלוואה, ריבית או תנאים.",
+      "primary_keyword": "מידע על משכנתא",
+      "canonical": "/lead/mortgage-information",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מידע על משכנתא — בקשת המשך שיחה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=lead-mortgage-information"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "lead-pension-information",
+      "path": "/lead/pension-information",
+      "url": "https://il-tools.co.il/lead/pension-information",
+      "type": "page",
+      "category": "pension",
+      "title": "מידע על פנסיה לעצמאים — בקשת המשך שיחה",
+      "description": "מידע כללי על פנסיה לעצמאים ופנייה להמשך שיחה מבעל/ת רישיון. IL-Tools אינו יועץ מורשה, אין ייעוץ, אין תשואות ואין דירוג מוצרים.",
+      "primary_keyword": "פנסיה לעצמאים",
+      "canonical": "/lead/pension-information",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מידע על פנסיה לעצמאים — בקשת המשך שיחה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=lead-pension-information"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "methodology",
+      "path": "/methodology",
+      "url": "https://il-tools.co.il/methodology",
+      "type": "page",
+      "category": "tools",
+      "title": "שיטת הדירוג של IL-Tools — הנוסחה המלאה",
+      "description": "הנוסחה שמאחורי הציונים: מחיר 30%, התאמת יכולות 30%, תמיכה 15%, אמינות 15% ושקיפות 10% — ואיך זה עובד כשיש תשלום לספק.",
+      "primary_keyword": "שיטת הדירוג של IL-Tools",
+      "canonical": "/methodology",
+      "robots": "index, follow",
+      "schema_types": [
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "שיטת הדירוג של IL-Tools — הנוסחה המלאה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=page&slug=methodology"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "bank-hapoalim",
+      "path": "/reviews/bank-hapoalim",
+      "url": "https://il-tools.co.il/reviews/bank-hapoalim",
+      "type": "review",
+      "category": "business-banking",
+      "title": "בנק הפועלים לעסקים — ביקורת על חשבון עסקי",
+      "description": "ביקורת על בנק הפועלים לחשבון עסקי: מסלולים לעסק קטן ולעסק גדול, ריבית פריים, הטבות בערוצים ישירים ואיך מתמקחים על דמי ניהול.",
+      "primary_keyword": "בנק הפועלים חשבון עסקי",
+      "canonical": "/reviews/bank-hapoalim",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "בנק הפועלים לעסקים — ביקורת על חשבון עסקי | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=bank-hapoalim"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "bank-leumi",
+      "path": "/reviews/bank-leumi",
+      "url": "https://il-tools.co.il/reviews/bank-leumi",
+      "type": "review",
+      "category": "business-banking",
+      "title": "בנק לאומי לעסקים — ביקורת על חשבון עסקי",
+      "description": "ביקורת על בנק לאומי לחשבון עסקי: חשבונות עסקיים, מסלולי אשראי ושירותי דיגיטל, תמחור בהצעת מחיר בלבד, והתאמה לעצמאים ולעסקים קטנים.",
+      "primary_keyword": "בנק לאומי חשבון עסקי",
+      "canonical": "/reviews/bank-leumi",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "בנק לאומי לעסקים — ביקורת על חשבון עסקי | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=bank-leumi"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "cal",
+      "path": "/reviews/cal",
+      "url": "https://il-tools.co.il/reviews/cal",
+      "type": "review",
+      "category": "clearing",
+      "title": "כאל (Cal): סקירת סליקה ישירה לעסק",
+      "description": "סקירת כאל (Cal, Visa CAL): סולקת ישירה בישראל, מה ידוע על התמחור, למי זה מתאים ואיך משווים מול ספקי סליקה אחרים.",
+      "primary_keyword": "כאל סליקה",
+      "canonical": "/reviews/cal",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "כאל (Cal): סקירת סליקה ישירה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=cal"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "cardcom-invoices",
+      "path": "/reviews/cardcom-invoices",
+      "url": "https://il-tools.co.il/reviews/cardcom-invoices",
+      "type": "review",
+      "category": "invoicing",
+      "title": "קארדקום חשבוניות — ביקורת על הפקת מסמכים",
+      "description": "ביקורת על קארדקום חשבוניות דיגיטליות: הפקה אוטומטית לאחר סליקה, חיבור לסליקה, מספר הקצאה ותמחור בהצעת מחיר בלבד.",
+      "primary_keyword": "קארדקום חשבוניות",
+      "canonical": "/reviews/cardcom-invoices",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "קארדקום חשבוניות — ביקורת על הפקת מסמכים | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=cardcom-invoices"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "cardcom",
+      "path": "/reviews/cardcom",
+      "url": "https://il-tools.co.il/reviews/cardcom",
+      "type": "review",
+      "category": "clearing",
+      "title": "קארדקום (Cardcom): סקירה ועמלות סליקה לעסק",
+      "description": "סקירת קארדקום (Cardcom) לעסקים: מה פורסם על עמלות, למי זה מתאים, חוזקות וחולשות, ואיך משווים מול ספקי סליקה אחרים בישראל.",
+      "primary_keyword": "קארדקום סליקה",
+      "canonical": "/reviews/cardcom",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "קארדקום (Cardcom): סקירה ועמלות סליקה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=cardcom"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "fireberry",
+      "path": "/reviews/fireberry",
+      "url": "https://il-tools.co.il/reviews/fireberry",
+      "type": "review",
+      "category": "crm",
+      "title": "Fireberry — ביקורת על מערכת ה-CRM הישראלית",
+      "description": "ביקורת על Fireberry: CRM ישראלי עם מסלול ללא עלות ומסלולי Sales בדולר, מינימום משתמשים ואוטומציות, והתאמה לעסקים קטנים ובינוניים.",
+      "primary_keyword": "Fireberry ביקורת",
+      "canonical": "/reviews/fireberry",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "Fireberry — ביקורת על מערכת ה-CRM הישראלית | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=fireberry"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "green-invoice",
+      "path": "/reviews/green-invoice",
+      "url": "https://il-tools.co.il/reviews/green-invoice",
+      "type": "review",
+      "category": "invoicing",
+      "title": "חשבונית ירוקה (מורנינג): סקירה ומחירים",
+      "description": "סקירת חשבונית ירוקה (מורנינג): מסלולי מחיר, מספר הקצאה בכל המסלולים, למי זה מתאים ואיך משווים מול תוכנות חשבוניות אחרות.",
+      "primary_keyword": "חשבונית ירוקה מחיר",
+      "canonical": "/reviews/green-invoice",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "חשבונית ירוקה (מורנינג): סקירה ומחירים | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=green-invoice"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "grow",
+      "path": "/reviews/grow",
+      "url": "https://il-tools.co.il/reviews/grow",
+      "type": "review",
+      "category": "clearing",
+      "title": "Grow (משולם): סקירה, עמלות ומסלולים לעסק",
+      "description": "סקירת Grow (משולם): תעריפון שפורסם במלואו, מסלולים, עמלות לעסקה, למי זה מתאים ואיך משווים מול ספקי סליקה אחרים בישראל.",
+      "primary_keyword": "Grow משולם סליקה",
+      "canonical": "/reviews/grow",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "Grow (משולם): סקירה, עמלות ומסלולים לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=grow"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "hashavshevet",
+      "path": "/reviews/hashavshevet",
+      "url": "https://il-tools.co.il/reviews/hashavshevet",
+      "type": "review",
+      "category": "invoicing",
+      "title": "חשבשבת H-ERP — ביקורת על מערכת ה-ERP",
+      "description": "ביקורת על חשבשבת H-ERP: מערכת ERP ישראלית מודולרית להנהלת חשבונות, מלאי ושכר, עם תמחור בהצעת מחיר בלבד והתאמה לעסקים בינוניים.",
+      "primary_keyword": "חשבשבת ביקורת",
+      "canonical": "/reviews/hashavshevet",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "חשבשבת H-ERP — ביקורת על מערכת ה-ERP | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=hashavshevet"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "hilan",
+      "path": "/reviews/hilan",
+      "url": "https://il-tools.co.il/reviews/hilan",
+      "type": "review",
+      "category": "payroll",
+      "title": "חילן — ביקורת על מערכות השכר וה-HR",
+      "description": "ביקורת על חילן: פתרונות שכר, HR, נוכחות ופנסיה לארגונים, תמחור בהצעת מחיר בלבד, והתאמה לעסקים בינוניים וגדולים.",
+      "primary_keyword": "חילן ביקורת",
+      "canonical": "/reviews/hilan",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "חילן — ביקורת על מערכות השכר וה-HR | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=hilan"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "hubspot",
+      "path": "/reviews/hubspot",
+      "url": "https://il-tools.co.il/reviews/hubspot",
+      "type": "review",
+      "category": "crm",
+      "title": "HubSpot — ביקורת על מערכת ה-CRM",
+      "description": "ביקורת על HubSpot: מסלול ללא עלות לשני משתמשים, מסלולים בתשלום תלויי אזור ומטבע, מגוון כלי מכירה ושיווק, והתאמה לעסקים קטנים.",
+      "primary_keyword": "HubSpot ביקורת",
+      "canonical": "/reviews/hubspot",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "HubSpot — ביקורת על מערכת ה-CRM | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=hubspot"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "hyp-ezcount",
+      "path": "/reviews/hyp-ezcount",
+      "url": "https://il-tools.co.il/reviews/hyp-ezcount",
+      "type": "review",
+      "category": "invoicing",
+      "title": "איזיקאונט (Hyp) — ביקורת על מערכת חשבוניות",
+      "description": "ביקורת על איזיקאונט (Hyp): ארבעה מסלולים מ-24 ₪ לחודש, מסמכים בחודש, מספר הקצאה והתאמה לעצמאים ולעסקים קטנים.",
+      "primary_keyword": "איזיקאונט ביקורת",
+      "canonical": "/reviews/hyp-ezcount",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איזיקאונט (Hyp) — ביקורת על מערכת חשבוניות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=hyp-ezcount"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "icount",
+      "path": "/reviews/icount",
+      "url": "https://il-tools.co.il/reviews/icount",
+      "type": "review",
+      "category": "invoicing",
+      "title": "iCount: סקירה, מסלולים ומחירים לעסק",
+      "description": "סקירת iCount: מסלולי Express, Advanced ו-Master, מחירים לפי שימוש, למי זה מתאים ואיך משווים מול תוכנות חשבוניות אחרות בישראל.",
+      "primary_keyword": "iCount מחיר",
+      "canonical": "/reviews/icount",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "iCount: סקירה, מסלולים ומחירים לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=icount"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "invoice4u",
+      "path": "/reviews/invoice4u",
+      "url": "https://il-tools.co.il/reviews/invoice4u",
+      "type": "review",
+      "category": "invoicing",
+      "title": "חשבונית4U: סקירה, מסלולים ומחירים",
+      "description": "סקירת חשבונית4U: ארבעה מסלולים שנתיים, דמי הקמה ועמלת סליקה, למי זה מתאים ואיך משווים מול תוכנות חשבוניות אחרות בישראל.",
+      "primary_keyword": "חשבונית4U מחיר",
+      "canonical": "/reviews/invoice4u",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "חשבונית4U: סקירה, מסלולים ומחירים | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=invoice4u"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "isracard",
+      "path": "/reviews/isracard",
+      "url": "https://il-tools.co.il/reviews/isracard",
+      "type": "review",
+      "category": "clearing",
+      "title": "ישראכרט (Isracard): סקירת סולקת ישירה לעסק",
+      "description": "סקירת ישראכרט (Isracard): סולקת ישירה בישראל, מה ידוע על התמחור, למי זה מתאים ואיך משווים מול ספקי סליקה אחרים.",
+      "primary_keyword": "ישראכרט סליקה",
+      "canonical": "/reviews/isracard",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "ישראכרט (Isracard): סקירת סולקת ישירה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=isracard"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "max",
+      "path": "/reviews/max",
+      "url": "https://il-tools.co.il/reviews/max",
+      "type": "review",
+      "category": "clearing",
+      "title": "מקס (Max): סקירת סליקה ישירה לעסק",
+      "description": "סקירת מקס (Max, לשעבר לאומי קארד): סולקת ישירה בישראל, מה ידוע על התמחור, למי זה מתאים ואיך משווים מול ספקי סליקה אחרים.",
+      "primary_keyword": "מקס סליקה",
+      "canonical": "/reviews/max",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מקס (Max): סקירת סליקה ישירה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=max"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "michpal",
+      "path": "/reviews/michpal",
+      "url": "https://il-tools.co.il/reviews/michpal",
+      "type": "review",
+      "category": "payroll",
+      "title": "מיכפל — ביקורת על תוכנת השכר",
+      "description": "ביקורת על מיכפל: תוכנת שכר ותפעול פנסיוני ותיקה בישראל, מודולי שכר ופנסיה, תמחור בהצעת מחיר בלבד, והתאמה למשרדי שכר ולעסקים.",
+      "primary_keyword": "מיכפל ביקורת",
+      "canonical": "/reviews/michpal",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מיכפל — ביקורת על תוכנת השכר | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=michpal"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "monday",
+      "path": "/reviews/monday",
+      "url": "https://il-tools.co.il/reviews/monday",
+      "type": "review",
+      "category": "crm",
+      "title": "monday CRM — ביקורת על מערכת ה-CRM של monday",
+      "description": "ביקורת על monday CRM: מסלולי CRM באירו למושב, מוצר ניהול עבודה בדולר, אוטומציות ואינטגרציות, והתאמה לצוותי מכירה בישראל.",
+      "primary_keyword": "monday CRM ביקורת",
+      "canonical": "/reviews/monday",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "monday CRM — ביקורת על מערכת ה-CRM של monday | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=monday"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "paypal",
+      "path": "/reviews/paypal",
+      "url": "https://il-tools.co.il/reviews/paypal",
+      "type": "review",
+      "category": "clearing",
+      "title": "פייפאל (PayPal): עמלות סליקה וסקירה לעסק",
+      "description": "סקירת פייפאל (PayPal) לעסקים: עמלות סליקה מקומיות ובינלאומיות, למי זה מתאים, חוזקות וחולשות, ואיך משווים מול ספקי סליקה בישראל.",
+      "primary_keyword": "פייפאל עמלות סליקה",
+      "canonical": "/reviews/paypal",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פייפאל (PayPal): עמלות סליקה וסקירה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=paypal"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "payplus",
+      "path": "/reviews/payplus",
+      "url": "https://il-tools.co.il/reviews/payplus",
+      "type": "review",
+      "category": "clearing",
+      "title": "פייפלוס (PayPlus): סקירה, סליקה והתאמה לעסק",
+      "description": "סקירת פייפלוס (PayPlus): מה ידוע על התמחור, למי זה מתאים, חוזקות וחולשות, ואיך משווים מול ספקי סליקה אחרים בישראל.",
+      "primary_keyword": "פייפלוס סליקה",
+      "canonical": "/reviews/payplus",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פייפלוס (PayPlus): סקירה, סליקה והתאמה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=payplus"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "payslips",
+      "path": "/reviews/payslips",
+      "url": "https://il-tools.co.il/reviews/payslips",
+      "type": "review",
+      "category": "payroll",
+      "title": "PaySlips — ביקורת על הפצת תלושי שכר דיגיטלית",
+      "description": "ביקורת על PaySlips: שלושה מסלולים להפצת תלושי שכר דיגיטלית (עד 50 / עד 200 / ללא הגבלה עובדים), תמחור בהצעת מחיר בלבד והתאמה למשרדי שכר.",
+      "primary_keyword": "PaySlips ביקורת",
+      "canonical": "/reviews/payslips",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "PaySlips — ביקורת על הפצת תלושי שכר דיגיטלית | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=payslips"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "pelecard",
+      "path": "/reviews/pelecard",
+      "url": "https://il-tools.co.il/reviews/pelecard",
+      "type": "review",
+      "category": "clearing",
+      "title": "פלאקארד (Pelecard): סקירה ופתרונות סליקה לעסק",
+      "description": "סקירת פלאקארד (Pelecard): מה ידוע על התמחור, למי זה מתאים, חוזקות וחולשות, ואיך משווים מול ספקי סליקה אחרים בישראל.",
+      "primary_keyword": "פלאקארד סליקה",
+      "canonical": "/reviews/pelecard",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "פלאקארד (Pelecard): סקירה ופתרונות סליקה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=pelecard"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "pipedrive",
+      "path": "/reviews/pipedrive",
+      "url": "https://il-tools.co.il/reviews/pipedrive",
+      "type": "review",
+      "category": "crm",
+      "title": "Pipedrive — ביקורת על מערכת ה-CRM למכירות",
+      "description": "ביקורת על Pipedrive: ארבעה מסלולי מכירות באירו למושב, ממשק צנרת מכירות, 500 אינטגרציות, והתאמה לצוותי מכירה בישראל.",
+      "primary_keyword": "Pipedrive ביקורת",
+      "canonical": "/reviews/pipedrive",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "Pipedrive — ביקורת על מערכת ה-CRM למכירות | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=pipedrive"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "rivhit-accounting",
+      "path": "/reviews/rivhit-accounting",
+      "url": "https://il-tools.co.il/reviews/rivhit-accounting",
+      "type": "review",
+      "category": "accounting",
+      "title": "ריווחית הנהלת חשבונות — ביקורת על המערכת",
+      "description": "ביקורת על ריווחית אונליין להנהלת חשבונות: שלושה מסלולים ב-1,200 עד 2,400 ₪ לשנה, ספרי חשבונות כפולים, מע״מ ומקדמות, והתאמה לעצמאים ולעסקים.",
+      "primary_keyword": "ריווחית הנהלת חשבונות ביקורת",
+      "canonical": "/reviews/rivhit-accounting",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "ריווחית הנהלת חשבונות — ביקורת על המערכת | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=rivhit-accounting"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "rivhit",
+      "path": "/reviews/rivhit",
+      "url": "https://il-tools.co.il/reviews/rivhit",
+      "type": "review",
+      "category": "invoicing",
+      "title": "ריווחית (Rivhit): סקירה, מסלולים ומחירים",
+      "description": "סקירת ריווחית (Rivhit): מסלולי Basic, Plus ו-Pro, מחירי מבצע, למי זה מתאים ואיך משווים מול תוכנות חשבוניות אחרות בישראל.",
+      "primary_keyword": "ריווחית מחיר",
+      "canonical": "/reviews/rivhit",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "ריווחית (Rivhit): סקירה, מסלולים ומחירים | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=rivhit"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "salesforce",
+      "path": "/reviews/salesforce",
+      "url": "https://il-tools.co.il/reviews/salesforce",
+      "type": "review",
+      "category": "crm",
+      "title": "Salesforce — ביקורת על Starter Suite לעסקים",
+      "description": "ביקורת על Salesforce: מסלול Starter Suite ב-25 דולר למשתמש לחודש, מסלולים מתקדמים בהצעת מחיר, והתאמה לעסקים שצומחים לתהליכי מכירה מורכבים.",
+      "primary_keyword": "Salesforce ביקורת",
+      "canonical": "/reviews/salesforce",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "Salesforce — ביקורת על Starter Suite לעסקים | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=salesforce"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "stripe",
+      "path": "/reviews/stripe",
+      "url": "https://il-tools.co.il/reviews/stripe",
+      "type": "review",
+      "category": "clearing",
+      "title": "סטרייפ (Stripe): סקירה, עמלות והתאמה לסוחר ישראלי",
+      "description": "סקירת סטרייפ (Stripe) לסוחר ישראלי: אילו תעריפים פורסמו, למה המיפוי לישראל אינו מאומת, למי זה מתאים ואיך משווים מול ספקים מקומיים.",
+      "primary_keyword": "סטרייפ סליקה",
+      "canonical": "/reviews/stripe",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "סטרייפ (Stripe): סקירה, עמלות והתאמה לסוחר ישראלי | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=stripe"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "tranzila",
+      "path": "/reviews/tranzila",
+      "url": "https://il-tools.co.il/reviews/tranzila",
+      "type": "review",
+      "category": "clearing",
+      "title": "טרנזילה (Tranzila): סקירה ועמלות סליקה לעסק",
+      "description": "סקירת טרנזילה (Tranzila) לעסקים: מה פורסם על מחירים, למי זה מתאים, חוזקות וחולשות, ואיך משווים מול ספקי סליקה אחרים בישראל.",
+      "primary_keyword": "טרנזילה סליקה",
+      "canonical": "/reviews/tranzila",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "טרנזילה (Tranzila): סקירה ועמלות סליקה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=tranzila"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "yaad-sarig",
+      "path": "/reviews/yaad-sarig",
+      "url": "https://il-tools.co.il/reviews/yaad-sarig",
+      "type": "review",
+      "category": "clearing",
+      "title": "יעד שריג (יעד סליקה / iPay): סקירת סליקה לעסק",
+      "description": "סקירת יעד שריג (יעד סליקה / iPay): מה ידוע על התמחור, למי זה מתאים, חוזקות וחולשות, ואיך משווים מול ספקי סליקה אחרים בישראל.",
+      "primary_keyword": "יעד סליקה",
+      "canonical": "/reviews/yaad-sarig",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "יעד שריג (יעד סליקה / iPay): סקירת סליקה לעסק | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=yaad-sarig"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "zoho",
+      "path": "/reviews/zoho",
+      "url": "https://il-tools.co.il/reviews/zoho",
+      "type": "review",
+      "category": "crm",
+      "title": "Zoho CRM — ביקורת על מערכת ה-CRM",
+      "description": "ביקורת על Zoho CRM: מסלול ללא עלות לשלושה משתמשים וחמישה מסלולים בדולר, אוטומציות ואינטגרציות, והתאמה לעסקים קטנים ובינוניים.",
+      "primary_keyword": "Zoho CRM ביקורת",
+      "canonical": "/reviews/zoho",
+      "robots": "index, follow",
+      "schema_types": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "Zoho CRM — ביקורת על מערכת ה-CRM | IL-Tools",
+        "type": "article",
+        "image": "/api/og?type=review&slug=zoho"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "bank-fee-checker",
+      "path": "/tools/bank-fee-checker",
+      "url": "https://il-tools.co.il/tools/bank-fee-checker",
+      "type": "calculator",
+      "category": "tools",
+      "title": "בודק עמלות בנק לעסק: מה לשלם ומה לבדוק",
+      "description": "כלי לבדיקת עמלות בנק לעסק: מזינים את שורות החיוב ומקבלים השוואה מול מה שפורסם ואילו סעיפים כדאי לבדוק.",
+      "primary_keyword": "עמלות בנק לעסק",
+      "canonical": "/tools/bank-fee-checker",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "בודק עמלות בנק לעסק: מה לשלם ומה לבדוק | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=bank-fee-checker"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "business-setup-cost-calculator",
+      "path": "/tools/business-setup-cost-calculator",
+      "url": "https://il-tools.co.il/tools/business-setup-cost-calculator",
+      "type": "calculator",
+      "category": "tools",
+      "title": "מחשבון עלות הקמת עסק: כמה זה עולה בפועל",
+      "description": "רשימת עלויות לפתיחת עסק בישראל — רישום, רואה חשבון, תוכנה, סליקה ובנק — עם אומדן שנתי ראשון. ללא מספרים לא מאומתים.",
+      "primary_keyword": "מחשבון עלות הקמת עסק",
+      "canonical": "/tools/business-setup-cost-calculator",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון עלות הקמת עסק: כמה זה עולה בפועל | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=business-setup-cost-calculator"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "business-structure-quiz",
+      "path": "/tools/business-structure-quiz",
+      "url": "https://il-tools.co.il/tools/business-structure-quiz",
+      "type": "calculator",
+      "category": "tools",
+      "title": "איזה סוג עסק מתאים לך? בוחן עוסק פטור, מורשה או חברה",
+      "description": "בוחן אינטראקטיבי שבודק איזה מבנה עסקי מתאים לפי מחזור, לקוחות וסיכון — עוסק פטור, עוסק מורשה או חברה בע״מ.",
+      "primary_keyword": "עוסק פטור מורשה או חברה",
+      "canonical": "/tools/business-structure-quiz",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "איזה סוג עסק מתאים לך? בוחן עוסק פטור, מורשה או חברה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=business-structure-quiz"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "freelancer-hourly-rate",
+      "path": "/tools/freelancer-hourly-rate",
+      "url": "https://il-tools.co.il/tools/freelancer-hourly-rate",
+      "type": "calculator",
+      "category": "tools",
+      "title": "מחשבון תעריף שעתי לפרילנסרים: כמה לגבות",
+      "description": "חישוב תעריף שעתי מינימלי לפרילנסר/ית מתוך הכנסה נטו רצויה, שעות חיוב, הוצאות, חופשה ומיסים לפי מדרגות 2026.",
+      "primary_keyword": "מחשבון תעריף שעתי לפרילנסר",
+      "canonical": "/tools/freelancer-hourly-rate",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון תעריף שעתי לפרילנסרים: כמה לגבות | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=freelancer-hourly-rate"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "payslip-decoder",
+      "path": "/tools/payslip-decoder",
+      "url": "https://il-tools.co.il/tools/payslip-decoder",
+      "type": "calculator",
+      "category": "tools",
+      "title": "מפענח תלוש שכר: כל שורה מוסברת בשפה פשוטה",
+      "description": "כלי שמסביר שורה אחר שורה בתלוש השכר — ברוטו, ניכויים, פנסיה, קרן השתלמות ונקודות זיכוי. החישוב בדפדפן בלבד, ללא שמירה.",
+      "primary_keyword": "מפענח תלוש שכר",
+      "canonical": "/tools/payslip-decoder",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מפענח תלוש שכר: כל שורה מוסברת בשפה פשוטה | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=payslip-decoder"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "tax-calendar",
+      "path": "/tools/tax-calendar",
+      "url": "https://il-tools.co.il/tools/tax-calendar",
+      "type": "calculator",
+      "category": "tools",
+      "title": "לוח שנה פיננסי לעצמאים: מתי משלמים ומדווחים",
+      "description": "לוח שנה פיננסי לעצמאי/ת: מועדי דיווח מע״מ, מקדמות מס, ביטוח לאומי ודוח שנתי, כולל תזכורות לייצוא ליומן.",
+      "primary_keyword": "לוח שנה פיננסי לעצמאים",
+      "canonical": "/tools/tax-calendar",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "לוח שנה פיננסי לעצמאים: מתי משלמים ומדווחים | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=tax-calendar"
+      },
+      "updated": "2026-10-16"
+    },
+    {
+      "slug": "tax-refund-estimator",
+      "path": "/tools/tax-refund-estimator",
+      "url": "https://il-tools.co.il/tools/tax-refund-estimator",
+      "type": "calculator",
+      "category": "tools",
+      "title": "מחשבון החזר מס לשכירים: בדיקה ראשונית",
+      "description": "בדיקה ראשונית של החזר מס אפשרי לשכיר/ה לפי נקודות זיכוי, ניכויים והכנסות — כדי לדעת אם כדאי לפנות לבדיקה מקצועית.",
+      "primary_keyword": "מחשבון החזר מס",
+      "canonical": "/tools/tax-refund-estimator",
+      "robots": "index, follow",
+      "schema_types": [
+        "SoftwareApplication",
+        "BreadcrumbList"
+      ],
+      "og": {
+        "title": "מחשבון החזר מס לשכירים: בדיקה ראשונית | IL-Tools",
+        "type": "website",
+        "image": "/api/og?type=calculator&slug=tax-refund-estimator"
+      },
+      "updated": "2026-10-16"
+    }
+  ],
+  "not_a_route": [
+    {
+      "slug": "newsletter-01",
+      "rel": "content/newsletter/issue-01.md",
+      "reason": "newsletter/social data — email content, not a site route"
+    },
+    {
+      "slug": "newsletter-02",
+      "rel": "content/newsletter/issue-02.md",
+      "reason": "newsletter/social data — email content, not a site route"
+    },
+    {
+      "slug": "newsletter-03",
+      "rel": "content/newsletter/issue-03.md",
+      "reason": "newsletter/social data — email content, not a site route"
+    },
+    {
+      "slug": "newsletter-04",
+      "rel": "content/newsletter/issue-04.md",
+      "reason": "newsletter/social data — email content, not a site route"
+    },
+    {
+      "slug": "newsletter-05",
+      "rel": "content/newsletter/issue-05.md",
+      "reason": "newsletter/social data — email content, not a site route"
+    },
+    {
+      "slug": "newsletter-06",
+      "rel": "content/newsletter/issue-06.md",
+      "reason": "newsletter/social data — email content, not a site route"
+    }
+  ],
+  "deferred_routes": [
+    {
+      "pattern": "/tax-year/[year]",
+      "status": "noindex, not generated until content exists",
+      "note": "/tax-year/2026 to be added in phase 2; /tax-year/current → 302 /tax-year/2026 once live"
+    },
+    {
+      "pattern": "/news/[slug]",
+      "status": "noindex, not generated until content exists",
+      "note": "news hub is deferred; do not create thin pages"
+    }
+  ]
+}
