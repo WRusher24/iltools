@@ -1,0 +1,21 @@
+{
+  "il-tools-editorial": {
+    "id": "il-tools-editorial",
+    "name_he": "צוות המערכת של IL-Tools",
+    "name_en": "IL-Tools Editorial Team",
+    "type": "team_persona",
+    "bio_he": "צוות הכותבים של IL-Tools. אנחנו אוספים נתונים ממקורות רשמיים (רשות המסים, ביטוח לאומי, רשות שוק ההון, בנק ישראל) ומפרסמים השוואות, מחשבונים ומדריכים לעצמאיים ולעסקים קטנים. אין אנו נותנים ייעוץ פיננסי, פנסיוני, משפטי או מיסויי.",
+    "bio_en": "The IL-Tools editorial team. We compile data from official Israeli sources and publish comparisons, calculators and guides for freelancers and small businesses. We do not provide financial, pension, legal or tax advice.",
+    "avatar": null,
+    "note": "זהו פרסונה צוותית, לא אדם אמיתי. אסור להשתמש בשם של אדם פרטי ללא אישור."
+  },
+  "reviewer_role": {
+    "available": false,
+    "note_he": "כרגע אין מגייס/ת credentialed reviewer. אסור לכתוב 'נבדק על ידי רו״ח' עד שנחתם הסכם עם בעל/ת מקצוע אמיתי/ת (רו״ח, יועץ מס, יועץ פנסיוני מורשה).",
+    "future_options_he": [
+      "רו״ח ביקורת (לבדיקת תוכן מיסוי)",
+      "יועץ מס מוסמך",
+      "יועץ פנסיוני מורשה לפי חוק הפיקוח על שירותים פיננסיים"
+    ]
+  }
+}
