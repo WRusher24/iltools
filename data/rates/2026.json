@@ -1,0 +1,117 @@
+{
+  "tax_year": 2026,
+  "currency": "ILS",
+  "income_tax_brackets": [
+    {
+      "id": "b1",
+      "from_annual": 0,
+      "to_annual": 84120,
+      "rate": 0.10,
+      "effective_from": "2026-01-01",
+      "legal_basis": "פקודת מס הכנסה, סעיף 121",
+      "source_id": "src_ita_01",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    {
+      "id": "b2",
+      "from_annual": 84121,
+      "to_annual": 120720,
+      "rate": 0.14,
+      "effective_from": "2026-01-01",
+      "legal_basis": "פקודת מס הכנסה, סעיף 121",
+      "source_id": "src_ita_01",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    {
+      "id": "b3",
+      "from_annual": 120721,
+      "to_annual": 228000,
+      "rate": 0.20,
+      "effective_from": "2026-01-01",
+      "legal_basis": "פקודת מס הכנסה, סעיף 121",
+      "source_id": "src_ita_01",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    {
+      "id": "b4",
+      "from_annual": 228001,
+      "to_annual": 301200,
+      "rate": 0.31,
+      "effective_from": "2026-01-01",
+      "legal_basis": "פקודת מס הכנסה, סעיף 121",
+      "source_id": "src_ita_01",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    {
+      "id": "b5",
+      "from_annual": 301201,
+      "to_annual": 560280,
+      "rate": 0.35,
+      "effective_from": "2026-01-01",
+      "legal_basis": "פקודת מס הכנסה, סעיף 121",
+      "source_id": "src_ita_01",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    {
+      "id": "b6",
+      "from_annual": 560281,
+      "to_annual": null,
+      "rate": 0.47,
+      "effective_from": "2026-01-01",
+      "legal_basis": "פקודת מס הכנסה, סעיף 121",
+      "source_id": "src_ita_01",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    }
+  ],
+  "credit_point_value_annual": 2904,
+  "vat": {
+    "standard_rate": 0.18,
+    "osek_patur_ceiling_annual": 122833
+  },
+  "national_insurance": {
+    "monthly_ceiling": 51910,
+    "reduced_rate_ceiling": 7703,
+    "employee_rate": {
+      "reduced": 0.0427,
+      "full": 0.1217
+    },
+    "employer_rate": {
+      "reduced": 0.0451,
+      "full": 0.076
+    },
+    "min_income": 3442
+  },
+  "surtax": {
+    "regular_income": {
+      "rate": 0.03,
+      "threshold_annual": 721560
+    },
+    "capital_income": {
+      "rate": 0.05,
+      "threshold_annual": 721560
+    }
+  },
+  "keren_hishtalmut": {
+    "employer_contribution_rate": 0.075,
+    "employee_contribution_rate": 0.04,
+    "annual_contribution_ceiling": 20500,
+    "tax_exempt_ceiling": 18854,
+    "effective_from": "2026-01-01",
+    "confidence": "low"
+  },
+  "pension": {
+    "employee_contribution_rate": 0.04,
+    "employer_contribution_rate": 0.065,
+    "self_employed_min_deposit": 0.04,
+    "tax_credit_rate": 0.35,
+    "tax_deduction_rate": 0.047,
+    "effective_from": "2026-01-01",
+    "confidence": "low"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Rates schema",
+  "type": "object",
+  "required": ["tax_year", "currency", "income_tax_brackets", "credit_point_value_annual", "vat", "national_insurance", "keren_hishtalmut", "pension", "surtax"],
+  "properties": {
+    "tax_year": {
+      "type": "integer",
+      "minimum": 2020
+    },
+    "currency": {
+      "type": "string",
+      "enum": ["ILS"]
+    },
+    "income_tax_brackets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "from_annual", "to_annual", "rate", "effective_from", "legal_basis", "source_id", "accessed_on", "confidence"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "from_annual": {
+            "type": ["integer", "null"],
+            "minimum": 0
+          },
+          "to_annual": {
+            "type": ["integer", "null"]
+          },
+          "rate": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "effective_from": {
+            "type": "string",
+            "format": "date"
+          },
+          "legal_basis": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "accessed_on": {
+            "type": "string",
+            "format": "date"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          }
+        }
+      }
+    },
+    "credit_point_value_annual": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "vat": {
+      "type": "object",
+      "required": ["standard_rate", "osek_patur_ceiling_annual"],
+      "properties": {
+        "standard_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "osek_patur_ceiling_annual": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "national_insurance": {
+      "type": "object",
+      "required": ["monthly_ceiling", "reduced_rate_ceiling", "employee_rate", "employer_rate", "min_income"],
+      "properties": {
+        "monthly_ceiling": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reduced_rate_ceiling": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "employee_rate": {
+          "type": "object",
+          "required": ["reduced", "full"],
+          "properties": {
+            "reduced": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "full": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        },
+        "employer_rate": {
+          "type": "object",
+          "required": ["reduced", "full"],
+          "properties": {
+            "reduced": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "full": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        },
+        "min_income": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "keren_hishtalmut": {
+      "type": "object",
+      "required": ["employer_contribution_rate", "employee_contribution_rate", "annual_contribution_ceiling", "tax_exempt_ceiling", "effective_from", "confidence"],
+      "properties": {
+        "employer_contribution_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "employee_contribution_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "annual_contribution_ceiling": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "tax_exempt_ceiling": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "effective_from": {
+          "type": "string",
+          "format": "date"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        }
+      }
+    },
+    "pension": {
+      "type": "object",
+      "required": ["employee_contribution_rate", "employer_contribution_rate", "self_employed_min_deposit", "tax_credit_rate", "tax_deduction_rate", "effective_from", "confidence"],
+      "properties": {
+        "employee_contribution_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "employer_contribution_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "self_employed_min_deposit": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "tax_credit_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "tax_deduction_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "effective_from": {
+          "type": "string",
+          "format": "date"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        }
+      }
+    },
+    "surtax": {
+      "type": "object",
+      "required": ["regular_income", "capital_income"],
+      "properties": {
+        "regular_income": {
+          "type": "object",
+          "required": ["rate", "threshold_annual"],
+          "properties": {
+            "rate": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "threshold_annual": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "capital_income": {
+          "type": "object",
+          "required": ["rate", "threshold_annual"],
+          "properties": {
+            "rate": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "threshold_annual": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    }
+  }
+}

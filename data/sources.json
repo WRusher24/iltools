@@ -1,0 +1,60 @@
+[
+  {
+    "id": "src_ita_01",
+    "title": "מדרגות מס הכנסה 2026",
+    "publisher": "רשות המסים",
+    "url": "https://www.gov.il/BlobFolder/generalpage/income-tax-monthly-deductions-booklet/he/generalInformation_income-tax-monthly-deductions-booklet_monthly-deductions-booklet-2026.pdf",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_cp_01",
+    "title": "נקודות זיכוי 2026 - שווי הנקודה והטבלה המלאה",
+    "publisher": "אדיר ישראל - משרד רואי חשבון",
+    "url": "https://adircpa.com/numbers/credit-points",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_vat_01",
+    "title": "מע\"מ 2026 - השיעור, המועדים והשיעורים המיוחדים",
+    "publisher": "אדיר ישראל - משרד רואי חשבון",
+    "url": "https://adircpa.com/numbers/vat",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_ni_01",
+    "title": "לעובדים שכירים - שיעורי וסכומי דמי ביטוח | ביטוח לאומי",
+    "publisher": "המוסד לביטוח לאומי",
+    "url": "https://www.btl.gov.il/INSURANCE/RATES/Pages/לעובדים שכירים.aspx",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_surtax_01",
+    "title": "מס על הכנסות גבוהות (מס יסף) 2026 - מהו, מי חייב לשלם, על אילו הכנסות ועוד מידע",
+    "publisher": "פרוטוקול",
+    "url": "https://protocol.co.il/high-income-tax/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_kh_01",
+    "title": "תקרות וסכומים לשנת 2026",
+    "publisher": "הראל גרופ",
+    "url": "https://media.harel-group.co.il/media/eh3fyryd/תקרות-הפקדה-בקופות-הגמל-ובקרנות-השתלמות-2026.pdf",
+    "accessed_on": "2026-10-16",
+    "language": "he",
+    "confidence": "low"
+  },
+  {
+    "id": "src_pen_01",
+    "title": "פנסיה חובה לעצמאים 2026 — מדריך מלא לחובת ההפקדה והטבות המס",
+    "publisher": "ZCPA",
+    "url": "https://zcpa.co.il/Article/pensia-hova-atzmayim-2026",
+    "accessed_on": "2026-10-16",
+    "language": "he",
+    "confidence": "low"
+  }
+]

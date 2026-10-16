@@ -1,0 +1,57 @@
+[
+  {
+    "id": "green_invoice",
+    "name": {
+      "he": "חשבונית ירוקה",
+      "en": "Green Invoice"
+    },
+    "legal_entity": {
+      "he": "חשבונית ירוקה בע\"מ",
+      "en": "Green Invoice Ltd."
+    },
+    "year_founded": 2010,
+    "plans": [
+      {
+        "name": {
+          "he": "בסיסי",
+          "en": "Basic"
+        },
+        "price_monthly": 49,
+        "price_annually": 490,
+        "vat_included": true,
+        "currency": "ILS",
+        "billing_cycle": "monthly",
+        "limits": {
+          "documents_per_month": 100,
+          "users": 1
+        },
+        "features": {
+          "hebrew_support": true,
+          "allocation_number_integration": true,
+          "api": true,
+          "integrations": ["quickbooks", "xero"],
+          "app": {
+            "ios": true,
+            "android": true
+          }
+        },
+        "contract_terms": {
+          "commitment": "none",
+          "cancellation": "monthly"
+        },
+        "support_channels": ["email", "phone"],
+        "last_verified": "2026-10-16",
+        "source_id": "src_green_invoice_01",
+        "confidence": "high"
+      }
+    ],
+    "company_facts": {
+      "legal_entity": {
+        "he": "חשבונית ירוקה בע\"מ",
+        "en": "Green Invoice Ltd."
+      },
+      "year_founded": 2010,
+      "licenses": []
+    }
+  }
+]

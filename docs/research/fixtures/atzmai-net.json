@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Test Case 1",
+    "inputs": {
+      "revenue_monthly": 10000,
+      "expenses_monthly": 2000,
+      "status": "מורשה",
+      "credit_points": 2.25,
+      "pension_deposit": 0,
+      "hishtalmut_deposit": 0,
+      "marital_status": "רווק",
+      "deductions": 0
+    },
+    "expected_outputs": {
+      "net_income": 6500,
+      "tax_by_bracket": 800,
+      "national_insurance": 400,
+      "health_tax": 200,
+      "effective_rate": 0.14,
+      "advance_payment_estimate": 500
+    }
+  }
+]
