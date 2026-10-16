@@ -1,0 +1,226 @@
+[
+  {
+    "id": "src_pen_gemelnet",
+    "title": "גמל נט - מערכת להשוואת קופות גמל (official comparison)",
+    "publisher": "רשות שוק ההון, ביטוח וחיסכון",
+    "url": "https://gemelnet.cma.gov.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_pensianet",
+    "title": "פנסיה נט (official pension comparison) - unreachable",
+    "publisher": "רשות שוק ההון, ביטוח וחיסכון",
+    "url": "https://pensianet.cma.gov.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_govil_comparison",
+    "title": "gov.il pension comparison landing (blocked 403)",
+    "publisher": "gov.il",
+    "url": "https://www.gov.il/he/departments/general/pension_comparison",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_clal",
+    "title": "כלל ביטוח ופיננסים - אתר רשמי",
+    "publisher": "Clal",
+    "url": "https://www.clalbit.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_harel",
+    "title": "הראל ביטוח - אתר רשמי",
+    "publisher": "Harel",
+    "url": "https://www.harel-group.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_migdal",
+    "title": "מגדל - אתר רשמי",
+    "publisher": "Migdal",
+    "url": "https://www.migdal.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_phoenix",
+    "title": "הפניקס - אתר רשמי",
+    "publisher": "Phoenix",
+    "url": "https://www.fnx.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_menora",
+    "title": "מנורה מבטחים - אתר רשמי (bot-blocked)",
+    "publisher": "Menora Mivtachim",
+    "url": "https://www.menora.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_meitav",
+    "title": "מיטב בית השקעות - אתר רשמי",
+    "publisher": "Meitav",
+    "url": "https://www.meitav.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_more",
+    "title": "מור בית השקעות - אתר רשמי",
+    "publisher": "More",
+    "url": "https://www.more.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_analyst",
+    "title": "אנליסט בית השקעות - אתר רשמי",
+    "publisher": "Analyst",
+    "url": "https://www.analyst.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_ibi",
+    "title": "IBI בית השקעות - אתר רשמי",
+    "publisher": "IBI",
+    "url": "https://www.ibi.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pen_infinity",
+    "title": "אינפיניטי בית השקעות - אתר רשמי",
+    "publisher": "Infinity",
+    "url": "https://www.infinity.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_ins_phoenix_biz",
+    "title": "הפניקס - ביטוח לעסקים",
+    "publisher": "Phoenix",
+    "url": "https://www.fnx.co.il/business-insurance/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_ins_phoenix_health",
+    "title": "הפניקס - ביטוח בריאות",
+    "publisher": "Phoenix",
+    "url": "https://www.fnx.co.il/health-insurance/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_ins_migdal_biz",
+    "title": "מגדל - ביטוח לחברות ובתי עסק",
+    "publisher": "Migdal",
+    "url": "https://www.migdal.co.il/product-lobby/business-insurance",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_ins_harel_home",
+    "title": "הראל - אתר הבית (ענפי ביטוח)",
+    "publisher": "Harel",
+    "url": "https://www.harel-group.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_ins_aig_health",
+    "title": "AIG ישראל - ביטוח בריאות",
+    "publisher": "AIG Israel",
+    "url": "https://www.aig.co.il/health-insurance/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_ins_clal_biz",
+    "title": "כלל ביטוח - ביטוח עסק",
+    "publisher": "Clal",
+    "url": "https://www.clalbit.co.il/businessins/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_ins_shirbit",
+    "title": "שירביט מבית הראל חברה לביטוח בע\"מ - אתר רשמי",
+    "publisher": "Shirbit",
+    "url": "https://www.shirbit.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_fin_peninsula",
+    "title": "פנינסולה - פתרונות אשראי חוץ בנקאי לעסקים",
+    "publisher": "Peninsula",
+    "url": "https://www.peninsula.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_fin_blender",
+    "title": "בלנדר - הלוואות והשקעות בין אנשים",
+    "publisher": "Blender",
+    "url": "https://www.blender.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_fin_fundit",
+    "title": "פונדיט - מימון עסקי (Cloudflare-blocked)",
+    "publisher": "Fundit",
+    "url": "https://www.fundit.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_fin_boi",
+    "title": "בנק ישראל - אתר רשמי (ריביות ואשראי)",
+    "publisher": "Bank of Israel",
+    "url": "https://www.boi.org.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_fin_leumi",
+    "title": "בנק לאומי - אשראי עסקי",
+    "publisher": "Bank Leumi",
+    "url": "https://www.leumi.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_fin_hapoalim",
+    "title": "בנק הפועלים - אשראי עסקי",
+    "publisher": "Bank Hapoalim",
+    "url": "https://www.bankhapoalim.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_fin_discount",
+    "title": "בנק דיסקונט - אשראי עסקי",
+    "publisher": "Bank Discount",
+    "url": "https://www.discountbank.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_fin_mizrahi",
+    "title": "בנק מזרחי טפחות - אשראי עסקי",
+    "publisher": "Bank Mizrahi-Tefahot",
+    "url": "https://www.mizrahi-tefahot.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "id": "monday",
+    "name": { "he": "monday.com", "en": "monday.com" },
+    "category": "crm",
+    "website": "https://monday.com/",
+    "legal_entity": { "he": "Monday.com Ltd.", "en": "Monday.com Ltd." },
+    "year_founded": 2012,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "EUR",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "crm_basic",
+          "name": { "he": "CRM Basic", "en": "CRM Basic" },
+          "price_monthly": 18,
+          "price_annually": 12,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": 3, "notes": "מחיר למושב/חודש. חיוב שנתי 12 €, חודשי 18 €. מינימום 3 מושבים (עד 40 ללא הצעה)" },
+          "source_id": "src_crm_monday_crm_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        },
+        {
+          "id": "crm_standard",
+          "name": { "he": "CRM Standard", "en": "CRM Standard" },
+          "price_monthly": 25,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": 3, "notes": "מחיר חודשי 25 € למושב; מחיר שנתי לא נלכד (הנחה ~33%)" },
+          "source_id": "src_crm_monday_crm_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        },
+        {
+          "id": "crm_pro",
+          "name": { "he": "CRM Pro", "en": "CRM Pro" },
+          "price_monthly": 41,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": 3, "notes": "מחיר חודשי 41 € למושב; מחיר שנתי לא נלכד" },
+          "source_id": "src_crm_monday_crm_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        },
+        {
+          "id": "crm_enterprise",
+          "name": { "he": "CRM Enterprise", "en": "CRM Enterprise" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "מחיר לפי הצעה" },
+          "source_id": "src_crm_monday_crm_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        }
+      ],
+      "notes_he": "מחירי monday CRM למושב/חודש באירו. בנוסף, monday Work Management (מוצר הליבה): Free $0, Basic $9, Standard $12, Pro $19 למושב/חודש בחיוב שנתי, Enterprise בהצעה (מקור: src_crm_monday_pricing).",
+      "source_id": "src_crm_monday_crm_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "פלטפורמת עבודה ו-CRM; אוטומציות, דוחות, אינטגרציות ו-API; אפליקציות מובייל."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "חיוב חודשי או שנתי (הנחה ~33% בשנתי)."
+    },
+    "support_channels": ["email", "chat"],
+    "company_facts": { "notes_he": "חברה ישראלית (ת\"א); נסחרת בנאסד\"ק. שנת ייסוד 2012." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "monday CRM annual prices for Standard/Pro not captured (page rendered interactively); Work Management prices confirmed in USD per seat (annual). Currency for CRM shown as EUR from our access region."
+  },
+  {
+    "id": "fireberry",
+    "name": { "he": "Fireberry", "en": "Fireberry" },
+    "category": "crm",
+    "website": "https://www.fireberry.com/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "USD",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "sales_free",
+          "name": { "he": "Sales Free", "en": "Sales Free" },
+          "price_monthly": 0,
+          "price_annually": 0,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": null, "notes": "משתמשים ללא הגבלה" },
+          "source_id": "src_crm_fireberry_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "sales_standard",
+          "name": { "he": "Sales Standard", "en": "Sales Standard" },
+          "price_monthly": 45,
+          "price_annually": 540,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": 3, "notes": "מינימום 3 משתמשים; $540 למשתמש/שנה; חיוב 1,620$ לשנה (3 משתמשים)" },
+          "source_id": "src_crm_fireberry_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "sales_professional",
+          "name": { "he": "Sales Professional", "en": "Sales Professional" },
+          "price_monthly": 57,
+          "price_annually": 684,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": 5, "notes": "מינימום 5 משתמשים; $684 למשתמש/שנה" },
+          "source_id": "src_crm_fireberry_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "sales_enterprise",
+          "name": { "he": "Sales Enterprise", "en": "Sales Enterprise" },
+          "price_monthly": 94,
+          "price_annually": 1128,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": 10, "notes": "מינימום 10 משתמשים; $1,128 למשתמש/שנה" },
+          "source_id": "src_crm_fireberry_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "מחירי Sales בדולר למושב/חודש בחיוב שנתי. קיימים גם מוצרי Marketing ותוספות (Add-ons).",
+      "source_id": "src_crm_fireberry_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "CRM ישראלי: ניהול לידים/עסקאות, אוטומציות, Team Inbox, e-sign, דוחות; אפליקציות מובייל; API."
+    },
+    "contract_terms": {
+      "commitment": "annual",
+      "cancellation": null,
+      "notes_he": "תמחור שנתי (הנחה 20%) או חודשי; מינימום משתמשים לפי מסלול."
+    },
+    "support_channels": [],
+    "company_facts": { "notes_he": "חברת CRM ישראלית." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Sales tiers verified in USD (annual, per user). Marketing product line and ILS add-on prices not fully captured."
+  },
+  {
+    "id": "zoho",
+    "name": { "he": "Zoho CRM", "en": "Zoho CRM" },
+    "category": "crm",
+    "website": "https://www.zoho.com/crm/",
+    "legal_entity": { "he": "Zoho Corporation", "en": "Zoho Corporation" },
+    "year_founded": 1996,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "USD",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "free",
+          "name": { "he": "Free", "en": "Free" },
+          "price_monthly": 0,
+          "price_annually": 0,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": 3, "notes": "חינם לתמיד עד 3 משתמשים" },
+          "source_id": "src_crm_zoho_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "standard",
+          "name": { "he": "Standard", "en": "Standard" },
+          "price_monthly": 14,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "US$14 למשתמש/חודש (חיוב חודשי); שנתי בהנחה עד 34%" },
+          "source_id": "src_crm_zoho_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "professional",
+          "name": { "he": "Professional", "en": "Professional" },
+          "price_monthly": 23,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "US$23 למשתמש/חודש" },
+          "source_id": "src_crm_zoho_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "enterprise",
+          "name": { "he": "Enterprise", "en": "Enterprise" },
+          "price_monthly": 40,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "US$40 למשתמש/חודש" },
+          "source_id": "src_crm_zoho_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "ultimate",
+          "name": { "he": "Ultimate", "en": "Ultimate" },
+          "price_monthly": 52,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "US$52 למשתמש/חודש" },
+          "source_id": "src_crm_zoho_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "מחירי Zoho CRM בדולר למשתמש/חודש (חיוב חודשי). תשלום שנתי חוסך עד 34%. קיים גם מוצר CRM Plus (Starter $20, Enterprise $57).",
+      "source_id": "src_crm_zoho_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "medium",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "ממשק בעברית; אוטומציות, Zia AI, אפליקציות מובייל, אינטגרציות."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "חודשי/שנתי."
+    },
+    "support_channels": ["email", "phone", "chat"],
+    "company_facts": { "notes_he": "Zoho Corporation (הודו); נוכחות בישראל." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Monthly-billing prices verified from the Hebrew Zoho pricing page. Annual per-user prices not captured (only 'save up to 34%' stated)."
+  },
+  {
+    "id": "pipedrive",
+    "name": { "he": "Pipedrive", "en": "Pipedrive" },
+    "category": "crm",
+    "website": "https://www.pipedrive.com/",
+    "legal_entity": { "he": "Pipedrive", "en": "Pipedrive" },
+    "year_founded": 2010,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "EUR",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "lite",
+          "name": { "he": "Lite", "en": "Lite" },
+          "price_monthly": 14,
+          "price_annually": 168,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": null, "notes": "€14 למושב/חודש בחיוב שנתי (€168 לשנה)" },
+          "source_id": "src_crm_pipedrive_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "growth",
+          "name": { "he": "Growth", "en": "Growth" },
+          "price_monthly": 39,
+          "price_annually": 468,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": null, "notes": "€39 למושב/חודש בחיוב שנתי (€468 לשנה)" },
+          "source_id": "src_crm_pipedrive_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "premium",
+          "name": { "he": "Premium", "en": "Premium" },
+          "price_monthly": 59,
+          "price_annually": 708,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": null, "notes": "€59 למושב/חודש בחיוב שנתי (€708 לשנה)" },
+          "source_id": "src_crm_pipedrive_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "ultimate",
+          "name": { "he": "Ultimate", "en": "Ultimate" },
+          "price_monthly": 79,
+          "price_annually": 948,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": null, "notes": "€79 למושב/חודש בחיוב שנתי (€948 לשנה)" },
+          "source_id": "src_crm_pipedrive_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "מחירים באירו למושב/חודש בחיוב שנתי. תוספות: LeadBooster מ-€32.50, Projects מ-€16.66, Campaigns מ-€13.33, Web Visitors מ-€41, Smart Docs מ-€32.50. ניסיון 14 יום.",
+      "source_id": "src_crm_pipedrive_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "medium",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "CRM מכירות; 500+ אינטגרציות; אפליקציות מובייל; AI reports."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "ניתן לשנות בכל עת; ניסיון 14 יום ללא כרטיס אשראי."
+    },
+    "support_channels": ["email", "chat", "phone"],
+    "company_facts": { "notes_he": "Pipedrive (אסטוניה/ארה\"ב)." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Annual per-seat EUR prices verified via WebFetch of the official pricing page (direct curl returned HTTP 403)."
+  },
+  {
+    "id": "salesforce",
+    "name": { "he": "Salesforce", "en": "Salesforce" },
+    "category": "crm",
+    "website": "https://www.salesforce.com/",
+    "legal_entity": { "he": "Salesforce, Inc.", "en": "Salesforce, Inc." },
+    "year_founded": 1999,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "USD",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "starter",
+          "name": { "he": "Starter Suite (לשעבר Essentials)", "en": "Starter Suite (formerly Essentials)" },
+          "price_monthly": 25,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "$25 למשתמש/חודש" },
+          "source_id": "src_crm_salesforce_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "Starter Suite (המחליף של Essentials) — $25 למשתמש/חודש. מסלולי Sales Cloud מתקדמים יותר (Professional/Enterprise/Unlimited) מתומחרים לפי הצעה.",
+      "source_id": "src_crm_salesforce_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "medium",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "Sales Cloud; אפליקציות מובייל; אינטגרציות ו-API. ממשק בעברית חלקי."
+    },
+    "contract_terms": {
+      "commitment": "annual",
+      "cancellation": null,
+      "notes_he": "לרוב התחייבות שנתית; Starter זמין חודשי."
+    },
+    "support_channels": ["email", "phone", "chat"],
+    "company_facts": { "notes_he": "Salesforce, Inc. (ארה\"ב); משרדים בישראל." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "Starter Suite $25/user/mo verified on the official Sales pricing page. Higher Sales Cloud tiers are quote-only; annual price for Starter not captured."
+  },
+  {
+    "id": "hubspot",
+    "name": { "he": "HubSpot", "en": "HubSpot" },
+    "category": "crm",
+    "website": "https://www.hubspot.com/",
+    "legal_entity": { "he": "HubSpot, Inc.", "en": "HubSpot, Inc." },
+    "year_founded": 2006,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "USD",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "free",
+          "name": { "he": "Free", "en": "Free" },
+          "price_monthly": 0,
+          "price_annually": 0,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": 2, "notes": "חינם לעד 2 משתמשים" },
+          "source_id": "src_crm_hubspot_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "starter",
+          "name": { "he": "Starter", "en": "Starter" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "מחיר תלוי אזור/מטבע (ראו הערות) — לא נלכד במטבע יציב" },
+          "source_id": "src_crm_hubspot_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "low"
+        },
+        {
+          "id": "professional",
+          "name": { "he": "Professional", "en": "Professional" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "מחיר תלוי אזור/מטבע" },
+          "source_id": "src_crm_hubspot_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "low"
+        },
+        {
+          "id": "enterprise",
+          "name": { "he": "Enterprise", "en": "Enterprise" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "notes": "מחיר תלוי אזור/מטבע" },
+          "source_id": "src_crm_hubspot_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "low"
+        }
+      ],
+      "notes_he": "HubSpot מציגה מחירים לפי אזור גיאוגרפי (מטבע משתנה). בגישה שלנו הוצגו מחירי SGD (למשל Starter SGD 10 למושב/חודש). יש לאמת מחירי USD/ILS מהאתר הישראלי.",
+      "source_id": "src_crm_hubspot_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "medium",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "CRM + Marketing/Sales/Service/Content/Data Hubs; אפליקציות מובייל; אינטגרציות."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "חודשי או שנתי."
+    },
+    "support_channels": ["email", "phone", "chat"],
+    "company_facts": { "notes_he": "HubSpot, Inc. (ארה\"ב)." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "HubSpot prices are region/currency-dependent; our access returned SGD, so per-seat USD/ILS numbers could not be verified. Free plan (2 users) confirmed. Needs verification (OPEN_QUESTIONS)."
+  }
+]

@@ -1,0 +1,468 @@
+[
+  {
+    "id": "bank_leumi",
+    "name": {
+      "he": "בנק לאומי",
+      "en": "Bank Leumi"
+    },
+    "category": "business_finance",
+    "subtype": "bank_credit",
+    "website": "https://www.leumi.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "rate_range_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "תמחור לפי הצעת מחיר בלבד. אין שיעורי ריבית פומביים מאומתים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "אשראי לעסקים",
+          "en": "Business credit"
+        },
+        "source_id": null
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Bank business credit is negotiated; rates are not published as fixed public tiers. quote_only."
+  },
+  {
+    "id": "bank_hapoalim",
+    "name": {
+      "he": "בנק הפועלים",
+      "en": "Bank Hapoalim"
+    },
+    "category": "business_finance",
+    "subtype": "bank_credit",
+    "website": "https://www.bankhapoalim.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "rate_range_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "תמחור לפי הצעת מחיר בלבד. אין שיעורי ריבית פומביים מאומתים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "אשראי עסקי",
+          "en": "Business credit"
+        },
+        "source_id": null
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Bank business credit is negotiated; quote_only."
+  },
+  {
+    "id": "bank_discount",
+    "name": {
+      "he": "בנק דיסקונט",
+      "en": "Bank Discount"
+    },
+    "category": "business_finance",
+    "subtype": "bank_credit",
+    "website": "https://www.discountbank.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "rate_range_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "תמחור לפי הצעת מחיר בלבד. אין שיעורי ריבית פומביים מאומתים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "אשראי לעסקים",
+          "en": "Business credit"
+        },
+        "source_id": null
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Bank business credit is negotiated; quote_only."
+  },
+  {
+    "id": "bank_mizrahi",
+    "name": {
+      "he": "בנק מזרחי טפחות",
+      "en": "Bank Mizrahi-Tefahot"
+    },
+    "category": "business_finance",
+    "subtype": "bank_credit",
+    "website": "https://www.mizrahi-tefahot.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "rate_range_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "תמחור לפי הצעת מחיר בלבד. אין שיעורי ריבית פומביים מאומתים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "אשראי עסקי",
+          "en": "Business credit"
+        },
+        "source_id": null
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Bank business credit is negotiated; quote_only."
+  },
+  {
+    "id": "peninsula",
+    "name": {
+      "he": "פנינסולה",
+      "en": "Peninsula"
+    },
+    "category": "business_finance",
+    "subtype": "non_bank_credit",
+    "website": "https://www.peninsula.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "rate_range_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "תמחור לפי הצעת מחיר בלבד. אין שיעורי ריבית פומביים מאומתים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "הלוואות לעסקים לכל מטרה",
+          "en": "Business loans (any purpose)"
+        },
+        "source_id": "src_fin_peninsula"
+      },
+      {
+        "name": {
+          "he": "הלוואות גישור לעסקים",
+          "en": "Bridge loans for businesses"
+        },
+        "source_id": "src_fin_peninsula"
+      },
+      {
+        "name": {
+          "he": "ניכיון צ'קים מסחריים",
+          "en": "Commercial cheque discounting"
+        },
+        "source_id": "src_fin_peninsula"
+      },
+      {
+        "name": {
+          "he": "מימון ציוד רכש וספקים",
+          "en": "Equipment / supplier financing"
+        },
+        "source_id": "src_fin_peninsula"
+      },
+      {
+        "name": {
+          "he": "הלוואות מגובות נדל\"ן",
+          "en": "Real-estate-backed loans"
+        },
+        "source_id": "src_fin_peninsula"
+      },
+      {
+        "name": {
+          "he": "ערבויות (מכרז, ביצוע, בדק, פיננסית)",
+          "en": "Guarantees"
+        },
+        "source_id": "src_fin_peninsula"
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Non-bank credit arm (מבית מיטב). Product names verified on site. Rates quote_only; no verified public rate range. Covers factoring-like cheque discounting and supplier financing."
+  },
+  {
+    "id": "blender",
+    "name": {
+      "he": "בלנדר",
+      "en": "Blender"
+    },
+    "category": "business_finance",
+    "subtype": "platform",
+    "website": "https://www.blender.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "rate_range_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "תמחור לפי הצעת מחיר בלבד. אין שיעורי ריבית פומביים מאומתים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "הלוואות בין אנשים (P2P)",
+          "en": "Peer-to-peer loans"
+        },
+        "source_id": "src_fin_blender"
+      },
+      {
+        "name": {
+          "he": "בלנדר לעסקים",
+          "en": "Blender for business"
+        },
+        "source_id": "src_fin_blender"
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "P2P lending platform with a business channel. Rates for borrowers are quote_only and depend on risk. Not a recommendation."
+  },
+  {
+    "id": "fundit",
+    "name": {
+      "he": "פונדיט",
+      "en": "Fundit"
+    },
+    "category": "business_finance",
+    "subtype": "platform",
+    "website": "https://www.fundit.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "rate_range_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "תמחור לפי הצעת מחיר בלבד. אין שיעורי ריבית פומביים מאומתים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "מימון עסקי / הלוואות",
+          "en": "Business financing / loans"
+        },
+        "source_id": null
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Business-financing platform. Site is Cloudflare-protected and could not be read; product names unverified. Rates quote_only."
+  },
+  {
+    "id": "factoring_generic",
+    "name": {
+      "he": "פקטורינג (ניכיון חשבוניות)",
+      "en": "Factoring (invoice discounting)"
+    },
+    "category": "business_finance",
+    "subtype": "factoring",
+    "website": null,
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "rate_range_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "תמחור לפי הצעת מחיר בלבד. אין שיעורי ריבית פומביים מאומתים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "ניכיון חשבוניות / פקטורינג",
+          "en": "Invoice discounting / factoring"
+        },
+        "source_id": null
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Factoring in Israel is offered by banks and non-bank factors; pricing is transaction-specific and quote_only. No single citable public rate range was verified, so no range is recorded."
+  }
+]

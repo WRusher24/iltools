@@ -1,0 +1,654 @@
+[
+  {
+    "id": "cardcom",
+    "name": { "he": "קארדקום", "en": "Cardcom" },
+    "category": "clearing",
+    "website": "https://www.cardcom.solutions/",
+    "legal_entity": { "he": "קארדקום סליקה בע\"מ", "en": "Cardcom Acquiring Ltd." },
+    "year_founded": 1994,
+    "licenses": [
+      "Bank of Israel acquirer (clearing) licence — permanent licence granted by the Governor/Banking Supervision (Cardcom is the 4th acquirer in Israel, joining Cal, Max, Isracard)",
+      "Bank of Israel initial clearing licence granted 2018; began clearing merchants in 2023",
+      "PCI DSS Level 1"
+    ],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "hybrid",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": 1.2,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": null,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "קארדקום אינה מפרסמת תעריפון מלא; התמחור הוא הצעה פרטנית (quote). בבלוג הרשמי של החברה נכתב: \"העמלה מתחילה בכ-1.2%, ויכולה לרדת בהתאם למחזור הפעילות שלכם\". מועדי זיכוי לבחירה: חודשי (עסקאות 1 לחודש עד סוף החודש מזוכות ב-6 לחודש העוקב), שבועי, או דו-חודשי. אין קנסות/עמלות השלמה חודשיות לפי החברה. המחירים אינם כוללים מע\"מ.",
+      "source_id": "src_clr_cardcom_fees_blog",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": ["shopify", "woocommerce"],
+      "app": { "ios": null, "android": null },
+      "notes_he": "סולק רשמי (One Stop Shop): סליקה + חשבוניות דיגיטליות + מסופים + API (V11). תומך בכל מותגי האשראי, ביט, Apple Pay, Google Pay."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "email", "chat"],
+    "company_facts": {
+      "notes_he": "הוקמה ב-1994 כחברת פתרונות סליקה טכנולוגיים. קיבלה רישיון סליקה ראשוני מבנק ישראל ב-2018 ורישיון סולק קבוע בהמשך; החלה לסלוק בפועל ב-2023. מערכת הדגל: \"אישורית זהב\"."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "VERIFIED: year founded 1994; Bank of Israel permanent acquirer licence; PCI DSS L1; only published fee figure is a STARTING rate of ~1.2% per transaction from Cardcom's own blog (low confidence — 'starting from', not a rate card). No published monthly minimum, setup fee, fixed per-transaction fee, refund/chargeback fee, or settlement T+n (settlement is via monthly/weekly/bi-monthly credit cycles). No /pricing page exists on the site (404). Treat all exact numbers as quote-based."
+  },
+  {
+    "id": "tranzila",
+    "name": { "he": "טרנזילה", "en": "Tranzila" },
+    "category": "clearing",
+    "website": "https://www.tranzila.com/",
+    "legal_entity": { "he": "טרנזילה בע\"מ", "en": "Tranzila Ltd." },
+    "year_founded": 2000,
+    "licenses": [
+      "Certified acquirer by the Bank of Israel, Visa International and MasterCard (per third-party company profile)",
+      "PCI DSS Level 1"
+    ],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [
+        {
+          "id": "mobile",
+          "name": { "he": "סליקה מהנייד", "en": "Mobile clearing plan" },
+          "price_monthly": 29,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": {},
+          "source_id": "src_clr_tranzila_home",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        }
+      ],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": null,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "טרנזילה אינה מפרסמת תעריפון סליקה. מחירון מבוסס הצעה (quote). האתר מציין מפורשות רק מחיר התחלתי למסלול סליקה מהנייד \"החל מ-29 ₪ לחודש\". החברה מציעה \"עמלת סליקה מופחתת\" ומבקשת חשבון סליקה מ-2 חודשים אחרונים לקבלת הצעת חיסכון — כלומר התעריף פרטני.",
+      "source_id": "src_clr_tranzila_finance",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": ["shopify"],
+      "app": { "ios": null, "android": null },
+      "notes_he": "שער תשלום ותיק (Gateway) + סולק. תומך כרטיסים מקומיים ובינלאומיים, ביט, Apple Pay, Google Pay, PayPal, הוראות קבע ומסא\"ב. אפליקציית סליקה בסלולר בחינם."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "whatsapp", "email"],
+    "company_facts": {
+      "notes_he": "הוקמה בשנת 2000 כחלק מחברת האם Interspace (מקורות אחרים מציינים 1996/1999 — לא מאומת). פועלת מנתניה."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "VERIFIED: only published figure is mobile-clearing plan 'from ₪29/month' (Tranzila home). No published clearing percentage, fixed fee, monthly minimum, setup fee, refund/chargeback fee, or settlement T+n — /finance.html markets 'reduced commission' but quotes no numbers. Quote-only. Year founded: official docs say 2000 (part of Interspace); CB Insights 1996; a partner case study 1999 — conflict noted."
+  },
+  {
+    "id": "payplus",
+    "name": { "he": "פייפלוס", "en": "PayPlus" },
+    "category": "clearing",
+    "website": "https://www.payplus.co.il/",
+    "legal_entity": { "he": null, "en": null },
+    "year_founded": null,
+    "licenses": [
+      "PCI DSS Level 1 (per provider site)"
+    ],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": null,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "PayPlus אינה מפרסמת מחירון או תעריפון באתר. התמחור מבוסס הצעה פרטנית. אין עמוד /pricing (מחזיר 404).",
+      "source_id": "src_clr_payplus_home",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": ["magento", "shopify", "opencart", "prestashop", "wix", "woocommerce"],
+      "app": { "ios": true, "android": true },
+      "notes_he": "שער תשלום + סליקה. עובדת עם כל חברות כרטיסי האשראי בישראל ומגוון מאגדים. תומכת 3D Secure, ביט, Apple Pay, Google Pay, מספקת גם מערכת חשבוניות."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "email", "chat"],
+    "company_facts": {
+      "notes_he": "ישות משפטית ושנת ייסוד לא אומתו (חיפוש העלה חברות בשם זהה בניו-זילנד ובלבנון — לא רלוונטיות)."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "QUOTE-ONLY. No published rate card found on the official site; no pricing page. Legal entity and year founded not verified (search noise from same-named foreign companies). Needs direct enquiry for any number."
+  },
+  {
+    "id": "grow",
+    "name": { "he": "משולם / גרו", "en": "Grow (Meshulam)" },
+    "category": "clearing",
+    "website": "https://grow.business/",
+    "legal_entity": { "he": null, "en": "Grow Payments Ltd." },
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "grow_annual",
+          "name": { "he": "Grow — מנוי שנתי", "en": "Grow — annual plan" },
+          "price_monthly": 59,
+          "price_annually": 708,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "transactions_per_month": 100, "documents_per_month": 100 },
+          "source_id": "src_clr_grow_fees",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "grow_monthly",
+          "name": { "he": "Grow — מנוי חודשי", "en": "Grow — monthly plan" },
+          "price_monthly": 69,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "transactions_per_month": 100, "documents_per_month": 100 },
+          "source_id": "src_clr_grow_fees",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "grow_light",
+          "name": { "he": "Grow Light", "en": "Grow Light" },
+          "price_monthly": 29,
+          "price_annually": 348,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "transactions_per_month": 20, "documents_per_month": 20 },
+          "source_id": "src_clr_grow_fees",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "transaction_fees": {
+        "percent_per_transaction": 0.75,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": 0,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": 3.5,
+        "refund_fee": 6.9,
+        "chargeback_fee": 55,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "עמלת סליקה 0.75% לעסקה (Grow) או 1% (Grow Light). אין דמי הקמה. מעבר למכסה: 0.5 ₪ לעסקה/מסמך נוספים (Grow) או 1 ₪ (Light). עמלת מינימום לעסקה 0.5 ₪. עמלת כרטיס תייר 3.5%, דיינרס 1.5%. 3DS +2.5 ₪ לפעולה. תוספת סליקה דרך וויקס 0.4%, שופיפיי 0.6%. זיכוי עסקה 6.9 ₪. החזר חיוב (Chargeback) 55 ₪. איתור/הפקת מסמכים 25 ₪. העברה בנקאית נכנסת 1 ₪. עמלת ניכיון (הקדמת תשלומים/תשלומים): P+5.5% (פריים 5% נכון ליולי 2026) + דמי ניהול 29 ₪/חודש; טבלת עמלת מקדמה לתשלומים 2–12 קיימת באתר. פתיחת חשבון לעמותות 399 ₪; תוסף וורדפרס 299 ₪. הכספים זמינים מ-1 לחודש העוקב. המחירים אינם כוללים מע\"מ.",
+      "source_id": "src_clr_grow_fees",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": ["wix", "shopify", "wordpress"],
+      "app": { "ios": true, "android": true },
+      "notes_he": "מערכת Payments + חשבון עסקי (Grow account). תומכת אשראי, ארנקים דיגיטליים, העברות בנקאיות, Payment Links, הוראות קבע, חשבוניות אוטומטיות. שירות לקוחות עד 22:00."
+    },
+    "contract_terms": {
+      "commitment": "annual",
+      "cancellation": "monthly",
+      "notes_he": "מסלול שנתי מחויב מראש (708 ₪); ניתן לבחור מסלול חודשי מתחדש (69 ₪)."
+    },
+    "support_channels": ["phone", "email", "chat"],
+    "company_facts": {
+      "notes_he": "המותג Grow החליף את משולם. הישות המשפטית באתר התנאים: \"Grow Payments Ltd\". שנת ייסוד לא אומתה."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "PUBLISHED RATES (best-documented Israeli acquirer here). 0.75% per transaction + ₪59/mo (annual, ₪708) or ₪69/mo; Grow Light 1% + ₪29/mo (annual ₪348). No setup fee. Tourist card 3.5%, Diners 1.5%, 3DS +₪2.5, refund ₪6.90, chargeback ₪55, min per-transaction ₪0.50, bank transfer ₪1. Discount/installment fee P+5.5% + ₪29/mo management. VAT excluded. Settlement: funds available 1st of following month. Legal entity 'Grow Payments Ltd' from terms slug; year founded unverified."
+  },
+  {
+    "id": "pelecard",
+    "name": { "he": "פלאקארד", "en": "Pelecard" },
+    "category": "clearing",
+    "website": "https://pelecard.com/",
+    "legal_entity": { "he": "פלאקארד בע\"מ", "en": "Pelecard Ltd." },
+    "year_founded": null,
+    "licenses": [
+      "PCI DSS Level 1 (per provider site)"
+    ],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": null,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "פלאקארד אינה מפרסמת תעריפון. האתר מציין \"תעריפים משתלמים\" עם ליווי יועץ — כלומר מחיר מבוסס הצעה. אין עמוד מחירון.",
+      "source_id": "src_clr_pelecard_home",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": ["shopify"],
+      "app": { "ios": null, "android": null },
+      "notes_he": "סולק/שער ותיק. תומך כרטיסים, 3D Secure, מסופונים, התאמות אשראי בענן, בנקאות פתוחה (ייזום תשלום), מערכת הנהלת חשבונות ירוקה מבוססת AI."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "email"],
+    "company_facts": {
+      "notes_he": "האתר מציין ניסיון של \"למעלה מ-35 שנה\" (≈1989–1990). חברת בת: פלאקארד פיננסי בע\"מ (נרשמה 2022, ח.פ. 516667136). מקור צד-שלישי מציין שנה 1999 — סתירה, לא אומת."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "QUOTE-ONLY. No published rate card. Site claims 35+ years (≈1989-1990) but a third-party DB lists 1999 — conflicting, year_founded left null. Legal entity 'פלאקארד בע\"מ' / Pelecard Ltd. plus a 2022 subsidiary 'Pelecard Finance Ltd' (companies-registry)."
+  },
+  {
+    "id": "yaad_sarig",
+    "name": { "he": "יעד שריג (יעד סליקה / iPay)", "en": "Yaad Sarig (iPay)" },
+    "category": "clearing",
+    "website": "https://www.yaad.net/",
+    "legal_entity": { "he": "יעד שריג מחשבים ותקשורת בע\"מ", "en": "Yaad Sarig Computers & Communication Ltd." },
+    "year_founded": null,
+    "licenses": [
+      "Legacy supplier (ספק מורשה / מורשת) of Shva (שב\"א) — per iPay app description"
+    ],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": null,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "יעד סליקה אינה מפרסמת תעריפון. חשבון נפתח בחברת \"יעד סליקה\"; פרטי מחיר בטלפון 09-8610338. תמחור מבוסס הצעה.",
+      "source_id": "src_clr_yaad_pixalate",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "medium",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "אפליקציות iPay Gold / iPay EMV / iPay Reader (יעד סליקה). תומכת ויזה, מאסטרקארד, לאומי קארד, אמריקן אקספרס, דיינרס; חיוב בדולר ויורו; תשלומים וקרדיט; חשבוניות בחתימה דיגיטלית באישור מס הכנסה. PCI-DSS לאנדרואיד."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone"],
+    "company_facts": {
+      "notes_he": "יעד סליקה ונאמנות היא חברת בת של יעד שריג מחשבים ותקשורת בע\"מ. ספקית מורשת של שב\"א. אתר: yaad.net / YaadPay.Yaad.net. טלפון: 09-8610338."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "QUOTE-ONLY. No published rate card; pricing only via phone (09-8610338). Facts sourced from iPay app listings (Apple App Store / Pixalate) because yaad.net is unreachable from this environment. Legal entity 'יעד שריג מחשבים ותקשורת בע\"מ'. Year founded unverified."
+  },
+  {
+    "id": "stripe",
+    "name": { "he": "סטרייפ", "en": "Stripe" },
+    "category": "clearing",
+    "website": "https://stripe.com/",
+    "legal_entity": { "he": null, "en": null },
+    "year_founded": 2010,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "EUR",
+      "pricing_model": "public_tiers",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": 1.5,
+        "fixed_per_transaction": 0.25,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": 20,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "Stripe אינה מפרסמת עמוד תמחור ייעודי לישראל (/il/pricing מחזיר 404). התעריפים המובאים כאן הם התעריפים הסטנדרטיים שפורסמו על-ידי Stripe לאזור הכלכלי האירופי (EEA, עמוד אירלנד): כרטיס EEA 1.5% + €0.25; כרטיס EEA פרימיום 2.8% + €0.25; כרטיס בריטניה 2.5% + €0.25; כרטיס בינלאומי 3.15% + €0.25; המרת מטבע +2%; עמלת סירוב/מחלוקת €20. סוחרים ישראלים מוצמדים לרוב לישות האירופית (Stripe Payments Europe) — לא אומת באתר. אין דמי הקמה/חודשיים כלליים.",
+      "source_id": "src_clr_stripe_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": null,
+      "hebrew_ui_quality": null,
+      "allocation_number_integration": false,
+      "api": true,
+      "integrations": ["shopify", "woocommerce"],
+      "app": { "ios": null, "android": null },
+      "notes_he": "פלטפורמת תשלומים בינלאומית; תומכת כרטיסים, ארנקים דיגיטליים ומטבעות רבים. אינה מנפיקה חשבוניות ישראליות (חשבוניות ישראל)."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": null,
+      "notes_he": "ללא התחייבות."
+    },
+    "support_channels": ["email", "chat", "phone"],
+    "company_facts": {
+      "notes_he": "Stripe הוקמה ב-2010 (קולינסון). הישות הרלוונטית לסוחרים באירופה/ישראל: Stripe Payments Europe, Ltd. (אירלנד) — לא אומת."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "PARTIALLY VERIFIED. No Israel-specific pricing page exists (stripe.com/il, /en-il, /il/pricing all 404). Figures recorded are Stripe's PUBLISHED EEA (Ireland) card rates — a primary Stripe source — but the mapping to Israeli merchants/ILS is an inference and NOT verified. Year founded 2010 (widely documented). Legal entity for Israel unverified."
+  },
+  {
+    "id": "paypal",
+    "name": { "he": "פייפאל", "en": "PayPal" },
+    "category": "clearing",
+    "website": "https://www.paypal.com/il/",
+    "legal_entity": { "he": null, "en": null },
+    "year_founded": 1998,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "public_tiers",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": 3.4,
+        "fixed_per_transaction": 1.2,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": 30,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "עמוד עמלות סוחר PayPal ישראל (עודכן 13.10.2026): עסקה מקומית 3.40% + 1.20 ₪ (לפני מע\"מ; 4.01% + 1.42 ₪ כולל מע\"מ 18%). תוספת עסקה בינלאומית: +1.00% (ארה\"ב/קנדה/אירופה I/צפון אירופה) או +2.00% (שאר המדינות). המרת מטבע 2.5% מעל שער הבסיס (2.95% כולל מע\"מ). עמלת מחלוקת/סירוב: 30 ₪ (רגיל) / 60 ₪ (נפח גבוה). תשלום המוני 2%. עמלת זיכוי — לא צוינה. אין עמלה חודשית.",
+      "source_id": "src_clr_paypal_fees",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": false,
+      "api": true,
+      "integrations": ["shopify", "woocommerce"],
+      "app": { "ios": true, "android": true },
+      "notes_he": "ארנק דיגיטלי + סליקה בינלאומית. ממשק ואפליקציה בעברית."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": null,
+      "notes_he": "ללא עמלה חודשית."
+    },
+    "support_channels": ["email", "chat", "phone"],
+    "company_facts": {
+      "notes_he": "PayPal הוקמה ב-1998. הישות המשפטית הרלוונטית לישראל לא אומתה."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "PUBLISHED RATES. Domestic commercial transaction 3.40% + ₪1.20 (VAT excl; 4.01% + ₪1.42 incl 18% VAT). International add-on +1.00% or +2.00%. Currency conversion 2.5% above base. Dispute ₪30 (regular) / ₪60 (high-volume). Refund fee NOT listed. No monthly fee. Source: PayPal IL merchant-fees page (updated 13 Oct 2026)."
+  },
+  {
+    "id": "isracard",
+    "name": { "he": "ישראכרט", "en": "Isracard" },
+    "category": "clearing",
+    "website": "https://www.isracard.co.il/",
+    "legal_entity": { "he": "ישראכרט בע\"מ", "en": "Isracard Ltd." },
+    "year_founded": 1975,
+    "licenses": [
+      "Credit-card issuer and merchant acquirer; issuer activities under Bank of Israel supervision (spun off from Bank Hapoalim under the Strum reform; IPO 2019)"
+    ],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": null,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "ישראכרט כסולקת ישירה אינה מפרסמת תעריפון. התמחור מבוסס הצעה פרטנית (merchant discount), בהתאם למחזור, סוג הכרטיס ורמת הסיכון. לפי מקור משני, עסקים זרים-בבעלות ישראלית מדווחים על merchant discount של כ-1.5%–3% בנפח card-not-present, עם reserve מתגלגל 5%–10% ל-90–180 יום (מקור משני, אמינות נמוכה).",
+      "source_id": "src_clr_israelnonresident",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "מנפיקה וסולקת. מנפיקה כרטיסי Visa, Mastercard ו-American Express."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "email"],
+    "company_facts": {
+      "notes_he": "הוקמה 23.2.1975 כחברה בבעלות בנק הפועלים; הונפקה ב-2019. בינואר 2025 קבוצת דלק הודיעה על רכישת 37% שליטה (הושלם יולי 2025). כ-4.5 מיליון כרטיסים פעילים. נסחרת (TASE: ISCD)."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "DIRECT ISSUER-ACQUIRER — QUOTE-ONLY. No published rate card. Year founded 1975 (secondary source, Grokipedia). The 1.5%–3% card-not-present range is a SECONDARY source (israelnonresident.com) about foreign-owned Israeli companies, not an Isracard published tariff — treat as a lead only."
+  },
+  {
+    "id": "max",
+    "name": { "he": "מקס (לשעבר לאומי קארד)", "en": "Max (formerly Leumi Card)" },
+    "category": "clearing",
+    "website": "https://www.max.co.il/",
+    "legal_entity": { "he": "מקס בע\"מ (לשעבר לאומי קארד)", "en": "Max Ltd. (formerly Leumi Card Ltd.)" },
+    "year_founded": null,
+    "licenses": [
+      "Credit-card issuer and merchant acquirer; separated from Bank Leumi under the Strum reform (sold to Warburg Pincus 2019; to Clal Insurance 2023)"
+    ],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": null,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "מקס כסולקת ישירה אינה מפרסמת תעריפון. תמחור מבוסס הצעה (merchant discount).",
+      "source_id": "src_clr_max_olam",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "מנפיקה וסולקת. מנפיקה כרטיסי Visa ו-Mastercard, ומפעילה ארנק דיגיטלי max."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "email"],
+    "company_facts": {
+      "notes_he": "לשעבר לאומי קארד; מותגה מחדש כ-Max ב-2019 לאחר הפרדה מבנק לאומי. נשלטת על-ידי כלל ביטוח מ-27.3.2023 (רכישה בשווי כ-2.47 מיליארד ₪). מנכ\"לית: שגית דותן (מ-10/2024). שנת ייסוד (כלאומי קארד) לא אומתה."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "DIRECT ISSUER-ACQUIRER — QUOTE-ONLY. No published rate card. Ownership/rebrand facts verified from secondary sources (Olam, Globes-cited). Year founded left null (commonly cited as 2000 as Leumi Card but unverified)."
+  },
+  {
+    "id": "cal",
+    "name": { "he": "כאל (Visa CAL)", "en": "Cal (Visa CAL)" },
+    "category": "clearing",
+    "website": "https://www.cal-online.co.il/",
+    "legal_entity": { "he": "כרטיסי אשראי לישראל בע\"מ", "en": "Israel Credit Cards Ltd." },
+    "year_founded": 1978,
+    "licenses": [
+      "Credit-card issuer and merchant acquirer; jointly controlled by Israel Discount Bank and First International Bank of Israel (subject to separation under competition law)"
+    ],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null,
+        "installments_surcharge": null,
+        "foreign_card_surcharge": null,
+        "refund_fee": null,
+        "chargeback_fee": null,
+        "settlement_days": null,
+        "min_turnover_requirement": null
+      },
+      "notes_he": "כאל כסולקת ישירה אינה מפרסמת תעריפון. תמחור מבוסס הצעה (merchant discount).",
+      "source_id": "src_clr_cal_olam",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "מנפיקה וסולקת. מנפיקה Visa, Mastercard ו-Diners Club (זכיין בלעדי בישראל). מותג כרטיסי Visa של כאל: \"Visa CAL\"."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "email"],
+    "company_facts": {
+      "notes_he": "הוקמה 1978 כ\"כרטיסי אשראי לישראל\" (האתר מציין 1979). נשלטת על-ידי בנק דיסקונט (71.8%) והבנק הבינלאומי (28.2%). כ-4 מיליון כרטיסים. מחזיקה בזיכיון הבלעדי ל-Diners Club בישראל. \"Visa CAL\" הוא מותג כרטיסי Visa של כאל — אותו גוף סולק."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "DIRECT ISSUER-ACQUIRER (this record also covers the 'Visa-CAL' direct acquiring, which is Cal's Visa brand) — QUOTE-ONLY. No published rate card. Founded 1978 per secondary source (site markets 1979). Ownership from secondary source; under competition-law separation."
+  }
+]

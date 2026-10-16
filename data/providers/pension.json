@@ -1,0 +1,530 @@
+[
+  {
+    "id": "clal",
+    "name": {
+      "he": "כלל",
+      "en": "Clal"
+    },
+    "category": "pension",
+    "website": "https://www.clalbit.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "harel",
+    "name": {
+      "he": "הראל",
+      "en": "Harel"
+    },
+    "category": "pension",
+    "website": "https://www.harel-group.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "migdal",
+    "name": {
+      "he": "מגדל",
+      "en": "Migdal"
+    },
+    "category": "pension",
+    "website": "https://www.migdal.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "phoenix",
+    "name": {
+      "he": "הפניקס",
+      "en": "Phoenix"
+    },
+    "category": "pension",
+    "website": "https://www.fnx.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "menora_mivtachim",
+    "name": {
+      "he": "מנורה מבטחים",
+      "en": "Menora Mivtachim"
+    },
+    "category": "pension",
+    "website": "https://www.menora.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "altshuler_shaham",
+    "name": {
+      "he": "אלטשולר שחם",
+      "en": "Altshuler Shaham"
+    },
+    "category": "pension",
+    "website": null,
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "meitav",
+    "name": {
+      "he": "מיטב",
+      "en": "Meitav"
+    },
+    "category": "pension",
+    "website": "https://www.meitav.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "more",
+    "name": {
+      "he": "מור",
+      "en": "More"
+    },
+    "category": "pension",
+    "website": "https://www.more.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "analyst",
+    "name": {
+      "he": "אנליסט",
+      "en": "Analyst"
+    },
+    "category": "pension",
+    "website": "https://www.analyst.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "ibi",
+    "name": {
+      "he": "IBI",
+      "en": "IBI"
+    },
+    "category": "pension",
+    "website": "https://www.ibi.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "ayalon",
+    "name": {
+      "he": "איילון",
+      "en": "Ayalon"
+    },
+    "category": "pension",
+    "website": null,
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  },
+  {
+    "id": "infinity",
+    "name": {
+      "he": "אינפיניטי",
+      "en": "Infinity"
+    },
+    "category": "pension",
+    "website": "https://www.infinity.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "management_fee_on_deposit_pct": null,
+      "management_fee_on_accumulation_pct": null,
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "דמי הניהול לא אומתו. יש להזין רק ממקור רשמי (גמל נט / פנסיה נט של רשות שוק ההון)."
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Provider identity/website verified via the provider's own site. Management fee on deposits (דמי ניהול מהפקדה) and on accumulation (דמי ניהול מצבירה) are NULL because the official government comparison source (גמל נט / פנסיה נט, רשות שוק ההון) could not be reliably queried for this provider. Do not populate from secondary sources."
+  }
+]

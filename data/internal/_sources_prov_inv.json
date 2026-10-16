@@ -1,0 +1,194 @@
+[
+  {
+    "id": "src_inv_gi_pricing",
+    "title": "מחירון - מורנינג של חשבונית ירוקה (מסלולים שנתיים וחודשיים)",
+    "publisher": "Morning (Green Invoice)",
+    "url": "https://www.greeninvoice.co.il/pricing/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_inv_gi_about",
+    "title": "אודות מורנינג של חשבונית ירוקה",
+    "publisher": "Morning (Green Invoice)",
+    "url": "https://www.greeninvoice.co.il/about/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_inv_icount_pricing",
+    "title": "מחירון - iCount",
+    "publisher": "iCount",
+    "url": "https://www.icount.co.il/plans/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_inv_rivhit_pricing",
+    "title": "ריווחית אונליין - מערכת הנהלת חשבונות בענן (מחירון)",
+    "publisher": "Rivhit (ריווחית)",
+    "url": "https://www.rivhit.co.il/ריווחית-אונליין-מערכת-הנהלת-חשבונות/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_inv_inv4u_pricing",
+    "title": "מחירון Invoice4u - חשבוניות אונליין",
+    "publisher": "Invoice4U",
+    "url": "https://www.invoice4u.co.il/pricelist-invoice/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_inv_hyp_pricing",
+    "title": "מחירון חשבונית דיגיטלית - Hyp (לשעבר EZcount / איזיקאונט)",
+    "publisher": "Hyp (formerly EZcount)",
+    "url": "https://hyp.co.il/digital-invoice-pricing/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_inv_hashavshevet_site",
+    "title": "חשבשבת H-ERP - מערכת ERP לניהול עסק",
+    "publisher": "Hashavshevet (חשבשבת)",
+    "url": "https://www.h-erp.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_inv_cardcom_invoices",
+    "title": "חשבוניות דיגיטליות - הפקת חשבוניות אוטומטית - קארדקום",
+    "publisher": "Cardcom (קארדקום)",
+    "url": "https://www.cardcom.solutions/invoices/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_inv_fireberry_pricing",
+    "title": "Scalable CRM pricing for your business - Fireberry",
+    "publisher": "Fireberry",
+    "url": "https://www.fireberry.com/pricing",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_acc_rivhit_pricing",
+    "title": "ריווחית אונליין - מסלולי הנהלת חשבונות (Basic / Plus / Pro)",
+    "publisher": "Rivhit (ריווחית)",
+    "url": "https://www.rivhit.co.il/ריווחית-אונליין-מערכת-הנהלת-חשבונות/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_acc_hashavshevet_site",
+    "title": "חשבשבת H-ERP - מודולים לניהול פיננסי והנהלת חשבונות",
+    "publisher": "Hashavshevet (חשבשבת)",
+    "url": "https://www.h-erp.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_acc_icount_pricing",
+    "title": "מחירון iCount - מסלולי הנהלת חשבונות / הנהלת עסק",
+    "publisher": "iCount",
+    "url": "https://www.icount.co.il/plans/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_acc_gi_pricing",
+    "title": "מחירון מורנינג (חשבונית ירוקה) - מערכת למייצגים / הנהלת חשבונות",
+    "publisher": "Morning (Green Invoice)",
+    "url": "https://www.greeninvoice.co.il/pricing/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pay_hilan_site",
+    "title": "פתרונות תוכנה לניהול הון אנושי - חילן (חילן שכר / חילן HR / חילן נוכחות)",
+    "publisher": "Hilan (חילן)",
+    "url": "https://www.hilan.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pay_michpal_site",
+    "title": "תוכנת שכר המובילה בישראל - מיכפל",
+    "publisher": "Michpal (מיכפל)",
+    "url": "https://www.michpal.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pay_michpal_pricerequest",
+    "title": "בקשת מחיר - מיכפל",
+    "publisher": "Michpal (מיכפל)",
+    "url": "https://www.michpal.co.il/PriceRequest.aspx",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_pay_payslips_site",
+    "title": "PaySlips – מערכת הפצת תלושי שכר דיגיטלית (מחירים)",
+    "publisher": "PaySlips",
+    "url": "https://payslips.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_crm_monday_pricing",
+    "title": "monday.com pricing and plans",
+    "publisher": "monday.com",
+    "url": "https://monday.com/pricing",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_crm_monday_crm_pricing",
+    "title": "monday.com CRM pricing",
+    "publisher": "monday.com",
+    "url": "https://monday.com/crm/pricing",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_crm_zoho_pricing",
+    "title": "מחירים ומהדורות של Zoho CRM - בחינם ל-3 משתמשים",
+    "publisher": "Zoho",
+    "url": "https://www.zoho.com/he/crm/zohocrm-pricing.html",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_crm_pipedrive_pricing",
+    "title": "CRM Pricing Plans | Pipedrive",
+    "publisher": "Pipedrive",
+    "url": "https://www.pipedrive.com/en/pricing",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_crm_salesforce_pricing",
+    "title": "Sales Cloud Pricing | Salesforce",
+    "publisher": "Salesforce",
+    "url": "https://www.salesforce.com/sales/pricing/",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_crm_hubspot_pricing",
+    "title": "HubSpot CRM pricing",
+    "publisher": "HubSpot",
+    "url": "https://www.hubspot.com/pricing/crm",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_crm_fireberry_pricing",
+    "title": "Scalable CRM pricing for your business - Fireberry",
+    "publisher": "Fireberry",
+    "url": "https://www.fireberry.com/pricing",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  }
+]

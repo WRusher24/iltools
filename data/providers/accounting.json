@@ -1,0 +1,257 @@
+[
+  {
+    "id": "rivhit_accounting",
+    "name": { "he": "ריווחית אונליין (הנהלת חשבונות)", "en": "Rivhit Online (bookkeeping)" },
+    "category": "accounting",
+    "website": "https://www.rivhit.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "basic",
+          "name": { "he": "מסלול עסקים Basic", "en": "Business Basic" },
+          "price_monthly": 120,
+          "price_annually": 1200,
+          "billing_cycle": "annual",
+          "promotional": true,
+          "limits": { "users": 1, "businesses": null, "extra_user_cost": 30, "notes": "תנועות הנה\"ח ללא הגבלה; פקודות יומן כפולה/חד-צידית; דו\"ח מע\"מ ומקדמות; PCN874" },
+          "source_id": "src_acc_rivhit_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "plus",
+          "name": { "he": "מסלול עסקים Plus", "en": "Business Plus" },
+          "price_monthly": 170,
+          "price_annually": 1700,
+          "billing_cycle": "annual",
+          "promotional": true,
+          "limits": { "users": 1, "extra_user_cost": 30, "api_module_cost": 199, "notes": "כולל הפקת חשבוניות, חיבור רו\"ח, חשבוניות ישראל" },
+          "source_id": "src_acc_rivhit_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "pro",
+          "name": { "he": "מסלול עסקים Pro", "en": "Business Pro" },
+          "price_monthly": 240,
+          "price_annually": 2400,
+          "billing_cycle": "annual",
+          "promotional": true,
+          "limits": { "users": 1, "extra_user_cost": 30, "notes": "כולל ניהול מלאי, ספקים, מחירונים" },
+          "source_id": "src_acc_rivhit_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "מערכת הנהלת חשבונות כפולה/חד-צידית בענן. המחירים אינם כוללים מע\"מ. מבצע 12 חודשים במחיר 10 (Basic 1,200 ₪; Plus 1,700 ₪; Pro 2,400 ₪).",
+      "source_id": "src_acc_rivhit_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "התאמות בנקים וכרטיסים, כרטסת, דוחות כספיים, PCN874 עם מספר הקצאה."
+    },
+    "contract_terms": {
+      "commitment": "annual",
+      "cancellation": "monthly",
+      "notes_he": "מנוי חודשי מתחדש / הנחה שנתית."
+    },
+    "support_channels": ["phone"],
+    "company_facts": { "notes_he": "ראו גם רשומת 'ריווחית' בקטגוריית invoicing." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Same pricing table as the Rivhit invoicing record (Basic is a pure bookkeeping plan). Verified from official pricing page."
+  },
+  {
+    "id": "hashavshevet_accounting",
+    "name": { "he": "חשבשבת (הנהלת חשבונות / ERP)", "en": "Hashavshevet (bookkeeping / ERP)" },
+    "category": "accounting",
+    "website": "https://www.h-erp.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "notes_he": "מודול ניהול פיננסי והנהלת חשבונות בתוך חבילת H-ERP. אין מחירון פומבי; תמחור לפי הצעת מחיר.",
+      "source_id": "src_acc_hashavshevet_site",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "מודולים: פיננסים/הנהלת חשבונות, רכש ומלאי, CRM, שכר, רכוש קבוע, קופות רושמות; H-WEB/H-CLOUD."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לפי הצעה."
+    },
+    "support_channels": ["phone"],
+    "company_facts": { "notes_he": "יצרנית תוכנה ישראלית ותיקה (חשבשבת)." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "Quote-only; no public price list located."
+  },
+  {
+    "id": "icount_accounting",
+    "name": { "he": "iCount (הנהלת עסק / חשבונות)", "en": "iCount (business / bookkeeping)" },
+    "category": "accounting",
+    "website": "https://www.icount.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "hybrid",
+      "plans": [
+        {
+          "id": "express",
+          "name": { "he": "Express", "en": "Express" },
+          "price_monthly": null,
+          "price_annually": 276,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": 1, "businesses": 1, "notes": "ניהול הכנסות והוצאות, מסמכים ללא הגבלה" },
+          "source_id": "src_acc_icount_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "advanced",
+          "name": { "he": "Advanced", "en": "Advanced" },
+          "price_monthly": 32,
+          "price_annually": null,
+          "billing_cycle": "usage",
+          "promotional": false,
+          "limits": { "businesses": 5, "notes": "דוחות מע\"מ, כרטסות, רווח והפסד, מקדמות, תזרים" },
+          "source_id": "src_acc_icount_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "master",
+          "name": { "he": "Master", "en": "Master" },
+          "price_monthly": 111,
+          "price_annually": null,
+          "billing_cycle": "usage",
+          "promotional": false,
+          "limits": { "notes": "כולל ייצוג ברשויות המס, דיווח ותשלומים לרשויות" },
+          "source_id": "src_acc_icount_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "המחיר אינו כולל מע\"מ. Master כולל צוות מייצגים; דו\"ח שנתי 500 ₪, הצהרת הון 699 ₪.",
+      "source_id": "src_acc_icount_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "ניהול הוצאות, דוחות מע\"מ, CRM, ניהול מלאי, שעון נוכחות, ייצוג ברשויות."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "Express בהתחייבות שנה; Advanced/Master חודשי."
+    },
+    "support_channels": [],
+    "company_facts": { "notes_he": "ראו רשומת iCount בקטגוריית invoicing." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Pricing verified from official plans page."
+  },
+  {
+    "id": "green_invoice_accounting",
+    "name": { "he": "חשבונית ירוקה / מורנינג (מערכת למייצגים)", "en": "Green Invoice / Morning (for accountants)" },
+    "category": "accounting",
+    "website": "https://www.greeninvoice.co.il/",
+    "legal_entity": { "he": "מורנינג (לשעבר חשבונית ירוקה)", "en": "Morning (formerly Green Invoice)" },
+    "year_founded": 2011,
+    "licenses": ["מערכת מאושרת על ידי רשות המיסים"],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "basic",
+          "name": { "he": "Basic", "en": "Basic" },
+          "price_monthly": 29,
+          "price_annually": 348,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "documents_per_month": 20, "businesses": 1 },
+          "source_id": "src_acc_gi_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "prime",
+          "name": { "he": "Prime", "en": "Prime" },
+          "price_monthly": 155,
+          "price_annually": 1548,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "documents_per_month": 500, "businesses": 5, "extra_document_cost": 0.15 },
+          "source_id": "src_acc_gi_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "המחירים אינם כוללים מע\"מ. קיים מסלול 'מערכת למייצגים' לרואי חשבון (תמחור לפי מספר תיקים; לא נלכד במחירון הציבורי).",
+      "source_id": "src_acc_gi_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "מתן גישה לרו\"ח, הפקת דוחות, סנכרון אונליין עם רו\"ח; מערכת למייצגים לניהול תיקים."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "חודשי/שנתי."
+    },
+    "support_channels": [],
+    "company_facts": { "notes_he": "ראו רשומת חשבונית ירוקה בקטגוריית invoicing." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "Public tiers verified; the dedicated accountants/'מייצגים' product pricing is not on the public price list (gap)."
+  }
+]

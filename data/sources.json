@@ -56,5 +56,197 @@
     "accessed_on": "2026-10-16",
     "language": "he",
     "confidence": "low"
+  },
+  {
+    "id": "src_clr_cardcom_home",
+    "title": "סליקת אשראי לעסקים | חברת הסליקה המתקדמת בישראל – קארדקום",
+    "publisher": "קארדקום (Cardcom)",
+    "url": "https://www.cardcom.solutions/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_cardcom_fees_blog",
+    "title": "השוואת עמלות סליקה לעסקים: כמה זה באמת עולה לכם (ואיך חוסכים)?",
+    "publisher": "קארדקום (Cardcom)",
+    "url": "https://www.cardcom.solutions/blog/clearing-fees-comparison-guide",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_cardcom_license_blog",
+    "title": "רישיון סליקה קבוע מבנק ישראל: קארדקום חברת האשראי של ישראל",
+    "publisher": "קארדקום (Cardcom)",
+    "url": "https://www.cardcom.solutions/blog/clearing-license-bank-of-israel",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_cardcom_kyc",
+    "title": "CARDCOM ACQUIRING LTD (קארדקום סליקה בע\"מ) — company record",
+    "publisher": "KYC Israel",
+    "url": "https://www.kycisrael.com/companies/515729077/cardcom-acquiring-ltd",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_tranzila_home",
+    "title": "טרנזילה — סליקת אשראי ופתרונות תשלום",
+    "publisher": "טרנזילה (Tranzila)",
+    "url": "https://www.tranzila.com/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_tranzila_finance",
+    "title": "טרנזילה פיננסים — עמלת סליקה מופחתת",
+    "publisher": "טרנזילה (Tranzila)",
+    "url": "https://www.tranzila.com/finance.html",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_tranzila_docs",
+    "title": "Tranzila developer documentation — About Tranzila",
+    "publisher": "Tranzila",
+    "url": "https://docs.tranzila.com",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_tranzila_kurrant",
+    "title": "Tranzila (Acquiring) — company profile",
+    "publisher": "Kurrant",
+    "url": "https://app.kurrant.ai/public/companies/43e7bad4-f71a-46b1-89c9-a747e3a15425",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_payplus_home",
+    "title": "PayPlus | חברת פתרונות סליקה",
+    "publisher": "PayPlus",
+    "url": "https://www.payplus.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_grow_price",
+    "title": "Price Offer | Grow — כמה זה עולה?",
+    "publisher": "Grow (משולם)",
+    "url": "https://grow.business/price-offer/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_grow_fees",
+    "title": "מחירון עמלות | Grow",
+    "publisher": "Grow (משולם)",
+    "url": "https://grow.business/fees/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_grow_terms",
+    "title": "תנאי שימוש | Grow",
+    "publisher": "Grow (משולם)",
+    "url": "https://grow.business/terms/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_pelecard_home",
+    "title": "פלאקארד Pelecard — סליקת כרטיסי אשראי לעסקים ואתרים",
+    "publisher": "פלאקארד (Pelecard)",
+    "url": "https://pelecard.com/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_pelecard_about",
+    "title": "אודות פלאקארד",
+    "publisher": "פלאקארד (Pelecard)",
+    "url": "https://pelecard.com/אודות-פלאקארד/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_pelecard_kyc",
+    "title": "PELECARD FINANCE LTD (פלאקארד פיננסי בע\"מ) — company record",
+    "publisher": "KYC Israel",
+    "url": "https://www.kycisrael.com/companies/516667136/pelecard-finance-ltd/",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_yaad_app",
+    "title": "iPay Gold יעד סליקה — app listing (Yaad Computers & Communication Ltd)",
+    "publisher": "Apple App Store",
+    "url": "https://apps.apple.com/us/developer/yaad-computers-communication/id367977582",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_yaad_pixalate",
+    "title": "iPay Reader / iPay EMV — יעד סליקה (developer: Yaad Computers & Communication Ltd)",
+    "publisher": "Pixalate",
+    "url": "https://ratings.pixalate.com/insight/apps/com.yaad.ipayreader/GLOBAL/android/GLOBAL",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_stripe_pricing",
+    "title": "Stripe Pricing & Fees (EEA / Ireland card rates)",
+    "publisher": "Stripe",
+    "url": "https://stripe.com/ie/pricing",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_paypal_fees",
+    "title": "עמלות בעל עסק ב-PayPal — מחירון עמלות סוחר (ישראל)",
+    "publisher": "PayPal",
+    "url": "https://www.paypal.com/il/business/paypal-business-fees",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_clr_isracard_grokipedia",
+    "title": "Isracard — company profile (founded 1975, TASE: ISCD)",
+    "publisher": "Grokipedia",
+    "url": "https://grokipedia.com/page/Isracard",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_cal_olam",
+    "title": "Cal: Israel's Diners Club Card Issuer (Israel Credit Cards Ltd, founded 1978)",
+    "publisher": "Olam",
+    "url": "https://olam.business/cal-israel-credit-cards",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_max_olam",
+    "title": "Max Credit Card Israel: Clal Owner, Profit and History (formerly Leumi Card)",
+    "publisher": "Olam",
+    "url": "https://www.olam.business/max-israel-credit-cards",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_israelnonresident",
+    "title": "Can my US-owned Israeli company get a credit card processing account in Israel? (merchant discount range 1.5%–3%)",
+    "publisher": "IsraelNonResident.com",
+    "url": "https://israelnonresident.com/qa/foreign-owned-israeli-company-credit-card-acquiring",
+    "accessed_on": "2026-10-16",
+    "language": "en"
+  },
+  {
+    "id": "src_clr_moneywiki",
+    "title": "Israel — payment operators reference (Tranzila / Pelecard launch dates)",
+    "publisher": "MoneyWiki",
+    "url": "https://moneywiki.app/countries/israel",
+    "accessed_on": "2026-10-16",
+    "language": "en"
   }
 ]

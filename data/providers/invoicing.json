@@ -1,57 +1,586 @@
 [
   {
     "id": "green_invoice",
-    "name": {
-      "he": "חשבונית ירוקה",
-      "en": "Green Invoice"
+    "name": { "he": "חשבונית ירוקה (מורנינג)", "en": "Green Invoice (Morning)" },
+    "category": "invoicing",
+    "website": "https://www.greeninvoice.co.il/",
+    "legal_entity": { "he": "מורנינג (לשעבר חשבונית ירוקה)", "en": "Morning (formerly Green Invoice)" },
+    "year_founded": 2011,
+    "licenses": ["מערכת מאושרת על ידי רשות המיסים בישראל"],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "basic",
+          "name": { "he": "Basic", "en": "Basic" },
+          "price_monthly": 29,
+          "price_annually": 348,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "documents_per_month": 20, "users": null, "businesses": 1, "extra_document_cost": 1.0 },
+          "source_id": "src_inv_gi_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "best",
+          "name": { "he": "Best", "en": "Best" },
+          "price_monthly": 54,
+          "price_annually": 540,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "documents_per_month": 50, "users": null, "businesses": 2, "extra_document_cost": 1.0 },
+          "source_id": "src_inv_gi_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "extra",
+          "name": { "he": "Extra", "en": "Extra" },
+          "price_monthly": 89,
+          "price_annually": 888,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "documents_per_month": 200, "users": null, "businesses": 3, "extra_document_cost": 0.5 },
+          "source_id": "src_inv_gi_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "prime",
+          "name": { "he": "Prime", "en": "Prime" },
+          "price_monthly": 155,
+          "price_annually": 1548,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "documents_per_month": 500, "users": null, "businesses": 5, "extra_document_cost": 0.15 },
+          "source_id": "src_inv_gi_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "המחירים אינם כוללים מע\"מ. מחיר בתשלום אחד לשנה: Basic 348 ₪, Best 540 ₪, Extra 888 ₪, Prime 1,548 ₪. בהתחייבות חודשית: Best 54 ₪, Extra 89 ₪, Prime 155 ₪ לחודש.",
+      "source_id": "src_inv_gi_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
     },
-    "legal_entity": {
-      "he": "חשבונית ירוקה בע\"מ",
-      "en": "Green Invoice Ltd."
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "תמיכה במודל חשבוניות ישראל ומספר הקצאה בכל המסלולים. API/אינטגרציות/Webhooks זמינים מ-Best ומעלה."
     },
-    "year_founded": 2010,
-    "plans": [
-      {
-        "name": {
-          "he": "בסיסי",
-          "en": "Basic"
-        },
-        "price_monthly": 49,
-        "price_annually": 490,
-        "vat_included": true,
-        "currency": "ILS",
-        "billing_cycle": "monthly",
-        "limits": {
-          "documents_per_month": 100,
-          "users": 1
-        },
-        "features": {
-          "hebrew_support": true,
-          "allocation_number_integration": true,
-          "api": true,
-          "integrations": ["quickbooks", "xero"],
-          "app": {
-            "ios": true,
-            "android": true
-          }
-        },
-        "contract_terms": {
-          "commitment": "none",
-          "cancellation": "monthly"
-        },
-        "support_channels": ["email", "phone"],
-        "last_verified": "2026-10-16",
-        "source_id": "src_green_invoice_01",
-        "confidence": "high"
-      }
-    ],
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "ניתן לבחור מסלול חודשי מתחדש או תשלום שנתי."
+    },
+    "support_channels": [],
     "company_facts": {
-      "legal_entity": {
-        "he": "חשבונית ירוקה בע\"מ",
-        "en": "Green Invoice Ltd."
-      },
-      "year_founded": 2010,
-      "licenses": []
-    }
+      "notes_he": "הוקמה בשנת 2011 על ידי ליאור וילצ'ינסקי ורמי גבאי. המותג עבר rebranding מ'חשבונית ירוקה' ל'מורנינג' (Morning by Green Invoice); morning.co מפנה ל-greeninvoice.co.il. מערכת מאושרת רשות המיסים, ISO."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Brand relationship verified: morning.co 301-redirects to greeninvoice.co.il/pricing/; footer reads 'מורנינג של חשבונית ירוקה'. Founding year 2011 per official About page (existing repo file had 2010 - corrected). Prices exclude VAT. Support channels not enumerated on the pricing page."
+  },
+  {
+    "id": "icount",
+    "name": { "he": "iCount", "en": "iCount" },
+    "category": "invoicing",
+    "website": "https://www.icount.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "hybrid",
+      "plans": [
+        {
+          "id": "express",
+          "name": { "he": "Express", "en": "Express" },
+          "price_monthly": null,
+          "price_annually": 276,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "documents_per_month": null, "users": 1, "businesses": 1, "notes": "מסמכים ללא הגבלה; מסלול בסיסי, ללא API/איקומרס/הרחבות" },
+          "source_id": "src_inv_icount_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "advanced",
+          "name": { "he": "Advanced", "en": "Advanced" },
+          "price_monthly": 32,
+          "price_annually": null,
+          "billing_cycle": "usage",
+          "promotional": false,
+          "limits": { "documents_per_month": 10, "users": null, "businesses": 5, "notes": "מחיר לפי שימוש: עד 10 מסמכים=32 ₪; עד 100=59 ₪; עד 200=85 ₪; 400=0.3 ₪/מסמך; 600=0.25; 1,000=0.22; 5,000=0.18; 10,000=0.14" },
+          "source_id": "src_inv_icount_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "master",
+          "name": { "he": "Master", "en": "Master" },
+          "price_monthly": 111,
+          "price_annually": null,
+          "billing_cycle": "usage",
+          "promotional": false,
+          "limits": { "documents_per_month": 10, "users": null, "businesses": 5, "notes": "Advanced + ייצוג ברשויות המס. הקמת חשבון +119 ₪; הגשת דו\"ח שנתי 500 ₪" },
+          "source_id": "src_inv_icount_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "המחיר אינו כולל מע\"מ. Express בהתחייבות לשנה בתשלום אחד 276 ₪. Advanced/Master מחיר חודשי לפי שימוש בכמות מסמכים. משתמשים ללא הגבלה ב-Advanced.",
+      "source_id": "src_inv_icount_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "תמיכה בחשבוניות ישראל. API זמין ב-Advanced ומעלה (לא ב-Express). 45 ימי ניסיון חינם."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "Express מחייב התחייבות לשנה בתשלום אחד. Advanced/Master חודשי."
+    },
+    "support_channels": [],
+    "company_facts": { "notes_he": "שנת ייסוד לא אומתה מהאתר." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Prices exclude VAT. Advanced is usage-based (per-document tiering). Legal entity and founding year not found on site."
+  },
+  {
+    "id": "rivhit",
+    "name": { "he": "ריווחית", "en": "Rivhit" },
+    "category": "invoicing",
+    "website": "https://www.rivhit.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "basic",
+          "name": { "he": "מסלול עסקים Basic", "en": "Business Basic" },
+          "price_monthly": 120,
+          "price_annually": 1200,
+          "billing_cycle": "annual",
+          "promotional": true,
+          "limits": { "documents_per_month": null, "users": 1, "businesses": null, "extra_user_cost": 30, "api_module_cost": 199, "notes": "תנועות הנה\"ח ללא הגבלה; ללא הפקת חשבוניות" },
+          "source_id": "src_inv_rivhit_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "plus",
+          "name": { "he": "מסלול עסקים Plus", "en": "Business Plus" },
+          "price_monthly": 170,
+          "price_annually": 1700,
+          "billing_cycle": "annual",
+          "promotional": true,
+          "limits": { "documents_per_month": null, "users": 1, "businesses": null, "extra_user_cost": 30, "api_module_cost": 199, "notes": "מסמכים ללא הגבלה; חשבוניות ישראל (מספר הקצאה); גישה ל-API" },
+          "source_id": "src_inv_rivhit_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "pro",
+          "name": { "he": "מסלול עסקים Pro", "en": "Business Pro" },
+          "price_monthly": 240,
+          "price_annually": 2400,
+          "billing_cycle": "annual",
+          "promotional": true,
+          "limits": { "documents_per_month": null, "users": 1, "businesses": null, "extra_user_cost": 30, "api_module_cost": 199, "notes": "כולל ניהול מלאי, ספקים, מחירונים" },
+          "source_id": "src_inv_rivhit_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "המחירים אינם כוללים מע\"מ. מבצע: 12 חודשים במחיר 10 (Basic 1,200 ₪ במקום 1,440 ₪; Plus 1,700 ₪ במקום 2,040 ₪; Pro 2,400 ₪ במקום 2,880 ₪). משתמש נוסף 30 ₪ + מע\"מ; מודול API 199 ₪ + מע\"מ (עד 2,000 פעולות).",
+      "source_id": "src_inv_rivhit_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "תמיכה בחשבוניות ישראל – מספר הקצאה (מ-Plus). API במודול בתשלום. ניסיון 30 יום (עד 50 מסמכים)."
+    },
+    "contract_terms": {
+      "commitment": "annual",
+      "cancellation": "monthly",
+      "notes_he": "מנוי חודשי מתחדש אוטומטית וניתן לביטול בכל עת דרך האזור האישי; הנחה במסלול שנתי."
+    },
+    "support_channels": ["phone"],
+    "company_facts": { "notes_he": "ריווחית היא מערכת הנהלת חשבונות/ERP ישראלית. שנת ייסוד וגוף משפטי לא אומתו מהאתר." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Annual promo '12 for 10' (promotional=true). Displayed '/month' rate is the annual-equivalent; regular annual list price shown as 'instead of'. Prices exclude VAT."
+  },
+  {
+    "id": "invoice4u",
+    "name": { "he": "חשבונית4U", "en": "Invoice4U" },
+    "category": "invoicing",
+    "website": "https://www.invoice4u.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "pink",
+          "name": { "he": "המסלול הורוד", "en": "Pink" },
+          "price_monthly": null,
+          "price_annually": 252,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "documents_per_month": 50, "users": null, "businesses": null, "notes": "עמלת סליקה החל מ-0.8%; דמי הקמה 199 ₪" },
+          "source_id": "src_inv_inv4u_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "green",
+          "name": { "he": "המסלול הירוק", "en": "Green" },
+          "price_monthly": null,
+          "price_annually": 372,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "documents_per_month": 100, "users": null, "businesses": null },
+          "source_id": "src_inv_inv4u_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "blue",
+          "name": { "he": "המסלול הכחול", "en": "Blue" },
+          "price_monthly": null,
+          "price_annually": 528,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "documents_per_month": 200, "users": null, "businesses": null },
+          "source_id": "src_inv_inv4u_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "red",
+          "name": { "he": "המסלול האדום", "en": "Red" },
+          "price_monthly": null,
+          "price_annually": 1068,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "documents_per_month": 500, "users": null, "businesses": null },
+          "source_id": "src_inv_inv4u_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "המחירים אינם כוללים מע\"מ. מחיר בתשלום אחד לשנה (תצוגת 'תשלום שנתי'): 252 / 372 / 528 / 1,068 ₪ (21 / 31 / 44 / 89 ₪ לחודש). קיים גם מסלול 'תשלום חודשי' (לא נלכד). דמי הקמה 199 ₪. תוספות: ניהול עסקים נוספים 19 ₪, חתימה דיגיטלית 12 ₪, דוחות 29 ₪, ניהול הוצאות 45 ₪, דפי תשלום 59 ₪, הו\"ק 120 ₪, שעון נוכחות 69 ₪.",
+      "source_id": "src_inv_inv4u_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": ["wordpress"],
+      "app": { "ios": null, "android": null },
+      "notes_he": "חשבוניות ישראל/מספר הקצאה. API, חיבור wordpress, סליקת אשראי, ביט/אפל פיי/גוגל פיי."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "שני מסלולי חיוב: תשלום שנתי / תשלום חודשי."
+    },
+    "support_channels": ["phone", "chat"],
+    "company_facts": { "notes_he": "מספר טלפון 1-700-70-10-88; צ'אט אונליין." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Annual prices verified via JS-rendered pricing table (agent-browser snapshot). Monthly billing toggle not captured, so price_monthly left null. Prices exclude VAT."
+  },
+  {
+    "id": "ezcount",
+    "name": { "he": "איזיקאונט (Hyp)", "en": "EZcount (Hyp)" },
+    "category": "invoicing",
+    "website": "https://hyp.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": false,
+      "currency": "ILS",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "givol",
+          "name": { "he": "גבעול", "en": "Givol" },
+          "price_monthly": 24,
+          "price_annually": 252,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "documents_per_month": 50, "users": 1, "extra_document_cost": 0.75 },
+          "source_id": "src_inv_hyp_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "shtil",
+          "name": { "he": "שתיל", "en": "Shtil" },
+          "price_monthly": 36,
+          "price_annually": 348,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "documents_per_month": 100, "users": 5, "extra_document_cost": 0.75 },
+          "source_id": "src_inv_hyp_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "mata",
+          "name": { "he": "מטע", "en": "Mata" },
+          "price_monthly": 49,
+          "price_annually": 480,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "documents_per_month": 300, "users": 10, "extra_document_cost": 0.25 },
+          "source_id": "src_inv_hyp_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "pardes",
+          "name": { "he": "פרדס", "en": "Pardes" },
+          "price_monthly": 79,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "documents_per_month": null, "users": 10, "notes": "מסמכים ללא הגבלה + סליקת אשראי" },
+          "source_id": "src_inv_hyp_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "בתשלום שנתי: גבעול 252 ₪, שתיל 348 ₪, מטע 480 ₪ לשנה (21/29/40 ₪ לחודש). מחיר חודשי: 24/36/49/79 ₪. המחיר לפני מע\"מ.",
+      "source_id": "src_inv_hyp_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": ["paypal"],
+      "app": { "ios": null, "android": null },
+      "notes_he": "תמיכה במודל חשבוניות ישראל, API, סליקה, אפליקציית Hyp, QR, לינק לתשלום, Shopify."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "בחירה בין תשלום חודשי לשנתי."
+    },
+    "support_channels": ["email", "phone"],
+    "company_facts": { "notes_he": "המותג EZcount (איזיקאונט) עבר ל-Hyp; ezcount.co.il מפנה כעת ל-hyp.co.il. חלק מקבוצת Hyp (סליקה/קופות)." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Brand change verified: ezcount.co.il/pricing 301-redirects to hyp.co.il/digital-invoice-pricing/. Annual price for 'פרדס' not shown. VAT status not explicitly stated on page (prices appear pre-VAT)."
+  },
+  {
+    "id": "hashavshevet",
+    "name": { "he": "חשבשבת", "en": "Hashavshevet" },
+    "category": "invoicing",
+    "website": "https://www.h-erp.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "notes_he": "חשבשבת H-ERP היא מערכת ERP מודולרית (ניהול פיננסי והנהלת חשבונות, רכש/מלאי, CRM, שכר, קופות רושמות ועוד). לא פורסם מחירון פומבי; התמחור לפי הצעת מחיר.",
+      "source_id": "src_inv_hashavshevet_site",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "תמיכה ב-PCN874 ומספר הקצאה; תיעוד API למפתחים; מודולים רבים."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "תנאי רכישה/רישיון לפי הצעה."
+    },
+    "support_channels": ["phone"],
+    "company_facts": { "notes_he": "חשבשבת היא תוכנת הנהלת חשבונות/ERP ותיקה בישראל. האתר הרשמי h-erp.co.il." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "No public price list found; hashavshevet.co.il redirects to h-erp.co.il. Pricing is quote-only. Could not verify VAT treatment."
+  },
+  {
+    "id": "cardcom_invoices",
+    "name": { "he": "קארדקום - חשבוניות דיגיטליות", "en": "Cardcom Invoices" },
+    "category": "invoicing",
+    "website": "https://www.cardcom.solutions/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": ["בפיקוח הרשות לניירות ערך", "PCI DSS L1"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "notes_he": "מערכת הפקת חשבוניות דיגיטליות המשולבת בסליקה. אין מחירון פומבי למודול החשבוניות; התמחור לפי הצעת מחיר (לרוב חלק מחבילת סליקה).",
+      "source_id": "src_inv_cardcom_invoices",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": true,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "הפקה אוטומטית לאחר סליקה, חתימה דיגיטלית, שליחה בוואטסאפ/SMS/מייל, חיבור API לרשות המיסים למספר הקצאה, פתרונות לעמותות (סעיף 46)."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "תנאי סליקה/חשבוניות לפי הצעה."
+    },
+    "support_channels": ["phone"],
+    "company_facts": { "notes_he": "קארדקום היא חברת סליקה ישראלית; אתר cardcom.co.il מפנה ל-cardcom.solutions." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "Cardcom invoices product has no public price list; bundled with clearing. Quote-only."
+  },
+  {
+    "id": "fireberry",
+    "name": { "he": "Fireberry", "en": "Fireberry" },
+    "category": "invoicing",
+    "website": "https://www.fireberry.com/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "USD",
+      "pricing_model": "public_tiers",
+      "plans": [
+        {
+          "id": "sales_free",
+          "name": { "he": "Sales Free", "en": "Sales Free" },
+          "price_monthly": 0,
+          "price_annually": 0,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": null, "notes": "משתמשים ללא הגבלה" },
+          "source_id": "src_inv_fireberry_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "sales_standard",
+          "name": { "he": "Sales Standard", "en": "Sales Standard" },
+          "price_monthly": 45,
+          "price_annually": 540,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": 3, "notes": "מינימום 3 משתמשים; 540$ למשתמש לשנה" },
+          "source_id": "src_inv_fireberry_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "sales_professional",
+          "name": { "he": "Sales Professional", "en": "Sales Professional" },
+          "price_monthly": 57,
+          "price_annually": 684,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": 5, "notes": "מינימום 5 משתמשים; 684$ למשתמש לשנה" },
+          "source_id": "src_inv_fireberry_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        },
+        {
+          "id": "sales_enterprise",
+          "name": { "he": "Sales Enterprise", "en": "Sales Enterprise" },
+          "price_monthly": 94,
+          "price_annually": 1128,
+          "billing_cycle": "annual",
+          "promotional": false,
+          "limits": { "users": 10, "notes": "מינימום 10 משתמשים; 1,128$ למשתמש לשנה" },
+          "source_id": "src_inv_fireberry_pricing",
+          "accessed_on": "2026-10-16",
+          "confidence": "high"
+        }
+      ],
+      "notes_he": "מחירים בדולר ארה\"ב למשתמש/חודש בחיוב שנתי (Sales product). קיימים גם מוצרי Marketing ותוספות. Fireberry היא מערכת CRM; הפקת חשבוניות היא חלק מהפלטפורמה.",
+      "source_id": "src_inv_fireberry_pricing",
+      "accessed_on": "2026-10-16",
+      "confidence": "high"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "CRM ישראלי עם אוטומציות, אינטגרציות ו-API, אפליקציה לנייד, e-sign, הצעות מחיר/חשבוניות."
+    },
+    "contract_terms": {
+      "commitment": "annual",
+      "cancellation": null,
+      "notes_he": "תמחור שנתי (הנחה 20%) או חודשי; מינימום משתמשים לפי מסלול."
+    },
+    "support_channels": [],
+    "company_facts": { "notes_he": "Fireberry היא חברת CRM ישראלית. שנת ייסוד וגוף משפטי לא אומתו מהאתר." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "high",
+    "notes": "Fireberry appears under both invoicing and CRM scopes; core product is CRM with invoicing/e-sign add-ons. Prices in USD. Marketing product line and add-on ILS prices not fully captured."
   }
 ]

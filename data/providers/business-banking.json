@@ -1,0 +1,467 @@
+[
+  {
+    "id": "bank_leumi",
+    "name": { "he": "בנק לאומי", "en": "Bank Leumi" },
+    "category": "business_banking",
+    "website": "https://www.leumi.co.il/",
+    "legal_entity": { "he": "בנק לאומי לישראל בע\"מ", "en": "Bank Leumi le-Israel B.M." },
+    "year_founded": 1902,
+    "licenses": ["Banking licence - Bank of Israel"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "קיים תעריפון עמלות רשמי אך לא היה נגיש ישירות באתר במועד הבדיקה. דמי ניהול חשבון עסקי, עמלות פעולה וריבית חובה אינם פורסמים כסכומים קבועים באתר ונקבעים בהתאם להסכם עם הלקוח.",
+      "source_id": "src_bank_leumi_home",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": null,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": null,
+      "notes_he": "מציע חשבונות עסקיים, מסלולי אשראי ושירותי דיגיטל. לא אומתה אפשרות פתיחת חשבון עסקי דיגיטלית ללא נוכחות בסניף."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "branch", "chat", "app"],
+    "company_facts": {
+      "notes_he": "אחד משני הבנקים הגדולים בישראל. מסחרי-ציבורי בבורסת ת\"א."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "VERIFIED: year founded 1902; Bank of Israel licence; business banking division exists. UNVERIFIED: exact monthly account fee, per-transaction fees, checkbook fees, overdraft rate spread, deposit/withdrawal fees, digital onboarding availability. Fee tariff (תעריפון) exists but was not directly accessible during research."
+  },
+  {
+    "id": "bank_hapoalim",
+    "name": { "he": "בנק הפועלים", "en": "Bank Hapoalim" },
+    "category": "business_banking",
+    "website": "https://www.bankhapoalim.co.il/",
+    "legal_entity": { "he": "בנק הפועלים בע\"מ", "en": "Bank Hapoalim B.M." },
+    "year_founded": 1921,
+    "licenses": ["Banking licence - Bank of Israel"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [
+        {
+          "id": "small_business",
+          "name": { "he": "מסלול עסק קטן/יחיד", "en": "Small Business / Individual Track" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "transactions_included": null, "users": null },
+          "source_id": "src_bank_hapoalim_fees",
+          "accessed_on": "2026-10-16",
+          "confidence": "low"
+        },
+        {
+          "id": "large_business",
+          "name": { "he": "מסלול עסק גדול", "en": "Large Business Track" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "transactions_included": null, "users": null },
+          "source_id": "src_bank_hapoalim_fees",
+          "accessed_on": "2026-10-16",
+          "confidence": "low"
+        }
+      ],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "התעריפון מפריד בין עסק קטן/יחיד לעסק גדול. קיימות הטבות לפעילות בערוצים ישירים (נספח ה'). פעולות בדלפק יקרות יותר מפעולות דיגיטליות. ריבית חובה (משיכת יתר) קשורה לריבית הפריים (4.75% נכון לספטמבר 2026) ונקבעת בהתאם להסכם אשראי אישי.",
+      "source_id": "src_bank_hapoalim_fees",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": true,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": null,
+      "notes_he": "מציע שלושה מסלולים לעסקים קטנים: פועלים בסיסי, פועלים מורחב, פועלים UP עסקי. ערוצים ישירים כוללים אפליקציה, אתר, מענה טלפוני ממוחשב ומסופונים."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "branch", "chat", "app", "website"],
+    "company_facts": {
+      "notes_he": "הבנק הגדול בישראל לפי נכסים. מסחרי-ציבורי בבורסת ת\"א (POLI)."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "VERIFIED: year founded 1921; Bank of Israel licence; service tracks for small/large businesses exist; direct-channel discounts exist; prime rate 4.75% as of Sept 2026. UNVERIFIED: exact monthly fees per track, per-transaction amounts, checkbook prices, overdraft spread, deposit/withdrawal fees, digital onboarding for business. Fee schedule PDFs exist but are image-based and could not be OCR'd reliably."
+  },
+  {
+    "id": "bank_discount",
+    "name": { "he": "בנק דיסקונט", "en": "Israel Discount Bank" },
+    "category": "business_banking",
+    "website": "https://www.discountbank.co.il/",
+    "legal_entity": { "he": "בנק דיסקונט לישראל בע\"מ", "en": "Israel Discount Bank Limited" },
+    "year_founded": 1935,
+    "licenses": ["Banking licence - Bank of Israel"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "קיים תעריפון עמלות רשמי. דמי ניהול חשבון עסקי ועמלות פעולה נקבעים בהתאם להסכם בנק-לקוח ואינם מפורסמים כסכומים קבועים באתר.",
+      "source_id": "src_bank_discount_business",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": null,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": null,
+      "notes_he": "מציע מסלול 'עסקים בדיגיטל' הכולל אתר עסקים פלוס ואפליקציית עסקים פלוס. מרכז עסקים לליווי פיננסי. לא אומתה פתיחת חשבון עסקי דיגיטלית מלאה."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "branch", "app", "website"],
+    "company_facts": {
+      "notes_he": "אחד מחמשת הבנקים הגדולים בישראל. מסחרי-ציבורי בבורסת ת\"א."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "VERIFIED: year founded 1935; business banking division with digital channels. UNVERIFIED: all exact fee amounts, overdraft rate, checkbook fees, digital onboarding."
+  },
+  {
+    "id": "bank_mizrahi_tefahot",
+    "name": { "he": "בנק מזרחי-טפחות", "en": "Mizrahi-Tefahot Bank" },
+    "category": "business_banking",
+    "website": "https://www.mizrahi-tefahot.co.il/",
+    "legal_entity": { "he": "בנק מזרחי-טפחות בע\"מ", "en": "Mizrahi-Tefahot Bank Ltd." },
+    "year_founded": 1923,
+    "licenses": ["Banking licence - Bank of Israel"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "קיים תעריפון עמלות רשמי. דמי ניהול חשבון עסקי ועמלות פעולה אינם מפורסמים כסכומים קבועים באתר.",
+      "source_id": "src_bank_mizrahi_home",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": null,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": null,
+      "notes_he": "מציע חשבונות עסקיים ומסלולי אשראי. לא אומתה פתיחת חשבון עסקי דיגיטלית מלאה."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "branch", "app", "website"],
+    "company_facts": {
+      "notes_he": "הבנק השלישי בגודלו בישראל לאחר המיזוג עם טפחות. מסחרי-ציבורי בבורסת ת\"א."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "VERIFIED: year founded 1923; business banking exists. UNVERIFIED: all exact fee amounts, overdraft rate, checkbook fees, digital onboarding."
+  },
+  {
+    "id": "bank_mercantile",
+    "name": { "he": "בנק מרכנתיל", "en": "Mercantile Discount Bank" },
+    "category": "business_banking",
+    "website": "https://www.mercantile.co.il/",
+    "legal_entity": { "he": "בנק מרכנתיל דיסקונט בע\"מ", "en": "Mercantile Discount Bank Ltd." },
+    "year_founded": 1971,
+    "licenses": ["Banking licence - Bank of Israel"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [
+        {
+          "id": "business_class",
+          "name": { "he": "ביזנס קלאס", "en": "Business Class" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "vat_refund_quarterly_max": 500 },
+          "source_id": "src_bank_mercantile_bizclass",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        }
+      ],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "מסלול ביזנס קלאס כולל החזר מע\"מ של 1% ברבעון עד 500 ש\"ח. דמי ניהול חשבון ועמלות פעולה אינם מפורסמים כסכומים קבועים.",
+      "source_id": "src_bank_mercantile_bizclass",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": null,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": null,
+      "notes_he": "מותג בנקאות לעסקים קטנים ובינוניים תחת קבוצת דיסקונט. מציע אתר עסקים פלוס ואפליקציית עסקים פלוס."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "branch", "app", "website"],
+    "company_facts": {
+      "notes_he": "בנק מרכנתיל הוא חלק מקבוצת דיסקונט. מתמחה בבנקאות לעסקים קטנים ובינוניים."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "VERIFIED: year founded 1971; Business Class track offers 1% quarterly VAT refund up to 500 ILS. UNVERIFIED: monthly account fee, transaction fees, overdraft rate, checkbook fees, digital onboarding."
+  },
+  {
+    "id": "bank_fibi",
+    "name": { "he": "בנק הבינלאומי", "en": "First International Bank of Israel (FIBI)" },
+    "category": "business_banking",
+    "website": "https://www.fibi.co.il/",
+    "legal_entity": { "he": "הבינלאומי בנק ישראל בע\"מ", "en": "First International Bank of Israel Ltd." },
+    "year_founded": 1975,
+    "licenses": ["Banking licence - Bank of Israel"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "קיים תעריפון עמלות רשמי. דמי ניהול חשבון עסקי ועמלות פעולה אינם מפורסמים כסכומים קבועים באתר.",
+      "source_id": "src_bank_fibi_business",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": null,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": null,
+      "notes_he": "מציע בנקאות לעסקים קטנים (Business Place, מצפן פיננסי), בנקאות עסקית ומסחרית, פקטורינג וסחר חוץ. זכה במקום הראשון בסקר שביעות רצון עסקים קטנים של משרד הכלכלה (2026)."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "branch", "app", "website"],
+    "company_facts": {
+      "notes_he": "הבנק החמישי בגודלו בישראל. מסחרי-ציבורי בבורסת ת\"א."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "VERIFIED: year founded 1975; ranked #1 in small-business satisfaction survey by Ministry of Economy (2026); offers factoring and trade finance. UNVERIFIED: all exact fee amounts, overdraft rate, digital onboarding."
+  },
+  {
+    "id": "bank_yahav",
+    "name": { "he": "בנק יהב", "en": "Bank Yahav" },
+    "category": "business_banking",
+    "website": "https://www.bank-yahav.co.il/",
+    "legal_entity": { "he": "בנק יהב לעובדי המדינה בע\"מ", "en": "Bank Yahav for Government Employees Ltd." },
+    "year_founded": 1954,
+    "licenses": ["Banking licence - Bank of Israel"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "לא ניתן היה לאמת תעריפון עמלות עסקי עקב חסימת גישה (WAF) לאתר. דמי ניהול ועמלות פעולה אינם ידועים.",
+      "source_id": "src_bank_yahav_attempt",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": null,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": null,
+      "notes_he": "בנק ממוקד בלקוחות עובדי מדינה וגמלאים. פעילות עסקית מוגבלת יחסית."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "branch", "app"],
+    "company_facts": {
+      "notes_he": "בנק יהב משרת בעיקר עובדי מדינה, גמלאים וניצולי שואה."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "VERIFIED: year founded 1954; Bank of Israel licence. UNVERIFIED: all fee data — website WAF-blocked the research IP. Digital onboarding and business account terms unknown."
+  },
+  {
+    "id": "bank_otsar_hahayal",
+    "name": { "he": "בנק אוצר החייל", "en": "Bank Otsar Ha-Hayal" },
+    "category": "business_banking",
+    "website": "https://www.otsar.co.il/",
+    "legal_entity": { "he": "בנק אוצר החייל בע\"מ", "en": "Bank Otsar Ha-Hayal Ltd." },
+    "year_founded": 1946,
+    "licenses": ["Banking licence - Bank of Israel"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "לא נמצא תעריפון עמלות עסקי פומבי. דמי ניהול ועמלות פעולה אינם ידועים.",
+      "source_id": "src_bank_otsar_home",
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": null,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": null,
+      "notes_he": "בנק ממוקד בקהילת החיילים, תושבי ישראל ולקוחות כלליים. פעילות עסקית מוגבלת."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לא פורסם."
+    },
+    "support_channels": ["phone", "branch", "app"],
+    "company_facts": {
+      "notes_he": "בנק אוצר החייל נוסד במקור לשרות חיילי צה\"ל וקהילת לוחמים."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "VERIFIED: year founded 1946; Bank of Israel licence. UNVERIFIED: all business fee data — no published business fee tariff found. Business account offerings are limited compared to major commercial banks."
+  },
+  {
+    "id": "one_zero",
+    "name": { "he": "וואן זירו", "en": "One Zero Digital Bank" },
+    "category": "business_banking",
+    "website": "https://www.onezerobank.com/",
+    "legal_entity": { "he": "וואן זירו הבנק הדיגיטלי בע\"מ", "en": "One Zero Digital Bank Ltd." },
+    "year_founded": 2019,
+    "licenses": ["Banking licence - Bank of Israel (digital bank)"],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "hybrid",
+      "plans": [
+        {
+          "id": "one_plus",
+          "name": { "he": "מסלול One+", "en": "One+ Plan" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": true,
+          "limits": { "securities_balance_required": 50000, "min_actions_per_month": 2 },
+          "source_id": "src_onezero_promo",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        }
+      ],
+      "transaction_fees": {
+        "percent_per_transaction": null,
+        "fixed_per_transaction": null,
+        "monthly_minimum": null,
+        "setup_fee": null
+      },
+      "notes_he": "מסלול One+ כולל דמי מנוי חודשיים (סכום לא פורסם בתעריפון הראשי שנבדק). מבצע הצטרפות: 12 חודשים ללא תשלום דמי מנוי ללקוחות חדשים הפותחים חשבון בין 1.9.26 ל-20.10.26, בתנאי יתרת ני\"ע של 50,000 ש\"ח ו-2 פעולות עו\"ש בחודש עד 30.11.2026. פטור מעמלות עו\"ש ועד 10 פעולות מסחר בחודש ללא עלות (למעט הוצאות צד ג'). עמלת עסקאות מט\"ח 0% בהתאם לתעריפון.",
+      "source_id": "src_onezero_promo",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "api": true,
+      "app": { "ios": true, "android": true },
+      "digital_onboarding": true,
+      "notes_he": "בנק דיגיטלי ללא סניפים פיזיים. פתיחת חשבון מתבצעת באפליקציה. מיועד ללקוחות פרטיים בגיל 18+ (לא תאגידים, לא אמריקאים, לא בעלי תושבות מס זרה). לא אומת קיום מסלול עסקי נפרד."
+    },
+    "contract_terms": {
+      "commitment": "none",
+      "cancellation": "monthly",
+      "notes_he": "בכפוף לתעריפון הבנק."
+    },
+    "support_channels": ["phone", "chat", "app"],
+    "company_facts": {
+      "notes_he": "בנק דיגיטלי ישראלי בבעלות פרופ' אמנון שעשוע. החל לפעול ב-2022."
+    },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "VERIFIED: founded 2019, operational 2022; Bank of Israel digital banking licence; digital onboarding available; One+ plan promo (12 months free until Oct 20 2026); 0% FX conversion fee per tariff; no branch network. IMPORTANT: One Zero appears to serve individuals only — no verified separate business account plan was found. The promo page refers to individual/joint accounts, not corporate."
+  }
+]

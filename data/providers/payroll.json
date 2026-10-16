@@ -1,0 +1,226 @@
+[
+  {
+    "id": "hilan",
+    "name": { "he": "חילן", "en": "Hilan" },
+    "category": "payroll",
+    "website": "https://www.hilan.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "notes_he": "חילן היא הספקית המובילה בישראל לפתרונות שכר ו-HR (חילן שכר, חילן HR, חילן נוכחות, חילן פנסיה). אין מחירון פומבי; תמחור לפי הצעת מחיר בהתאם לגודל הארגון והיקף השירות.",
+      "source_id": "src_pay_hilan_site",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": true,
+      "integrations": [],
+      "app": { "ios": true, "android": true },
+      "notes_he": "ניהול שכר, שכר בדיגיטל 101, בקרת שכר, SAP Payroll, HR, גיוס, נוכחות/סידור עבודה, פנסיה. אפליקציות עובד/מעסיק."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "הסכם שירות לפי הצעה."
+    },
+    "support_channels": ["phone", "email"],
+    "company_facts": { "notes_he": "חילן היא חברה ציבורית ישראלית (חילן טק). שנת ייסוד וגוף משפטי מדויק לא אומתו מדף הבית." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "Quote-only; no public price list on official site. Product scope verified from hilan.co.il navigation."
+  },
+  {
+    "id": "michpal",
+    "name": { "he": "מיכפל", "en": "Michpal" },
+    "category": "payroll",
+    "website": "https://www.michpal.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "notes_he": "מיכפל היא תוכנת שכר ותפעול פנסיוני (מעל 40 שנה). אין מחירון פומבי; קיים טופס 'בקשת מחיר' (PriceRequest.aspx) — תמחור לפי הצעת מחיר.",
+      "source_id": "src_pay_michpal_site",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": null,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "מיכפל שכר, מיכפל פנסיה, מיכפל פורטל, מיכפל נוכחות, מיכפל שעון נוכחות; מודול לעובדי שטחים."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "לפי הצעה."
+    },
+    "support_channels": ["phone", "email"],
+    "company_facts": { "notes_he": "ותק של מעל 40 שנה בתחום השכר בישראל." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "Quote-only; official site exposes a price-request form (src_pay_michpal_pricerequest). No public numbers."
+  },
+  {
+    "id": "synergy",
+    "name": { "he": "סינארג'י", "en": "Synergy" },
+    "category": "payroll",
+    "website": null,
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "notes_he": "ספק שכר/HR בישראל. לא אומת אתר רשמי או מחירון (הדומיין synergy.co.il שייך לחברת סימולציה אחרת). יש לאמת את הגוף המשפטי והאתר הרשמי.",
+      "source_id": null,
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "allocation_number_integration": null,
+      "api": null,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "לא אומת."
+    },
+    "contract_terms": { "commitment": null, "cancellation": null, "notes_he": "לא אומת." },
+    "support_channels": [],
+    "company_facts": { "notes_he": "לא אומת — יש להשלים." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "UNVERIFIED: could not locate the official Synergy payroll site or any published pricing. Listed for coverage; needs verification (see OPEN_QUESTIONS)."
+  },
+  {
+    "id": "merav",
+    "name": { "he": "מירב", "en": "Merav" },
+    "category": "payroll",
+    "website": null,
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "notes_he": "ספק שכר בישראל. לא נמצא אתר רשמי (merav.co.il / mirav.co.il אינם האתר הרלוונטי). יש לאמת.",
+      "source_id": null,
+      "accessed_on": "2026-10-16",
+      "confidence": "low"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "allocation_number_integration": null,
+      "api": null,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "לא אומת."
+    },
+    "contract_terms": { "commitment": null, "cancellation": null, "notes_he": "לא אומת." },
+    "support_channels": [],
+    "company_facts": { "notes_he": "לא אומת — יש להשלים." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "UNVERIFIED: official Merav payroll site not located (merav.co.il does not resolve; mirav.co.il is a hosting placeholder). Needs verification."
+  },
+  {
+    "id": "payslips",
+    "name": { "he": "PaySlips", "en": "PaySlips" },
+    "category": "payroll",
+    "website": "https://payslips.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [
+        {
+          "id": "basic",
+          "name": { "he": "בסיסי", "en": "Basic" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "employees": 50, "notes": "עד 50 עובדים; מעסיק 1; תמיכה במייל" },
+          "source_id": "src_pay_payslips_site",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        },
+        {
+          "id": "business",
+          "name": { "he": "עסקי", "en": "Business" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "employees": 200, "notes": "עד 200 עובדים; עד 5 מעסיקים; פאנל ניהול מתקדם" },
+          "source_id": "src_pay_payslips_site",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        },
+        {
+          "id": "enterprise",
+          "name": { "he": "ארגוני", "en": "Enterprise" },
+          "price_monthly": null,
+          "price_annually": null,
+          "billing_cycle": "monthly",
+          "promotional": false,
+          "limits": { "users": null, "employees": null, "notes": "עובדים ללא הגבלה; חברות בנות ללא הגבלה; SLA ותמיכה 24/7" },
+          "source_id": "src_pay_payslips_site",
+          "accessed_on": "2026-10-16",
+          "confidence": "medium"
+        }
+      ],
+      "notes_he": "מערכת להפצת תלושי שכר דיגיטלית. כל המסלולים 'צרו קשר לקבלת הצעה' — אין מחיר פומבי.",
+      "source_id": "src_pay_payslips_site",
+      "accessed_on": "2026-10-16",
+      "confidence": "medium"
+    },
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": "high",
+      "allocation_number_integration": null,
+      "api": null,
+      "integrations": [],
+      "app": { "ios": null, "android": null },
+      "notes_he": "העלאת קובץ PDF אחד; זיהוי עובדים לפי ת.ז; הפצה במייל/SMS; אזור אישי לעובד; הצפנה ובקרת גישה."
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": "הקמה תוך 15 דקות, ללא התחייבות (לפי האתר)."
+    },
+    "support_channels": ["email", "phone"],
+    "company_facts": { "notes_he": "ספק תלושי שכר דיגיטליים למשרדי שכר ורואי חשבון." },
+    "informational_only": false,
+    "last_verified": "2026-10-16",
+    "confidence": "medium",
+    "notes": "Quote-only tiers verified (Basic ≤50 employees / Business ≤200 / Enterprise unlimited). No public numbers."
+  }
+]

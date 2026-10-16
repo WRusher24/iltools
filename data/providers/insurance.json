@@ -1,0 +1,517 @@
+[
+  {
+    "id": "phoenix",
+    "name": {
+      "he": "הפניקס",
+      "en": "Phoenix"
+    },
+    "category": "insurance",
+    "website": "https://www.fnx.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "התמחור לפי הצעת מחיר בלבד (quote_only). אין מחירים פומביים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "ביטוח אחריות מקצועית",
+          "en": "Professional liability insurance"
+        },
+        "covers_he": "כיסוי אחריות מקצועית לבעלי מקצוע (כולל וריאציות לווטרינר, מעצב פנים)",
+        "source_id": "src_ins_phoenix_biz"
+      },
+      {
+        "name": {
+          "he": "ביטוח צד שלישי (הרחבה)",
+          "en": "Third-party liability (extension)"
+        },
+        "covers_he": "הרחבת כיסוי לביטוח צד ג'",
+        "source_id": "src_ins_phoenix_biz"
+      },
+      {
+        "name": {
+          "he": "ביטוח חבות מוצר (הרחבה)",
+          "en": "Product liability (extension)"
+        },
+        "covers_he": "הרחבת כיסוי לחבות בגין מוצר",
+        "source_id": "src_ins_phoenix_biz"
+      },
+      {
+        "name": {
+          "he": "אובדן כושר עבודה",
+          "en": "Loss of working capacity"
+        },
+        "covers_he": "פיצוי בגין אובדן כושר עבודה",
+        "source_id": "src_ins_phoenix_biz"
+      },
+      {
+        "name": {
+          "he": "ביטוח בריאות",
+          "en": "Health insurance"
+        },
+        "covers_he": "ביטוחי בריאות, כולל אמבולטורי",
+        "source_id": "src_ins_phoenix_health"
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Product names verified on provider site (business-insurance / health-insurance). Prices are quote-only. Not a recommendation."
+  },
+  {
+    "id": "harel",
+    "name": {
+      "he": "הראל",
+      "en": "Harel"
+    },
+    "category": "insurance",
+    "website": "https://www.harel-group.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "התמחור לפי הצעת מחיר בלבד (quote_only). אין מחירים פומביים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "ביטוח עסק",
+          "en": "Business insurance"
+        },
+        "covers_he": "ביטוח לעסקים",
+        "source_id": "src_ins_harel_home"
+      },
+      {
+        "name": {
+          "he": "אובדן כושר עבודה",
+          "en": "Loss of working capacity"
+        },
+        "covers_he": "פיצוי בגין אובדן כושר עבודה",
+        "source_id": "src_ins_harel_home"
+      },
+      {
+        "name": {
+          "he": "ביטוח בריאות",
+          "en": "Health insurance"
+        },
+        "covers_he": "ביטוח בריאות",
+        "source_id": "src_ins_harel_home"
+      },
+      {
+        "name": {
+          "he": "ביטוח מחלות קשות",
+          "en": "Critical illness"
+        },
+        "covers_he": "מחלות קשות",
+        "source_id": "src_ins_harel_home"
+      },
+      {
+        "name": {
+          "he": "ביטוח תאונות אישיות",
+          "en": "Personal accident"
+        },
+        "covers_he": "תאונות אישיות",
+        "source_id": "src_ins_harel_home"
+      },
+      {
+        "name": {
+          "he": "ביטוח סיעודי",
+          "en": "Long-term care"
+        },
+        "covers_he": "סיעוד",
+        "source_id": "src_ins_harel_home"
+      },
+      {
+        "name": {
+          "he": "בססח - ביטוח אשראי",
+          "en": "Credit insurance (Bassach)"
+        },
+        "covers_he": "ביטוח אשראי סחר",
+        "source_id": "src_ins_harel_home"
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Product names verified on provider homepage. Prices quote-only. Not a recommendation."
+  },
+  {
+    "id": "migdal",
+    "name": {
+      "he": "מגדל",
+      "en": "Migdal"
+    },
+    "category": "insurance",
+    "website": "https://www.migdal.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "התמחור לפי הצעת מחיר בלבד (quote_only). אין מחירים פומביים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "ביטוח אחריות כלפי צד ג' ואחריות מקצועית",
+          "en": "Third-party & professional liability"
+        },
+        "covers_he": "אחריות מקצועית וצד ג'",
+        "source_id": "src_ins_migdal_biz"
+      },
+      {
+        "name": {
+          "he": "ביטוח אחריות מקצועית לעורכי דין",
+          "en": "Professional liability for lawyers"
+        },
+        "covers_he": "אחריות מקצועית לעורכי דין",
+        "source_id": "src_ins_migdal_biz"
+      },
+      {
+        "name": {
+          "he": "ביטוח אובדן כושר עבודה",
+          "en": "Loss of working capacity"
+        },
+        "covers_he": "אובדן כושר עבודה",
+        "source_id": "src_ins_migdal_biz"
+      },
+      {
+        "name": {
+          "he": "ביטוח בריאות",
+          "en": "Health insurance"
+        },
+        "covers_he": "ביטוח בריאות",
+        "source_id": "src_ins_migdal_biz"
+      },
+      {
+        "name": {
+          "he": "ביטוח מחלות קשות",
+          "en": "Critical illness"
+        },
+        "covers_he": "מחלות קשות",
+        "source_id": "src_ins_migdal_biz"
+      },
+      {
+        "name": {
+          "he": "ביטוח לחברות ובתי עסק",
+          "en": "Insurance for companies & businesses"
+        },
+        "covers_he": "ביטוח עסקי",
+        "source_id": "src_ins_migdal_biz"
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Product names verified on provider business-insurance page. Prices quote-only. Not a recommendation."
+  },
+  {
+    "id": "clal",
+    "name": {
+      "he": "כלל",
+      "en": "Clal"
+    },
+    "category": "insurance",
+    "website": "https://www.clalbit.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "התמחור לפי הצעת מחיר בלבד (quote_only). אין מחירים פומביים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "ביטוח עסק",
+          "en": "Business insurance"
+        },
+        "covers_he": "ביטוח עסקים",
+        "source_id": "src_ins_clal_biz"
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Only the business-insurance landing was reachable; individual product names for liability/health not extracted. Prices quote-only. Not a recommendation."
+  },
+  {
+    "id": "aig",
+    "name": {
+      "he": "AIG ישראל",
+      "en": "AIG Israel"
+    },
+    "category": "insurance",
+    "website": "https://www.aig.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "התמחור לפי הצעת מחיר בלבד (quote_only). אין מחירים פומביים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "ביטוח אחריות מקצועית",
+          "en": "Professional liability insurance"
+        },
+        "covers_he": "אחריות מקצועית",
+        "source_id": "src_ins_aig_health"
+      },
+      {
+        "name": {
+          "he": "ביטוח בריאות",
+          "en": "Health insurance"
+        },
+        "covers_he": "ביטוח בריאות",
+        "source_id": "src_ins_aig_health"
+      },
+      {
+        "name": {
+          "he": "AIG Medicare",
+          "en": "AIG Medicare"
+        },
+        "covers_he": "ביטוח בריאות (מהשקל הראשון / משלים שבן)",
+        "source_id": "src_ins_aig_health"
+      },
+      {
+        "name": {
+          "he": "Extra Care - ביטוח למחלות קשות",
+          "en": "Extra Care critical illness"
+        },
+        "covers_he": "מחלות קשות",
+        "source_id": "src_ins_aig_health"
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Product names verified on provider health page. Prices quote-only. Not a recommendation."
+  },
+  {
+    "id": "menora_mivtachim_ins",
+    "name": {
+      "he": "מנורה מבטחים",
+      "en": "Menora Mivtachim"
+    },
+    "category": "insurance",
+    "website": "https://www.menora.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "התמחור לפי הצעת מחיר בלבד (quote_only). אין מחירים פומביים."
+    },
+    "products": [],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Site is behind a bot challenge (Radware/perfdrive); product names could NOT be verified. Set to empty rather than guess. Prices quote-only."
+  },
+  {
+    "id": "shirbit",
+    "name": {
+      "he": "שירביט",
+      "en": "Shirbit"
+    },
+    "category": "insurance",
+    "website": "https://www.shirbit.co.il/",
+    "legal_entity": null,
+    "year_founded": null,
+    "licenses": [],
+    "pricing": {
+      "vat_included": null,
+      "currency": "ILS",
+      "pricing_model": "quote_only",
+      "plans": [],
+      "source_id": null,
+      "accessed_on": null,
+      "confidence": "low",
+      "notes_he": "התמחור לפי הצעת מחיר בלבד (quote_only). אין מחירים פומביים."
+    },
+    "products": [
+      {
+        "name": {
+          "he": "ביטוח רכב",
+          "en": "Car insurance"
+        },
+        "covers_he": "רכב",
+        "source_id": "src_ins_shirbit"
+      },
+      {
+        "name": {
+          "he": "ביטוח דירה",
+          "en": "Home insurance"
+        },
+        "covers_he": "דירה",
+        "source_id": "src_ins_shirbit"
+      },
+      {
+        "name": {
+          "he": "ביטוח רכב BEST",
+          "en": "Car insurance BEST"
+        },
+        "covers_he": "רכב",
+        "source_id": "src_ins_shirbit"
+      }
+    ],
+    "features": {
+      "hebrew_support": true,
+      "hebrew_ui_quality": null,
+      "api": null,
+      "notes_he": ""
+    },
+    "contract_terms": {
+      "commitment": null,
+      "cancellation": null,
+      "notes_he": ""
+    },
+    "support_channels": [],
+    "company_facts": {
+      "notes_he": ""
+    },
+    "informational_only": true,
+    "informational_only_note": "Informational data only. This is NOT advice, NOT a recommendation, and NOT a ranking. Management fees are shown only when taken directly from the official government comparison; otherwise they are null.",
+    "last_verified": "2026-10-16",
+    "confidence": "low",
+    "notes": "Direct insurer ('שירביט מבית הראל חברה לביטוח בע\"מ'). Public menu lists auto/home; no business liability or health products listed publicly. Prices quote-only. Not a recommendation."
+  }
+]

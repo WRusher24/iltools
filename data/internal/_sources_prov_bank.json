@@ -1,0 +1,146 @@
+[
+  {
+    "id": "src_bank_hapoalim_fees",
+    "title": "תעריפון הבנק - עמלות בנק הפועלים (יחיד/עסק קטן ועסק גדול)",
+    "publisher": "בנק הפועלים",
+    "url": "https://www.bankhapoalim.co.il/forms/he/fee-list",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_hapoalim_interest",
+    "title": "הודעות על שינויים בריבית - פריים 4.75% (בנק ישראל 3.25% + 1.5%)",
+    "publisher": "בנק הפועלים",
+    "url": "https://www.bankhapoalim.co.il/interest-update",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_leumi_home",
+    "title": "בנק לאומי - דף הבית",
+    "publisher": "בנק לאומי",
+    "url": "https://www.leumi.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_discount_business",
+    "title": "דיסקונט עסקים - בנקאות ללקוחות עסקיים",
+    "publisher": "בנק דיסקונט",
+    "url": "https://www.discountbank.co.il/business/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_mizrahi_home",
+    "title": "בנק מזרחי-טפחות - דף הבית",
+    "publisher": "בנק מזרחי-טפחות",
+    "url": "https://www.mizrahi-tefahot.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_fibi_business",
+    "title": "בנקאות לעסקים - בנק הבינלאומי",
+    "publisher": "בנק הבינלאומי (FIBI)",
+    "url": "https://www.fibi.co.il/business",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_mercantile_business",
+    "title": "לקוחות עסקיים - בנק מרכנתיל",
+    "publisher": "בנק מרכנתיל",
+    "url": "https://www.mercantile.co.il/business",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_mercantile_bizclass",
+    "title": "ביזנס קלאס - הטבות והלוואות ייחודיות לעסקים קטנים | מרכנתיל",
+    "publisher": "בנק מרכנתיל",
+    "url": "https://www.mercantile.co.il/business/business-class/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_yahav_attempt",
+    "title": "Bank Yahav - business page access attempted (WAF blocked)",
+    "publisher": "בנק יהב",
+    "url": "https://www.bank-yahav.co.il/business",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_bank_otsar_home",
+    "title": "בנק אוצר החייל - דף הבית",
+    "publisher": "בנק אוצר החייל",
+    "url": "https://www.otsar.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_onezero_home",
+    "title": "ONE ZERO - בנקאות פרטית שעובדת בשבילך",
+    "publisher": "ONE ZERO Digital Bank",
+    "url": "https://www.onezerobank.com/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_onezero_promo",
+    "title": "מסלול +One למשך שנה ללא עלות לפותחי חשבון",
+    "publisher": "ONE ZERO Digital Bank",
+    "url": "https://www.onezerobank.com/company/information/7914",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_card_isracard_business",
+    "title": "כרטיס ישראכרט Business - פרטים והצטרפות",
+    "publisher": "ישראכרט",
+    "url": "https://www.isracard.co.il/credit-cards/business-card",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_card_max_business",
+    "title": "MAX BUSINESS - כרטיס האשראי של עצמאים בישראל",
+    "publisher": "MAX (מקס)",
+    "url": "https://www.max.co.il/cards/max-business",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_card_max_fees_pdf",
+    "title": "תעריפון עמלות - כרטיסי אשראי max מועדון Business (תוקף מ-1.11.2025)",
+    "publisher": "MAX (מקס)",
+    "url": "https://www.max.co.il/SharedMedia/18635/30-12-101-112025-%D7%A2%D7%A1%D7%A7%D7%99%D7%9D-%D7%92%D7%A0%D7%A8%D7%99-%D7%92%D7%99%D7%9C%D7%9F-%D7%95%D7%AA%D7%A2%D7%A8%D7%99%D7%A4%D7%95%D7%9F.pdf",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_card_skymax_business",
+    "title": "SKYMAX Business - כרטיס עסקי (ניווט בלבד, ללא תעריפים)",
+    "publisher": "MAX (מקס)",
+    "url": "https://www.max.co.il/cards/skymax-business",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_card_cal_business",
+    "title": "כאל אונליין לעסקים | כאל עסקים",
+    "publisher": "כאל (CAL)",
+    "url": "https://www.cal-online.co.il/business/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  },
+  {
+    "id": "src_card_diners_home",
+    "title": "דיינרס ישראל - דף הבית",
+    "publisher": "דיינרס (Diners Club Israel / CAL)",
+    "url": "https://www.diners.co.il/",
+    "accessed_on": "2026-10-16",
+    "language": "he"
+  }
+]
